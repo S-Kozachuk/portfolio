@@ -1,0 +1,107 @@
+:root {
+    --blue: #039be5;
+    --yellow: #fbdc4d;
+    --red: #ea736d;
+    --text: #161616;
+    --linkedin: #0077b5;
+    --github: #6cc644;
+    --vk: #45668e;
+    --btn-yl-h: #ffd200;
+    --btn-yl-a: #e1bc10;
+    --btn-gr-h: #797979;
+    --btn-gr-a: #181818;
+    --btnfont: #464646;
+    --fr: 'M PLUS 1p';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: var(--text);
+    font-size: 18px;
+    font-family: var(--fr);
+    font-weight: 400;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 800;
+}
+
+p::selection {
+    background: var(--yellow);
+}
+
+// Адаптивность для изображений
+img {
+    min-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button,
+input {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    border: 0px;
+    padding: 0;
+    background-color: transparent;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+
+    @media (min-width: 768px) {
+        padding: 0px 30px;
+    }
+
+    @media (min-width: 1200px) {
+        padding: 0;
+    }
+}
+
+.container--xl {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
