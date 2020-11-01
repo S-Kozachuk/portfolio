@@ -6,6 +6,8 @@
   --linkedin: #0077b5;
   --github: #6cc644;
   --vk: #45668e;
+  --telegram: #039be5;
+  --facebook: #3b5998;
   --btn-yl-h: #ffd200;
   --btn-yl-a: #e1bc10;
   --btn-gr-h: #797979;
@@ -194,8 +196,26 @@ button {
 .fa-github:hover {
   color: var(--github);
 }
+.fa-github:active {
+  color: var(--github);
+}
 .fa-vk:hover {
   color: var(--vk);
+}
+.fa-vk:active {
+  color: var(--vk);
+}
+.fa-telegram:hover {
+  color: var(--telegram);
+}
+.fa-telegram:active {
+  color: var(--telegram);
+}
+.fa-facebook:hover {
+  color: var(--facebook);
+}
+.fa-facebook:active {
+  color: var(--facebook);
 }
 .bottom-line {
   position: relative;
@@ -332,6 +352,42 @@ button {
 .header-social-contacts {
   font-size: 30px;
   color: var(--text);
+}
+.header-skills-item h2 {
+  margin-bottom: 35px;
+  font-size: 40px;
+}
+.header-skills__list {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.header-skills__list li {
+  margin-bottom: 15px;
+}
+.header-skills__list li:last-child {
+  margin-bottom: 0;
+}
+.header-content-contacts h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.header-social-contacts {
+  font-size: 45px;
+}
+.header-contacts-mail {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+.header-contacts-mail:hover {
+  color: #44aae9;
+  border-color: #44aae9;
+}
+.header-contacts-mail:active {
+  color: #ea655f;
+  border-color: #ea655f;
 }
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
