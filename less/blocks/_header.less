@@ -94,6 +94,7 @@
     
     &:hover {
         color: var(--linkedin);
+        transition: .5s;
     }
     &:active {
         color: var(--linkedin);
@@ -104,6 +105,7 @@
 
     &:hover {
         color: var(--github-h);
+        transition: .5s;
     }
 
     &:active {
@@ -114,11 +116,12 @@
 .fa-vk {
 
     &:hover {
-        color: var(--vk);
+        color: var(--vk-h);
+        transition: .5s;
     }
 
     &:active {
-        color: var(--vk);
+        color: var(--vk-h);
     }
 }
 
@@ -323,6 +326,7 @@
 
     &:hover {
         color: var(--github-h);
+        transition: .5s;
     }
 
 }
@@ -332,6 +336,7 @@
 
     &:hover {
         color: var(--telegram-h);
+        transition: .5s;
     }
 
 }
@@ -345,7 +350,9 @@
     border-radius: 50%;
 
     &:hover {
-        background-color: var(--vk-h)
+        color: var(--vk);
+        background-color: var(--vk-h);
+        transition: .5s;
     }
 
 }
@@ -359,6 +366,7 @@
 
     &:hover {
         color: var(--facebook-h);
+        transition: .5s;
     }
 
 }
@@ -367,15 +375,16 @@
     font-size: 24px;
     font-weight: 400;
     color: #000;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--mail);
 
     &:hover {
-        color: #44aae9;
-        border-color: #44aae9;
+        color: var(--mail-h);
+        border-color: var(--mail-h);
+        transition: .5s;
     }
 
     &:active {
-        color: #ea655f;
-        border-color: #ea655f;
+        color: var(--mail-a);
+        border-color: var(--mail-a);
     }
 }

@@ -18,6 +18,9 @@
   --btn-gr-h: #797979;
   --btn-gr-a: #181818;
   --btnfont: #464646;
+  --mail: #000;
+  --mail-h: #44aae9;
+  --mail-a: #ea655f;
   --fr: 'M PLUS 1p';
 }
 * {
@@ -206,21 +209,33 @@ button {
 }
 .fa-linkedin-in:hover {
   color: var(--linkedin);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 .fa-linkedin-in:active {
   color: var(--linkedin);
 }
 .fa-github:hover {
   color: var(--github-h);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 .fa-github:active {
   color: var(--github-h);
 }
 .fa-vk:hover {
-  color: var(--vk);
+  color: var(--vk-h);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 .fa-vk:active {
-  color: var(--vk);
+  color: var(--vk-h);
 }
 .bottom-line {
   position: relative;
@@ -414,12 +429,20 @@ button {
 }
 .skills-social__github:hover {
   color: var(--github-h);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 .skills-social__telegram {
   color: var(--telegram);
 }
 .skills-social__telegram:hover {
   color: var(--telegram-h);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 .skills-social__vk {
   width: 44px;
@@ -432,7 +455,12 @@ button {
           border-radius: 50%;
 }
 .skills-social__vk:hover {
+  color: var(--vk);
   background-color: var(--vk-h);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 .fa-vk {
   padding-top: 6px;
@@ -442,20 +470,28 @@ button {
 }
 .skills-social__facebook:hover {
   color: var(--facebook-h);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 .header-contacts-mail {
   font-size: 24px;
   font-weight: 400;
   color: #000;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--mail);
 }
 .header-contacts-mail:hover {
-  color: #44aae9;
-  border-color: #44aae9;
+  color: var(--mail-h);
+  border-color: var(--mail-h);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 .header-contacts-mail:active {
-  color: #ea655f;
-  border-color: #ea655f;
+  color: var(--mail-a);
+  border-color: var(--mail-a);
 }
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
