@@ -4,10 +4,14 @@
   --red: #ea736d;
   --text: #161616;
   --linkedin: #0077b5;
-  --github: #6cc644;
+  --github: #212121;
+  --github-h: #6cc644;
   --vk: #45668e;
+  --vk-h: #3c7dcc;
   --telegram: #039be5;
+  --telegram-h: #006699;
   --facebook: #3b5998;
+  --facebook-h: #263b68;
   --btn-yl-h: #ffd200;
   --btn-yl-a: #e1bc10;
   --btn-gr-h: #797979;
@@ -194,28 +198,16 @@ button {
   color: var(--linkedin);
 }
 .fa-github:hover {
-  color: var(--github);
+  color: var(--github-h);
 }
 .fa-github:active {
-  color: var(--github);
+  color: var(--github-h);
 }
 .fa-vk:hover {
   color: var(--vk);
 }
 .fa-vk:active {
   color: var(--vk);
-}
-.fa-telegram:hover {
-  color: var(--telegram);
-}
-.fa-telegram:active {
-  color: var(--telegram);
-}
-.fa-facebook:hover {
-  color: var(--facebook);
-}
-.fa-facebook:active {
-  color: var(--facebook);
 }
 .bottom-line {
   position: relative;
@@ -372,8 +364,39 @@ button {
   margin-bottom: 30px;
   font-size: 40px;
 }
-.header-social-contacts {
+.skills-social-contacts {
   font-size: 45px;
+  margin-bottom: 20px;
+}
+.item {
+  margin-right: 9px;
+}
+.item:last-child {
+  margin-right: 0;
+}
+.skills-social__github {
+  color: var(--github);
+}
+.skills-social__github:hover {
+  color: var(--github-h);
+}
+.skills-social__telegram {
+  color: var(--telegram);
+}
+.skills-social__telegram:hover {
+  color: var(--telegram-h);
+}
+.skills-social__vk {
+  color: var(--vk);
+}
+.skills-social__vk:hover {
+  color: var(--vk-h);
+}
+.skills-social__facebook {
+  color: var(--facebook);
+}
+.skills-social__facebook:hover {
+  color: var(--facebook-h);
 }
 .header-contacts-mail {
   font-size: 24px;
