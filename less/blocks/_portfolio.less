@@ -55,6 +55,39 @@
     margin-bottom: 30px;
 }
 
+
+.portfolio-large__img {
+    position: relative;
+    cursor: pointer;
+
+    &:hover:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 556gitpx;
+        height: 370px;
+        top: 0;
+        left: 0;
+        background-color: rgba(251, 219, 77, 0.85);
+    }
+}
+
+.portfolio-small__img {
+    position: relative;
+    cursor: pointer;
+
+    &:hover:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 360px;
+        height: 240px;
+        top: 0;
+        left: 0;
+        background-color: rgba(251, 219, 77, 0.85);
+    }
+}
+
 .portfolio-projects__item h3 {
     margin-bottom: 15px;
     font-size: 32px;
