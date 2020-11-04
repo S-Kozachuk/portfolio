@@ -4792,6 +4792,9 @@ button {
   margin-right: auto;
   padding: 0 15px;
 }
+.none {
+  display: none;
+}
 .header {
   margin-left: auto;
   margin-right: auto;
@@ -5189,44 +5192,35 @@ button {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 .portfolio-projects__item {
   margin-right: 30px;
   margin-bottom: 60px;
+  cursor: pointer;
 }
 .portfolio-projects__item:last-child {
   margin-right: 0;
 }
-.portfolio-projects__item img {
-  margin-bottom: 30px;
-}
-.portfolio-large__img {
+.portfolio-projects__img {
   position: relative;
-  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 20px;
 }
-.portfolio-large__img:hover:after {
+.portfolio-projects__img::before {
   content: "";
   display: block;
   position: absolute;
-  width: 556px;
-  height: 370px;
   top: 0;
   left: 0;
-  background-color: rgba(251, 219, 77, 0.85);
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  background-color: var(--yellow);
+  opacity: 0;
 }
-.portfolio-small__img {
-  position: relative;
-  cursor: pointer;
-}
-.portfolio-small__img:hover:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 360px;
-  height: 240px;
-  top: 0;
-  left: 0;
-  background-color: rgba(251, 219, 77, 0.85);
+.portfolio-projects__img:hover::before {
+  opacity: 0.85;
 }
 .portfolio-projects__item h3 {
   margin-bottom: 15px;
@@ -5242,6 +5236,6 @@ button {
 }
 .portfolio-projects__item p {
   font-size: 22px;
-  font-weight: 200;
+  font-weight: 300;
 }
 /*# sourceMappingURL=main.css.map */
