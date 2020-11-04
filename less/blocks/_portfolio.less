@@ -15,6 +15,7 @@
 .portfolio-nav__item {
     margin-right: 80px;
     margin-bottom: 20px;
+    transition: .5s;
 
     &:last-child {
         margin-right: 0;
@@ -57,6 +58,7 @@
     position: relative;
     display: inline-block;
     margin-bottom: 20px;
+    transition: .5s;
 
     &::before {
         content: "";
@@ -69,15 +71,16 @@
         z-index: 1;
         background-color: var(--yellow);
         opacity: 0;
+        transition: .5s;
     }
 
     &:hover::before {
         opacity: 0.85;
         transition: .5s;
+        
     }
 
     &:hover {
-        transition: .5s;
 
         .portfolio-projects__button{
             opacity: 1;
@@ -105,17 +108,19 @@
     font-size: 22px;
     font-weight: 800;
     color: var(--red);
+    transition: .3s;
     
     &:hover {
         color: var(--white);
         background-color: var(--red);
         border: 2px solid var(--red);
-        transition: .5s;
+        transition: .8s;
     }
 
     &:active {
         background-color: var(--btn-a);
         border: 2px solid var(--btn-a);
+        transition: .5s;
     }
 }
 
@@ -125,6 +130,7 @@
     
     &:hover {
        color: var(--h3-h);
+       transition: .5s;
     }   
 
     &:active {

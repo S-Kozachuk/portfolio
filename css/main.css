@@ -5178,6 +5178,10 @@ button {
 .portfolio-nav__item {
   margin-right: 80px;
   margin-bottom: 20px;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 .portfolio-nav__item:last-child {
   margin-right: 0;
@@ -5214,6 +5218,10 @@ button {
   position: relative;
   display: inline-block;
   margin-bottom: 20px;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 .portfolio-projects__img::before {
   content: "";
@@ -5226,15 +5234,13 @@ button {
   z-index: 1;
   background-color: var(--yellow);
   opacity: 0;
-}
-.portfolio-projects__img:hover::before {
-  opacity: 0.85;
   -webkit-transition: .5s;
   -o-transition: .5s;
   -moz-transition: .5s;
   transition: .5s;
 }
-.portfolio-projects__img:hover {
+.portfolio-projects__img:hover::before {
+  opacity: 0.85;
   -webkit-transition: .5s;
   -o-transition: .5s;
   -moz-transition: .5s;
@@ -5267,19 +5273,27 @@ button {
   font-size: 22px;
   font-weight: 800;
   color: var(--red);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
 }
 .portfolio-projects__button:hover {
   color: var(--white);
   background-color: var(--red);
   border: 2px solid var(--red);
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -webkit-transition: .8s;
+  -o-transition: .8s;
+  -moz-transition: .8s;
+  transition: .8s;
 }
 .portfolio-projects__button:active {
   background-color: var(--btn-a);
   border: 2px solid var(--btn-a);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 .portfolio-projects__item h3 {
   margin-bottom: 15px;
@@ -5287,6 +5301,10 @@ button {
 }
 .portfolio-projects__item h3:hover {
   color: var(--h3-h);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 .portfolio-projects__item h3:active {
   color: var(--h3-h);
