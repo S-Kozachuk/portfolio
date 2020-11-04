@@ -4728,7 +4728,7 @@ p::selection {
   bottom: 16px;
 }
 .title-2 {
-  margin-bottom: 60px;
+  margin-bottom: 53px;
 }
 .title-2 span {
   display: block;
@@ -5169,7 +5169,7 @@ button {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
   font-size: 28px;
   font-weight: 800;
   color: #8fa5ae;
@@ -5217,7 +5217,7 @@ button {
 .portfolio-projects__img {
   position: relative;
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   -webkit-transition: .5s;
   -o-transition: .5s;
   -moz-transition: .5s;
@@ -5296,7 +5296,7 @@ button {
   transition: .5s;
 }
 .portfolio-projects__item h3 {
-  margin-bottom: 15px;
+  margin-bottom: 3px;
   position: relative;
 }
 .portfolio-projects__item h3:hover {
@@ -5330,6 +5330,7 @@ button {
 .portfolio__subtitle {
   font-size: 32px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 .portfolio__subtitle--s {
   font-size: 26px;
