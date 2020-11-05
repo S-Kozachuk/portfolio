@@ -5347,13 +5347,15 @@ button {
   -moz-background-size: auto;
        background-size: auto;
   background-position: center;
-  background-repeat: repeat;
-  height: 100px;
+  background-repeat: repeat-y;
 }
 .workflow-wrapper {
   max-width: 1005px;
   margin-left: auto;
   margin-right: auto;
+}
+.workflow-step {
+  margin-bottom: 30px;
 }
 .workflow-step__image {
   height: 50px;
