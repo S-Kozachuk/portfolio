@@ -4803,6 +4803,10 @@ button {
   width: -moz-fit-content;
   width: fit-content;
 }
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 .header {
   margin-left: auto;
   margin-right: auto;
