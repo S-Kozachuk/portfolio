@@ -5348,6 +5348,11 @@ button {
        background-size: auto;
   background-position: center;
   background-repeat: repeat;
-  overflow: hidden;
+  height: 100px;
+}
+.workflow-wrapper {
+  max-width: 1005px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=main.css.map */
