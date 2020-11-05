@@ -5355,4 +5355,8 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+.workflow-step__image {
+  height: 50px;
+  width: 50px;
+}
 /*# sourceMappingURL=main.css.map */
