@@ -5386,6 +5386,7 @@ button {
   display: flex;
   position: relative;
   margin-bottom: 6%;
+  cursor: pointer;
 }
 .workflow-step::after {
   content: "";
@@ -5434,6 +5435,9 @@ h3.workflow-step__header::after {
   height: 5px;
   background-color: var(--yellow);
   z-index: -1;
+}
+h3.workflow-step__header:hover::after {
+  background-color: var(--red);
 }
 .workflow-step-definition {
   font-weight: 500;
