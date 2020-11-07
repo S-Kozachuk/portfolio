@@ -5361,18 +5361,43 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+.workflow__header {
+  margin-bottom: 100px;
+  position: relative;
+}
+.workflow__header:before {
+  content: "";
+  position: absolute;
+  top: 100px;
+  height: 60px;
+  right: 50%;
+  width: 4px;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  background-color: #dfedf4;
+  z-index: 23;
+}
 .workflow-step {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-     -moz-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  position: relative;
   margin-bottom: 60px;
+}
+.workflow-step::after {
+  content: "";
+  position: absolute;
+  top: -100px;
+  height: 80px;
+  right: 50%;
+  width: 4px;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  background-color: #dfedf4;
 }
 .workflow-step:nth-child(odd) .workflow-step-item {
   padding-left: 50px;
