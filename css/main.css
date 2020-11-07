@@ -5438,7 +5438,47 @@ h3.workflow-step__header::after {
   font-weight: 700;
 }
 .workflow-step__image {
-  height: 50px;
-  width: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 75px;
+  width: 78px;
+  -webkit-border-radius: 36%;
+     -moz-border-radius: 36%;
+          border-radius: 36%;
+  -webkit-box-shadow: 0px 3px 35px 0px rgba(0, 112, 187, 0.35);
+     -moz-box-shadow: 0px 3px 35px 0px rgba(0, 112, 187, 0.35);
+          box-shadow: 0px 3px 35px 0px rgba(0, 112, 187, 0.35);
+}
+.workflow-step-svg {
+  height: 45px;
+  width: 45px;
+}
+.workflow-step-svg .svg-step-1 {
+  fill: #ffcf8f;
+}
+.workflow-step-svg .svg-step-2 {
+  fill: #ff5b5b;
+}
+.workflow-step-svg .svg-step-3 {
+  fill: #ac74ee;
+}
+.workflow-step-svg .svg-step-4 {
+  fill: #51e5cb;
+}
+.workflow-step-svg .svg-step-5 {
+  fill: #7cc0ff;
 }
 /*# sourceMappingURL=main.css.map */
