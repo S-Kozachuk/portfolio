@@ -5362,14 +5362,14 @@ button {
   margin-right: auto;
 }
 .workflow__header {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   position: relative;
 }
-.workflow__header:before {
+.workflow__header::after {
   content: "";
   position: absolute;
-  top: 100px;
-  height: 60px;
+  top: 160px;
+  height: 57px;
   right: 50%;
   width: 4px;
   -webkit-border-radius: 2px;
@@ -5385,19 +5385,22 @@ button {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 6%;
 }
 .workflow-step::after {
   content: "";
   position: absolute;
-  top: -100px;
-  height: 80px;
+  top: 100px;
+  height: 65%;
   right: 50%;
   width: 4px;
   -webkit-border-radius: 2px;
      -moz-border-radius: 2px;
           border-radius: 2px;
   background-color: #dfedf4;
+}
+.workflow-step:last-child::after {
+  display: none;
 }
 .workflow-step:nth-child(odd) .workflow-step-item {
   padding-left: 50px;
@@ -5408,6 +5411,7 @@ button {
   text-align: right;
 }
 .workflow-step-item {
+  margin-top: 1%;
   width: 50%;
   font-size: 18px;
 }
@@ -5436,6 +5440,9 @@ h3.workflow-step__header::after {
 }
 .workflow-step-time {
   font-weight: 700;
+}
+p:nth-of-type(1) {
+  margin-bottom: 30px;
 }
 .workflow-step__image {
   display: -webkit-box;
