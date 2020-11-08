@@ -5568,5 +5568,51 @@ p:nth-of-type(2) {
 .contacts-form {
   width: 511px;
   background-color: #fff;
+  -webkit-box-shadow: 0px 28px 100px 0px #c2dbeb;
+     -moz-box-shadow: 0px 28px 100px 0px #c2dbeb;
+          box-shadow: 0px 28px 100px 0px #c2dbeb;
+}
+.formgroup {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+}
+.placeholder-email {
+  position: absolute;
+  top: 45px;
+}
+.placeholder-theme {
+  position: absolute;
+  top: 145px;
+}
+.placeholder-text {
+  position: absolute;
+  bottom: 120px;
+}
+.input-wrapper {
+  padding-top: 50px;
+  height: 100px;
+}
+.input-wrapper--l {
+  padding-top: 135px;
+  height: 175px;
+}
+.input {
+  width: 390px;
+  border: 0px;
+  border-bottom: 1px solid #c0c0c0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.input :focus.placeholder-email {
+  position: absolute;
+  top: 20px;
+}
+.button-form {
+  margin-left: 60px;
+  margin-bottom: 40px;
+  font-family: var(--fr);
 }
 /*# sourceMappingURL=main.css.map */
