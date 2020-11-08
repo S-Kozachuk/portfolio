@@ -33,21 +33,34 @@
     display: flex;
     justify-content: space-between;
     width: 470px;
+    margin-bottom: 40px ;
 }
 
-.contacts-content-item {
-    margin-bottom: 10px;
+.contacts-item-type {
+    margin-bottom: 20px;
+    font-weight: 700;
 
     &:last-child {
-        margin-bottom: 40px;
+        margin-bottom: 0;
     }
+
 }
 
-.contacts-content-item span {
-    font-weight: 700;
-}
-
-.contacts-content-item p {
+.contacts-item-value {
+    margin-bottom: 20px;
     font-weight: 500;
     color: #96969d;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    a {
+        color: #96969d;
+
+        &:hover {
+            color: #039be5;
+        }
+    }
+
 } 

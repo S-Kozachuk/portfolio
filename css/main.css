@@ -5541,18 +5541,27 @@ p:nth-of-type(2) {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 470px;
+  margin-bottom: 40px ;
 }
-.contacts-content-item {
-  margin-bottom: 10px;
-}
-.contacts-content-item:last-child {
-  margin-bottom: 40px;
-}
-.contacts-content-item span {
+.contacts-item-type {
+  margin-bottom: 20px;
   font-weight: 700;
 }
-.contacts-content-item p {
+.contacts-item-type:last-child {
+  margin-bottom: 0;
+}
+.contacts-item-value {
+  margin-bottom: 20px;
   font-weight: 500;
   color: #96969d;
+}
+.contacts-item-value:last-child {
+  margin-bottom: 0;
+}
+.contacts-item-value a {
+  color: #96969d;
+}
+.contacts-item-value a:hover {
+  color: #039be5;
 }
 /*# sourceMappingURL=main.css.map */
