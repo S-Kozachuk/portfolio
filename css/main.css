@@ -5581,6 +5581,7 @@ p:nth-of-type(2) {
 }
 .form-item {
   margin-bottom: 30px;
+  position: relative;
 }
 .form-item .form-field {
   width: 100%;
@@ -5596,6 +5597,21 @@ p:nth-of-type(2) {
 .form-item textarea.form-field {
   height: 100px;
   resize: none;
+}
+.form-item .fake-placeholder {
+  position: absolute;
+  left: 12px;
+  top: 8px;
+  font-size: 20px;
+  color: #bcbcbc;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
+}
+.form-item .fake-placeholder.active {
+  top: -12px;
+  color: #ed9626;
 }
 .button-form {
   margin-left: 60px;

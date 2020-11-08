@@ -82,6 +82,7 @@
 
 .form-item {
     margin-bottom: 30px;
+    position: relative;
 
     .form-field {
         width: 100%;
@@ -98,6 +99,20 @@
     textarea.form-field {
         height: 100px;
         resize: none;
+    }
+
+    .fake-placeholder {
+        position: absolute;
+        left: 12px;
+        top: 8px;
+        font-size: 20px;
+        color: #bcbcbc;
+        transition: .5s; 
+    }
+
+    .fake-placeholder.active {
+        top: -12px;
+        color: #ed9626;
     }
 
 }
