@@ -5600,6 +5600,7 @@ p:nth-of-type(2) {
 }
 .form-item .fake-placeholder {
   position: absolute;
+  pointer-events: none;
   left: 12px;
   top: 8px;
   font-size: 20px;
@@ -5611,6 +5612,7 @@ p:nth-of-type(2) {
 }
 .form-item .fake-placeholder.active {
   top: -12px;
+  font-size: 18px;
   color: #ed9626;
 }
 .button-form {
