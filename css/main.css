@@ -5530,9 +5530,6 @@ p:nth-of-type(2) {
   line-height: 1.6;
 }
 .contacts-content-connect {
-  width: 470px;
-}
-.contacts-content-item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -5543,6 +5540,9 @@ p:nth-of-type(2) {
      -moz-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 470px;
+}
+.contacts-content-item {
   margin-bottom: 10px;
 }
 .contacts-content-item:last-child {
