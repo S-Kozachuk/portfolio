@@ -16,6 +16,21 @@
 .contacts-wrapper {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 450px;
+        height: 270px;
+        top: 0;
+        transform: translate(-70%, 0%);
+        z-index: -1;
+        background-image: url("../img/contacts/contacts-bg-dots.png");
+    }
+
 }
 
 .contacts-content {
