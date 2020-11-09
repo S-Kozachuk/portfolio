@@ -67,6 +67,8 @@
 
 /* Contact form */
 .contacts__form {
+    padding-top: 60px;
+    padding-bottom: 40px;
     width: 511px;
     background-color: #fff;
     box-shadow: 0px 28px 100px 0px rgba(194, 219, 235, 1);
@@ -74,14 +76,17 @@
 
 .formgroup {
     position: relative;
-    margin-top: 30px;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 30px;    
+    margin: 30px 60px;
+}
+
+input, textarea {
+    font-family: var(--fr);
+    font-size: 20px;
+    color: #000;
 }
 
 .form-item {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     position: relative;
 
     .form-field {
@@ -97,6 +102,7 @@
     }
 
     textarea.form-field {
+        margin-top: 15px;
         height: 100px;
         resize: none;
     }
@@ -107,13 +113,14 @@
         left: 12px;
         top: 8px;
         font-size: 20px;
+        font-weight: 700;
         color: #bcbcbc;
         transition: .5s; 
     }
 
     .fake-placeholder.active {
-        top: -12px;
-        font-size: 18px;
+        top: -15px;
+        font-size: 16px;
         color: #ed9626;
     }
 
@@ -121,6 +128,6 @@
 
 .button-form {
     margin-left: 60px;
-    margin-bottom: 40px;
     font-family: var(--fr);
 }
+
