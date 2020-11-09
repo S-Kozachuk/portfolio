@@ -5643,4 +5643,8 @@ textarea {
   margin-left: 60px;
   font-family: var(--fr);
 }
+footer {
+  background-color: #333333;
+  height: 200px;
+}
 /*# sourceMappingURL=main.css.map */
