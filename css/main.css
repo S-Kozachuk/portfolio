@@ -5662,6 +5662,7 @@ footer {
 }
 .footer-description span {
   text-decoration: underline;
+  cursor: pointer;
 }
 .footer-description span:hover,
 .footer-description span :active {
