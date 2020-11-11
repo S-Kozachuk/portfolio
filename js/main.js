@@ -17,7 +17,7 @@ for (let item of formInputs){
 
 // Form validate
 
-$('#contact-form').validate({
+$('#contacts-form').validate({
     rules: {
         email: {
             required: true,
