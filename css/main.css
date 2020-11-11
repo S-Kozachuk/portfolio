@@ -4760,6 +4760,7 @@ p::selection {
 img {
   min-width: 100%;
   height: auto;
+  width: 100%;
   display: block;
 }
 button,
@@ -4788,8 +4789,14 @@ button {
     padding: 0;
   }
 }
-.container--xl {
+.container--m {
   max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+.container--xl {
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
@@ -5005,14 +5012,13 @@ button {
   z-index: 2;
 }
 .header-content__item {
-  margin-right: 120px;
+  margin-right: 192px;
 }
 .header-content__description {
   margin-bottom: 30px;
 }
 .header-content__image img {
-  margin-top: 40px;
-  width: 460px;
+  margin-top: 16px;
   background-color: #d0dee3;
 }
 .header-content__image {
