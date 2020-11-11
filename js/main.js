@@ -30,9 +30,8 @@ $('#contact-form').validate({
             required: true
         }
     },
-
     messages: {
-        email:{
+        email: {
             required: 'Введите email',
             email: 'отсутсвует символ @'
         },
