@@ -4857,13 +4857,13 @@ button {
   z-index: 1;
 }
 .menu-item {
-  margin-right: 74px;
+  margin-right: 73px;
   color: #000;
   font-size: 20px;
   font-weight: 700;
 }
 .menu-item:last-child {
-  margin-right: 10px;
+  margin-right: 1px;
 }
 .animate-border {
   position: relative;
@@ -4895,10 +4895,11 @@ button {
   border: 3px dotted var(--red);
 }
 .header-social {
-  font-size: 30px;
+  margin-right: 12px;
+  font-size: 31px;
 }
 .header-social__item {
-  margin-right: 9px;
+  margin-right: 10px;
   color: #000;
 }
 .header-social__item:last-child {
@@ -4923,6 +4924,9 @@ button {
 }
 .fa-github:active {
   color: var(--github-h);
+}
+.fa-vk {
+  padding-top: 10px;
 }
 .fa-vk:hover {
   color: var(--vk-h);
@@ -5126,9 +5130,6 @@ button {
   -o-transition: .5s;
   -moz-transition: .5s;
   transition: .5s;
-}
-.fa-vk {
-  padding-top: 6px;
 }
 .skills-social__facebook {
   color: var(--facebook);
