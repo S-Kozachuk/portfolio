@@ -4775,18 +4775,15 @@ button {
 }
 .container {
   max-width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 .container--m {
   max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 .container--xl {
   max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 .none {
   display: none;
@@ -5004,7 +5001,7 @@ button {
   z-index: 2;
 }
 .header-content__item {
-  margin-right: 187px;
+  margin-right: 195px;
 }
 .header-content__image img {
   margin-top: 26px;
@@ -5027,7 +5024,7 @@ button {
   height: 100%;
   z-index: -1;
   top: 30%;
-  left: 30px;
+  left: 30%;
   opacity: 0.5;
 }
 .header-bg__image {
