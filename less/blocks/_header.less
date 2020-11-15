@@ -189,12 +189,14 @@
 
 .header-content {
     display: flex;
+    justify-content: space-between;
     position: relative;
     z-index: 2;
 }
 
 .header-content__item {
-    margin-right: 195px;
+    width: 43%;
+    max-width: 488px;
 }
 
 .header-content__image img {
@@ -205,6 +207,8 @@
 .header-content__image {
     position: relative;
     z-index: 1;
+    width: 40%;
+    max-width: 457px;
 
     &::after {
         content: "";
