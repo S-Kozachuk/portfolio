@@ -108,6 +108,11 @@ p::selection {
     }
 }
 
+.title-3 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
 .bottom-line {
     position: relative;
     width: fit-content;
@@ -143,6 +148,24 @@ button {
     border: 0px;
     padding: 0;
     background-color: transparent;
+}
+
+.main-link {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    border-bottom: 1px solid var(--mail);
+
+    &:hover {
+        color: var(--mail-h);
+        border-color: var(--mail-h);
+        transition: .5s;
+    }
+
+    &:active {
+        color: var(--mail-a);
+        border-color: var(--mail-a);
+    }
 }
 
 .container {
