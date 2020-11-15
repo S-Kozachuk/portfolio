@@ -4751,9 +4751,9 @@ p::selection {
   content: '';
   position: absolute;
   bottom: 10px;
-  left: -5px;
-  right: -5px;
-  height: 12px;
+  left: 4px;
+  right: -3px;
+  height: 9px;
   background-color: var(--yellow);
   z-index: -1;
 }
@@ -4821,7 +4821,7 @@ button {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 70px;
+  padding-top: 73px;
   margin-bottom: 147px;
   max-width: 1400px;
   -webkit-box-pack: justify;
@@ -4836,7 +4836,7 @@ button {
           align-items: center;
 }
 .logo {
-  margin-left: 1px;
+  margin-left: 7px;
   font-size: 42px;
   font-weight: 900;
   color: #000;
@@ -4854,6 +4854,7 @@ button {
           transform: rotate(360deg);
 }
 .header-menu {
+  margin-left: 5px;
   z-index: 1;
 }
 .menu-item {
@@ -4863,7 +4864,7 @@ button {
   font-weight: 700;
 }
 .menu-item:last-child {
-  margin-right: 1px;
+  margin-right: 3px;
 }
 .animate-border {
   position: relative;
@@ -4895,15 +4896,16 @@ button {
   border: 3px dotted var(--red);
 }
 .header-social {
-  margin-right: 12px;
+  margin-right: 0px;
   font-size: 31px;
 }
 .header-social__item {
   margin-right: 10px;
+  padding-top: 10px;
   color: #000;
 }
 .header-social__item:last-child {
-  margin-right: 0;
+  margin-right: -1px;
 }
 .fa-linkedin-in:hover {
   color: var(--linkedin);
@@ -4924,9 +4926,6 @@ button {
 }
 .fa-github:active {
   color: var(--github-h);
-}
-.fa-vk {
-  padding-top: 10px;
 }
 .fa-vk:hover {
   color: var(--vk-h);
