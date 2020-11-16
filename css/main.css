@@ -5138,6 +5138,7 @@ button {
   opacity: 0.5;
 }
 .header-bg__image {
+  margin-bottom: 74px;
   display: block;
   margin: 0 auto;
   margin-top: -130px;
