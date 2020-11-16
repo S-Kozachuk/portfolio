@@ -4852,6 +4852,9 @@ button {
      -moz-border-radius: 50%;
           border-radius: 50%;
 }
+.social__vk:hover .fa-vk {
+  color: white;
+}
 .social__vk:hover {
   color: white;
   background-color: var(--vk-h);
