@@ -168,6 +168,77 @@ button {
     }
 }
 
+.social-contacts {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 293px;
+    font-size: 53px;
+
+    .item {
+        margin-right: 9px;
+        
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+}
+
+.social__github {
+    color: var(--github);
+
+    &:hover {
+        color: var(--github-h);
+        transition: .5s;
+    }
+
+}
+
+.social__telegram {
+    color: var(--telegram);
+
+    &:hover {
+        color: var(--telegram-h);
+        transition: .5s;
+    }
+
+}
+
+.social__vk {
+    width: 52px;
+    height: 52px;
+    padding: 5px 7px;
+    font-size: 32px;
+    color: var(--white);
+    background-color: var(--vk-bg);
+    border-radius: 50%;
+
+    &:hover {
+        color: white;
+        background-color: var(--vk-h);
+        transition: .5s;
+    }
+
+}
+
+.social__facebook {
+    width: 52px;
+    height: 52px;
+    padding: 8px 17px;
+    font-size: 25px;
+    color: var(--white);
+    background-color: var(--facebook);
+    border-radius: 50%;
+
+    &:hover {
+        background-color: var(--facebook-h);
+        transition: .5s;
+    }
+
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;

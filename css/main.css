@@ -4795,6 +4795,89 @@ button {
   color: var(--mail-a);
   border-color: var(--mail-a);
 }
+.social-contacts {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 293px;
+  font-size: 53px;
+}
+.social-contacts .item {
+  margin-right: 9px;
+}
+.social-contacts .item:last-child {
+  margin-right: 0;
+}
+.social__github {
+  color: var(--github);
+}
+.social__github:hover {
+  color: var(--github-h);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
+}
+.social__telegram {
+  color: var(--telegram);
+}
+.social__telegram:hover {
+  color: var(--telegram-h);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
+}
+.social__vk {
+  width: 52px;
+  height: 52px;
+  padding: 5px 7px;
+  font-size: 32px;
+  color: var(--white);
+  background-color: var(--vk-bg);
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+.social__vk:hover {
+  color: white;
+  background-color: var(--vk-h);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
+}
+.social__facebook {
+  width: 52px;
+  height: 52px;
+  padding: 8px 17px;
+  font-size: 25px;
+  color: var(--white);
+  background-color: var(--facebook);
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+.social__facebook:hover {
+  background-color: var(--facebook-h);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
+}
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -5116,64 +5199,6 @@ button {
 }
 .header-content-contacts h3 {
   margin-bottom: 22px;
-}
-.skills-social-contacts {
-  font-size: 45px;
-  margin-bottom: 20px;
-}
-.item {
-  margin-right: 9px;
-}
-.item:last-child {
-  margin-right: 0;
-}
-.skills-social__github {
-  color: var(--github);
-}
-.skills-social__github:hover {
-  color: var(--github-h);
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
-}
-.skills-social__telegram {
-  color: var(--telegram);
-}
-.skills-social__telegram:hover {
-  color: var(--telegram-h);
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
-}
-.skills-social__vk {
-  width: 44px;
-  height: 44px;
-  font-size: 38px;
-  color: var(--white);
-  background-color: var(--vk-bg);
-  -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-          border-radius: 50%;
-}
-.skills-social__vk:hover {
-  color: var(--white);
-  background-color: var(--vk-h);
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
-}
-.skills-social__facebook {
-  color: var(--facebook);
-}
-.skills-social__facebook:hover {
-  color: var(--facebook-h);
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
 }
 .portfolio {
   padding: 120px 0 100px;
