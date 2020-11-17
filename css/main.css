@@ -5273,7 +5273,7 @@ button {
 }
 .portfolio-projects__img {
   position: relative;
-  display: inline-block;
+  display: block;
   margin-bottom: 15px;
   -webkit-transition: .5s;
   -o-transition: .5s;
