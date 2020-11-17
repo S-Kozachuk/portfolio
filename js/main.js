@@ -1,3 +1,13 @@
+// Projects filter
+
+let containerE1 = document.querySelector('#portfolio-projects');
+
+let mixer = mixitup(containerE1, {
+    classNames: {
+        block: ""
+    }
+});
+
 // Form placeholder
 
 const formInputs = document.querySelectorAll('.form-field');
