@@ -5263,12 +5263,15 @@ button {
   margin-bottom: 60px;
   cursor: pointer;
 }
-.portfolio-projects__item:last-child {
-  margin-right: 0;
+.portfolio-projects__item:nth-child(3) {
+  margin-bottom: 0;
+}
+.portfolio-projects__item:nth-child(4) {
+  margin-bottom: 0;
 }
 @media (min-width: 1200px) {
   .portfolio-projects__item {
-    width: 540px;
+    width: 555px;
   }
 }
 .portfolio-projects__img {
