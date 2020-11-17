@@ -5214,14 +5214,14 @@ button {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 25px;
-  font-size: 28px;
-  font-weight: 800;
-  color: #8fa5ae;
   cursor: pointer;
 }
 .portfolio-nav__item {
   margin-right: 80px;
   margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 800;
+  color: #8fa5ae;
   -webkit-transition: .5s;
   -o-transition: .5s;
   -moz-transition: .5s;
@@ -5233,14 +5233,11 @@ button {
 .portfolio-nav__item:hover {
   color: #ed574f;
 }
-.portfolio-nav__item :active {
+.portfolio-nav__item:active {
   color: #ed574f;
 }
-.portfolio-nav__item:first-child:hover {
+.portfolio-nav__item:focus {
   color: #000;
-}
-.portfolio-nav__item:first-child:active {
-  color: #ed574f;
 }
 .portfolio-projects__wrapper {
   display: -webkit-box;

@@ -6,15 +6,15 @@
 .portfolio-nav {
     display: flex;
     margin-bottom: 25px;
-    font-size: 28px;
-    font-weight: 800;
-    color: #8fa5ae;
     cursor: pointer;
 }
 
 .portfolio-nav__item {
     margin-right: 80px;
     margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 800;
+    color: #8fa5ae;
     transition: .5s;
 
     &:last-child {
@@ -25,17 +25,14 @@
         color: #ed574f;
     }
 
-    :active {
+    &:active {
         color: #ed574f;
     }
 
-    &:first-child:hover {
+    &:focus {
         color: #000;
     }
 
-    &:first-child:active {
-        color: #ed574f;
-    }
 }
 
 .portfolio-projects__wrapper {
