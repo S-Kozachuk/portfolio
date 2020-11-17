@@ -38,23 +38,27 @@
     }
 }
 
-.portfolio-projects__warpper {
+.portfolio-projects__wrapper {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
     position: relative;
-    
 }
 
 .portfolio-projects__item {
-    margin-right: 30px;
+    width: 360px;
+    //margin-right: 30px;
     margin-bottom: 60px;
     cursor: pointer;
 
     &:last-child {
         margin-right: 0;
     }
+
+    @media (min-width: 1200px) {
+		width: 540px;	
+	}
+
 }
 
 .portfolio-projects__img {

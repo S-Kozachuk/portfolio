@@ -5242,7 +5242,7 @@ button {
 .portfolio-nav__item:first-child:active {
   color: #ed574f;
 }
-.portfolio-projects__warpper {
+.portfolio-projects__wrapper {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -5259,12 +5259,17 @@ button {
   position: relative;
 }
 .portfolio-projects__item {
-  margin-right: 30px;
+  width: 360px;
   margin-bottom: 60px;
   cursor: pointer;
 }
 .portfolio-projects__item:last-child {
   margin-right: 0;
+}
+@media (min-width: 1200px) {
+  .portfolio-projects__item {
+    width: 540px;
+  }
 }
 .portfolio-projects__img {
   position: relative;
