@@ -5480,6 +5480,9 @@ button {
   width: 50%;
   font-size: 18px;
 }
+.workflow-step-item:hover .workflow-step__header:after {
+  background-color: var(--red);
+}
 h3.workflow-step__header {
   position: relative;
   margin-bottom: 10px;
