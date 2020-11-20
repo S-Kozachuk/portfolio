@@ -5532,7 +5532,10 @@ p:nth-of-type(2) {
       -ms-flex-align: center;
           align-items: center;
   height: 75px;
-  width: 78px;
+  width: 75px;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
   -webkit-border-radius: 36%;
      -moz-border-radius: 36%;
           border-radius: 36%;
