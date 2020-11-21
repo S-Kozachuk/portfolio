@@ -5476,12 +5476,16 @@ button {
   text-align: right;
 }
 .workflow-step-item {
-  margin-top: 1%;
+  padding-top: 1%;
   width: 50%;
   font-size: 18px;
 }
 .workflow-step-item:hover .workflow-step__header:after {
   background-color: var(--red);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 h3.workflow-step__header {
   position: relative;
