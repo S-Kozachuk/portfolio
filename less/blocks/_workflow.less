@@ -1,7 +1,6 @@
 .workflow {
     background-image: url(../img/workflow/workflow-bg.jpg);
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     max-width: 1600px;
     background-size: auto;
     background-position: center;
@@ -11,8 +10,7 @@
 
 .workflow-wrapper {
     max-width: 1005px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding-bottom: 100px;
 }
 
@@ -38,8 +36,21 @@
 .workflow-step {
     display: flex;
     position: relative;
-    margin-bottom: 6%;
+    margin-bottom: 20px;
+    width: 50%;
     cursor: pointer;
+
+    &:nth-child(odd)  {
+        margin-right: auto;
+        padding-left: 50px;
+        text-align: left;
+    }
+
+    &:nth-child(even) {
+        margin-left: auto;
+        padding-right: 50px;
+        text-align: right;
+    }
     
     &::after {
         content: "";
@@ -56,21 +67,11 @@
        display: none;
     }
 
-    &:nth-child(odd) .workflow-step-item {
-        padding-left: 50px;
-        text-align: left;
-    }
-
-    &:nth-child(even) .workflow-step-item {
-        padding-right: 50px;
-        text-align: right;
-    }
-
 }
 
 .workflow-step-item {
     padding-top: 1%;
-    width: 50%;
+    //width: 50%;
     font-size: 18px; 
 
     &:hover .workflow-step__header {
