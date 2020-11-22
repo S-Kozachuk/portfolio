@@ -35,6 +35,9 @@
 .workflow-step {
     display: flex;
     position: relative;
+    padding-left: 50px;
+    padding-right: 75px;
+    padding-bottom: 45px;
     margin-bottom: 20px;
     width: 50%;
     cursor: pointer;
@@ -50,10 +53,15 @@
             right: -37px;
         }
 
+        .workflow-step__header {
+            margin-left: auto;
+        }
+
     }
 
     &:nth-child(even) {
         margin-left: auto;
+        padding-left: 75px;
         padding-right: 50px;
         text-align: left;
 
@@ -70,7 +78,8 @@
         top: 100px;
         height: 65%;
         right: 50%;
-        width: 4px;
+        width: 3px;
+        bottom: 0;
         border-radius: 2px;
         background-color: #dfedf4;
     }
@@ -108,7 +117,7 @@ h3.workflow-step__header {
     width: fit-content;
     z-index: 1;
     font-size: 26px;
-    font-weight: 800;
+    font-weight: 800;   
 
     &::after {
         content: '';
