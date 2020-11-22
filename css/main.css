@@ -5454,12 +5454,21 @@ button {
 .workflow-step:nth-child(odd) {
   margin-right: auto;
   padding-left: 50px;
-  text-align: left;
+  padding-right: 75px;
+  text-align: right;
+}
+.workflow-step:nth-child(odd) .workflow-step__image {
+  left: auto;
+  right: -37px;
 }
 .workflow-step:nth-child(even) {
   margin-left: auto;
   padding-right: 50px;
-  text-align: right;
+  text-align: left;
+}
+.workflow-step:nth-child(even) .workflow-step__image {
+  right: 0;
+  left: -37px;
 }
 .workflow-step::after {
   content: "";
@@ -5525,6 +5534,7 @@ p:nth-of-type(2) {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
      -moz-box-pack: center;

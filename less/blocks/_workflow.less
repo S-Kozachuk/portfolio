@@ -5,7 +5,6 @@
     background-size: auto;
     background-position: center;
     background-repeat: repeat-y;
-
 }
 
 .workflow-wrapper {
@@ -43,13 +42,26 @@
     &:nth-child(odd)  {
         margin-right: auto;
         padding-left: 50px;
-        text-align: left;
+        padding-right: 75px;
+        text-align: right;
+
+        .workflow-step__image {
+            left: auto;
+            right: -37px;
+        }
+
     }
 
     &:nth-child(even) {
         margin-left: auto;
         padding-right: 50px;
-        text-align: right;
+        text-align: left;
+
+        .workflow-step__image {
+            right: 0;
+            left: -37px;
+        }
+
     }
     
     &::after {
@@ -72,7 +84,12 @@
 .workflow-step-item {
     padding-top: 1%;
     //width: 50%;
-    font-size: 18px; 
+    font-size: 18px;
+    
+    &:nth-child(odd)  {
+        //padding-left: 50px;
+        //padding-right: 75px;
+    }
 
     &:hover .workflow-step__header {
 
@@ -124,6 +141,7 @@ p:nth-of-type(2) {
 
 .workflow-step__image {
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
     height: 75px;
