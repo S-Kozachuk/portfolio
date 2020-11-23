@@ -5434,46 +5434,67 @@ button {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  padding-left: 50px;
-  padding-right: 75px;
+  padding-top: 19px;
   padding-bottom: 45px;
   margin-bottom: 20px;
   width: 50%;
   cursor: pointer;
 }
+.workflow-step:nth-child(3) {
+  top: 15px;
+}
+.workflow-step:nth-child(4) {
+  top: 12px;
+}
 .workflow-step:nth-child(odd) {
   margin-right: auto;
-  padding-left: 50px;
-  padding-right: 75px;
+  padding-right: 77px;
   text-align: right;
 }
+.workflow-step:nth-child(odd):first-child {
+  padding-left: 55px;
+}
 .workflow-step:nth-child(odd) .workflow-step__image {
+  top: 2px;
   left: auto;
-  right: -37px;
+  right: -40px;
+}
+.workflow-step:nth-child(odd):nth-child(3) .workflow-step__image {
+  top: 1px;
 }
 .workflow-step:nth-child(odd) .workflow-step__header {
   margin-left: auto;
 }
+.workflow-step:nth-child(odd)::after {
+  top: 96px;
+  bottom: -14px;
+}
 .workflow-step:nth-child(even) {
   margin-left: auto;
-  padding-left: 75px;
+  padding-top: 39px;
+  padding-left: 84px;
   padding-right: 50px;
   text-align: left;
 }
 .workflow-step:nth-child(even) .workflow-step__image {
+  top: 22px;
   right: 0;
-  left: -37px;
+  left: -35px;
 }
 .workflow-step:nth-child(even)::after {
   left: 0;
+}
+.workflow-step:nth-child(even):nth-child(2)::after {
+  top: 129px;
+  bottom: -16px;
 }
 .workflow-step:first-child::before {
   content: "";
   position: absolute;
   top: -75px;
   height: 57px;
-  right: 0;
-  width: 3px;
+  right: -2px;
+  width: 4px;
   -webkit-border-radius: 2px;
      -moz-border-radius: 2px;
           border-radius: 2px;
@@ -5483,10 +5504,10 @@ button {
 .workflow-step::after {
   content: "";
   position: absolute;
-  top: 100px;
-  right: 0;
-  width: 3px;
-  bottom: 0;
+  top: 115px;
+  right: -3px;
+  width: 4px;
+  bottom: 8px;
   -webkit-border-radius: 2px;
      -moz-border-radius: 2px;
           border-radius: 2px;
@@ -5529,7 +5550,12 @@ h3.workflow-step__header:hover::after {
   background-color: var(--red);
 }
 .workflow-step-definition {
+  margin-bottom: 5px;
   font-weight: 500;
+  line-height: 1.3;
+}
+.workflow-step-definition p {
+  line-height: 1.2;
 }
 .workflow-step-time {
   font-weight: 700;
