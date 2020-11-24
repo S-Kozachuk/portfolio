@@ -42,10 +42,7 @@
 }
 
 .contacts-content-connect {
-    display: flex;
-    justify-content: space-between;
-    width: 470px;
-    margin-bottom: 40px ;
+    margin-bottom: 40px;
 }
 
 .contacts-item-type {
@@ -56,18 +53,9 @@
         margin-bottom: 0;
     }
 
-}
-
-.contacts-item-value {
-    margin-bottom: 20px;
-    font-weight: 500;
-    color: #96969d;
-
-    &:last-child {
-        margin-bottom: 0;
-    }
-
     a {
+        margin-bottom: 20px;
+        font-weight: 500;
         color: #96969d;
 
         &:hover {
@@ -75,7 +63,12 @@
         }
     }
 
-} 
+    p {
+       display: inline-block;
+       color: red; 
+    }
+
+}
 
 /* Contact form */
 .contacts__form {
