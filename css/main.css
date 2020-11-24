@@ -5741,10 +5741,16 @@ textarea {
 .form-item .fake-placeholder.active {
   top: -15px;
   font-size: 16px;
-  color: #ed9626;
+  color: var(--mail);
 }
 .button-form {
   font-family: var(--fr);
+}
+.contact-form__success {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  font-size: 14px;
 }
 footer {
   background-color: #333333;

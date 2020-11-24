@@ -60,7 +60,7 @@ send_user_data_in_txt_file ($message);
 
 echo "<div class='contact-form__success'>
 		<h2>Заявка принята!<br>
-		Мы свяжемся с&nbsp;Вами в&nbsp;ближайшее время!
+		Я свяжусь с&nbsp;Вами в&nbsp;ближайшее время.
 		</h2>
 	  </div> ";
 
