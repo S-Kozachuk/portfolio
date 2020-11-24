@@ -5669,6 +5669,10 @@ p:nth-of-type(2) {
 .contacts-item-type:last-child {
   margin-bottom: 0;
 }
+.contacts-item-type span {
+  display: inline-block;
+  width: 195px;
+}
 .contacts-item-type a {
   margin-bottom: 20px;
   font-weight: 500;
@@ -5679,7 +5683,7 @@ p:nth-of-type(2) {
 }
 .contacts-item-type p {
   display: inline-block;
-  color: red;
+  color: #96969d;
 }
 /* Contact form */
 .contacts__form {
