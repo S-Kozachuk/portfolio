@@ -4651,6 +4651,8 @@
   --github-h: #6cc644;
   --vk-bg: #4d76a1;
   --vk-h: #3c7dcc;
+  --whatsapp: #43d854;
+  --whatsapp-h: #128c7e;
   --telegram: #039be5;
   --telegram-h: #006699;
   --facebook: #3b5998;
@@ -4825,23 +4827,13 @@ button {
   -moz-transition: .5s;
   transition: .5s;
 }
-.social__telegram {
-  color: var(--telegram);
-}
-.social__telegram:hover {
-  color: var(--telegram-h);
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
-}
 .social__vk {
   width: 52px;
   height: 52px;
   padding: 5px 7px;
   font-size: 32px;
   color: var(--white);
-  background-color: var(--vk-bg);
+  background-color: var(--text);
   -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
           border-radius: 50%;
@@ -4857,19 +4849,19 @@ button {
   -moz-transition: .5s;
   transition: .5s;
 }
-.social__facebook {
-  width: 52px;
-  height: 52px;
-  padding: 8px 17px;
-  font-size: 25px;
+.social__whatsapp {
+  width: 53px;
+  height: 53px;
+  padding: 0px 11px;
+  font-size: 36px;
   color: var(--white);
-  background-color: var(--facebook);
+  background-color: var(--text);
   -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
           border-radius: 50%;
 }
-.social__facebook:hover {
-  background-color: var(--facebook-h);
+.social__whatsapp:hover {
+  background-color: var(--whatsapp);
   -webkit-transition: .5s;
   -o-transition: .5s;
   -moz-transition: .5s;
