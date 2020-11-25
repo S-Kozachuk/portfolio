@@ -5761,12 +5761,14 @@ footer {
   line-height: 1.6;
   color: #777777;
 }
-.footer-description span {
-  text-decoration: underline;
+.footer-description a {
+  color: #777777;
+  border-bottom: 1px solid #777777;
   cursor: pointer;
 }
-.footer-description span:hover,
-.footer-description span :active {
+.footer-description a:hover,
+.footer-description a :active {
   color: #fff;
+  border-bottom: 1px solid #fff;
 }
 /*# sourceMappingURL=main.css.map */
