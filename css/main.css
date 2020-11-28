@@ -5041,7 +5041,7 @@ button {
   color: #000;
 }
 .header-social__item:last-child {
-  margin-right: -1px;
+  margin-right: 2px;
 }
 .fa-linkedin-in:hover {
   color: var(--linkedin);
