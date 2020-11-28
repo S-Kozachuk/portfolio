@@ -9,10 +9,27 @@
     overflow: hidden;
 }
 
+.fix-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.fix-menu.active {
+    background-image: url(../img/line-bg.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+    overflow: hidden;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.45);
+
+}
+
 .header-nav {
     display: flex;
-    padding-top: 73px;
-    margin-bottom: 147px;
+    min-height: 80px;
     max-width: 1400px;
     justify-content: space-between;
     align-items: center;
@@ -184,6 +201,7 @@
 }
 
 .header-content {
+    margin-top: 283px;
     display: flex;
     justify-content: space-between;
     position: relative;

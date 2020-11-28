@@ -4951,14 +4951,31 @@ button {
   background-repeat: repeat;
   overflow: hidden;
 }
+.fix-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+.fix-menu.active {
+  background-image: url(../img/line-bg.jpg);
+  -moz-background-size: auto;
+       background-size: auto;
+  background-position: center;
+  background-repeat: repeat;
+  overflow: hidden;
+  -webkit-box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.45);
+     -moz-box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.45);
+          box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.45);
+}
 .header-nav {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 73px;
-  margin-bottom: 147px;
+  min-height: 80px;
   max-width: 1400px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -5131,6 +5148,7 @@ button {
   border-color: var(--btn-gr-a);
 }
 .header-content {
+  margin-top: 283px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
