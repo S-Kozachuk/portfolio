@@ -89,3 +89,14 @@ $('#contacts-form').validate({
     // Чтобы по Submit больше ничего не выполнялось - делаем возврат false чтобы прервать цепчку срабатывания остальных функций
     return false;
 }
+
+// Back top button
+$('#backTop').hide();
+$(window).scroll( function () {
+    if($(this).scrollTop() > 600){
+        $('#backTop').fadeIn();
+    }
+    else{
+        $('#backTop').fadeOut();
+    }
+})

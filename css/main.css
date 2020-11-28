@@ -4926,6 +4926,20 @@ button {
 #page-nav li.active {
   background-color: var(--yellow);
 }
+#backTop a {
+  color: var(--text);
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 48px;
+}
+#backTop a:hover {
+  color: var(--yellow);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
+}
 .header {
   margin-left: auto;
   margin-right: auto;
