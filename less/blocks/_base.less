@@ -276,3 +276,28 @@ button {
 .left {
     margin-left: auto;
 }
+
+#page-nav {
+    position: fixed;
+    right: 50px;
+    top: 50%;
+    z-index: 100;
+}
+
+#page-nav li {
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: .5s;
+}
+
+#page-nav li a {
+    display: block;
+    height: 100%;
+}
+
+#page-nav li.active {
+    background-color: green;
+}

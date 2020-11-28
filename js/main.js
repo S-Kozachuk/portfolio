@@ -1,5 +1,17 @@
-// Projects filter
+// Nav page
+$('#page-nav').onePageNav({
+    currentClass: 'active',
+	changeHash: false,
+	scrollSpeed: 750,
+	scrollThreshold: 0.5,
+	filter: '',
+	easing: 'swing',
+	begin: function () { },
+	end: function () { },
+	scrollChange: function ($currentListItem) { }
+});
 
+// Projects filter
 let containerE1 = document.querySelector('#portfolio-projects');
 
 let mixer = mixitup(containerE1, {
@@ -9,7 +21,6 @@ let mixer = mixitup(containerE1, {
 });
 
 // Form placeholder
-
 const formInputs = document.querySelectorAll('.form-field');
 for (let item of formInputs){
     const thisPlaceholder = item.nextElementSibling;
@@ -26,7 +37,6 @@ for (let item of formInputs){
 }
 
 // Form validate
-
 $('#contacts-form').validate({
     rules: {
         email: {
@@ -57,7 +67,7 @@ $('#contacts-form').validate({
     }
 })
 
- // Функция AJAX запрса на сервер
+ // Функция AJAX запроса на сервер
 
  function ajaxFormSubmit() {
 
