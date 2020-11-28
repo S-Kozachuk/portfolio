@@ -5151,6 +5151,9 @@ button {
 .header-content__image img {
   margin-top: 26px;
   background-color: #d0dee3;
+  -webkit-border-radius: 18px;
+     -moz-border-radius: 18px;
+          border-radius: 18px;
 }
 .header-content__image {
   position: relative;
