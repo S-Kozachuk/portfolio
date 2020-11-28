@@ -4895,6 +4895,37 @@ button {
 .left {
   margin-left: auto;
 }
+#page-nav {
+  position: fixed;
+  right: 50px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+     -moz-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+       -o-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  z-index: 100;
+}
+#page-nav li {
+  width: 12px;
+  height: 12px;
+  background-color: var(--text);
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  margin-bottom: 15px;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
+}
+#page-nav li a {
+  display: block;
+  height: 100%;
+}
+#page-nav li.active {
+  background-color: var(--yellow);
+}
 .header {
   margin-left: auto;
   margin-right: auto;
