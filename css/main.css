@@ -4932,6 +4932,7 @@ button {
   bottom: 40px;
   right: 30px;
   font-size: 48px;
+  z-index: 2;
 }
 #backTop a:hover {
   color: var(--yellow);
@@ -5496,7 +5497,6 @@ button {
   padding-bottom: 45px;
   margin-bottom: 20px;
   width: 50%;
-  cursor: pointer;
 }
 .workflow-step:nth-child(3) {
   top: 15px;
