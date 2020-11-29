@@ -2,9 +2,14 @@ $(document).ready(function() {
 
     // Mobile menu animation
     const menuToggle = document.querySelector('.toggle-menu');
+    const mobMenu = document.querySelector('.header-menu');
+    const overlayE1 = document.querySelector('#overlay');
+    const bodyEl = document.body;
     menuToggle.addEventListener('click', function() {
         this.classList.toggle('active');
-        
+        mobMenu.classList.toggle('active');
+        overlayE1.classList.toggle('active');
+        bodyEl.classList.toggle('noscroll');   
     });
 
     // Nav page

@@ -277,6 +277,27 @@ button {
     margin-left: auto;
 }
 
+.noscroll {
+    overflow: hidden;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #616777;
+    z-index: -1;
+    opacity: 0;
+    transition: .5s;
+}
+
+#overlay.active {
+    opacity: 0.5;
+    z-index: 2;
+}
+
 #page-nav {
     position: fixed;
     right: 50px;

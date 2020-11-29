@@ -4895,6 +4895,27 @@ button {
 .left {
   margin-left: auto;
 }
+.noscroll {
+  overflow: hidden;
+}
+#overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #616777;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
+}
+#overlay.active {
+  opacity: 0.5;
+  z-index: 2;
+}
 #page-nav {
   position: fixed;
   right: 50px;
@@ -5001,6 +5022,10 @@ button {
 }
 .toggle-menu.active span {
   background-color: transparent;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  -moz-transition: 0s;
+  transition: 0s;
 }
 .toggle-menu.active span::before {
   bottom: 0;
@@ -5035,6 +5060,7 @@ button {
   -webkit-box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.45);
      -moz-box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.45);
           box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.45);
+  z-index: 4;
 }
 .header-nav {
   display: -webkit-box;
@@ -5054,13 +5080,14 @@ button {
      -moz-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 4;
 }
 .logo {
   margin-left: 7px;
   font-size: 42px;
   font-weight: 900;
   color: #000;
-  z-index: 2;
+  z-index: 4;
 }
 .logo:hover {
   -webkit-transition: 1.5s;
@@ -5077,20 +5104,20 @@ button {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 5;
+  z-index: 4;
   height: 100vh;
   width: 100%;
   max-width: 320px;
-  background-color: #dedede;
+  background-color: #fff;
   -webkit-transform: translateX(100%);
      -moz-transform: translateX(100%);
       -ms-transform: translateX(100%);
        -o-transform: translateX(100%);
           transform: translateX(100%);
-  -webkit-transition: 0s;
-  -o-transition: 0s;
-  -moz-transition: 0s;
-  transition: 0s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 @media (min-width: 1200px) {
   .header-menu {
