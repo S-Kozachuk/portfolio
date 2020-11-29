@@ -119,6 +119,7 @@
     width: 100%;
     max-width: 360px;
     background-color: #dedede;
+    display: none;
     
     @media (min-width: 768px) {
 
@@ -126,11 +127,17 @@
 
     @media (min-width: 1200px) {
         display: flex;
-        margin-left: 5px;
-        z-index: 1;
+        position: relative;
+        height: auto;
+        width: auto;
+        max-width: unset;
         background-color: transparent;
     }
     
+}
+
+.header-menu.active {
+    display: block;
 }
 
 .menu-item {
@@ -184,7 +191,20 @@
         border: 3px dotted var(--red);
     }
 
-}  
+}
+
+.mobile-contacts {
+    display: block;
+
+    @media (min-width: 1200px) {
+        display: none;
+    }
+
+}
+
+.mobile-contacts .header-social {
+    display: block;
+}    
 
 .header-social {
     display: none;

@@ -5081,6 +5081,7 @@ button {
   width: 100%;
   max-width: 360px;
   background-color: #dedede;
+  display: none;
 }
 @media (min-width: 1200px) {
   .header-menu {
@@ -5089,10 +5090,15 @@ button {
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 5px;
-    z-index: 1;
+    position: relative;
+    height: auto;
+    width: auto;
+    max-width: unset;
     background-color: transparent;
   }
+}
+.header-menu.active {
+  display: block;
 }
 .menu-item {
   display: block;
@@ -5137,6 +5143,17 @@ button {
 }
 .animate-border:focus {
   border: 3px dotted var(--red);
+}
+.mobile-contacts {
+  display: block;
+}
+@media (min-width: 1200px) {
+  .mobile-contacts {
+    display: none;
+  }
+}
+.mobile-contacts .header-social {
+  display: block;
 }
 .header-social {
   display: none;
