@@ -119,11 +119,8 @@
     width: 100%;
     max-width: 360px;
     background-color: #dedede;
-    display: none;
-    
-    @media (min-width: 768px) {
-
-    }
+    transform: translateX(100%);
+    transition: .5s;
 
     @media (min-width: 1200px) {
         display: flex;
@@ -132,12 +129,13 @@
         width: auto;
         max-width: unset;
         background-color: transparent;
+        transition: 0s;
     }
     
 }
 
 .header-menu.active {
-    display: block;
+    transform: translateX(0%);
 }
 
 .menu-item {

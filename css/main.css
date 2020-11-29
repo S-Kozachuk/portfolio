@@ -5081,7 +5081,15 @@ button {
   width: 100%;
   max-width: 360px;
   background-color: #dedede;
-  display: none;
+  -webkit-transform: translateX(100%);
+     -moz-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+       -o-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 @media (min-width: 1200px) {
   .header-menu {
@@ -5095,10 +5103,18 @@ button {
     width: auto;
     max-width: unset;
     background-color: transparent;
+    -webkit-transition: 0s;
+    -o-transition: 0s;
+    -moz-transition: 0s;
+    transition: 0s;
   }
 }
 .header-menu.active {
-  display: block;
+  -webkit-transform: translateX(0%);
+     -moz-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+       -o-transform: translateX(0%);
+          transform: translateX(0%);
 }
 .menu-item {
   display: block;
