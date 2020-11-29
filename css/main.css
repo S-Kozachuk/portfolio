@@ -4958,16 +4958,17 @@ button {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  height: 150px;
-  width: 150px;
+  height: 40px;
+  width: 27px;
   cursor: pointer;
+  z-index: 6;
 }
 .toggle-menu span {
   position: relative;
   margin: auto;
   width: 100%;
-  height: 10px;
-  background-color: var(--yellow);
+  height: 5px;
+  background-color: var(--text);
   -webkit-transition: .5s;
   -o-transition: .5s;
   -moz-transition: .5s;
@@ -4977,8 +4978,8 @@ button {
 .toggle-menu span:after {
   content: '';
   width: 100%;
-  height: 10px;
-  background-color: var(--yellow);
+  height: 5px;
+  background-color: var(--text);
   position: absolute;
   left: 0;
   -webkit-transition: .5s;
@@ -4987,10 +4988,10 @@ button {
   transition: .5s;
 }
 .toggle-menu span::before {
-  bottom: -30px;
+  bottom: -10px;
 }
 .toggle-menu span::after {
-  top: -30px;
+  top: -10px;
 }
 @media (min-width: 1200px) {
   .toggle-menu {
@@ -5072,17 +5073,41 @@ button {
           transform: rotate(360deg);
 }
 .header-menu {
-  margin-left: 5px;
-  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  height: 100vh;
+  width: 100%;
+  max-width: 360px;
+  background-color: #dedede;
+}
+@media (min-width: 1200px) {
+  .header-menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    z-index: 1;
+    background-color: transparent;
+  }
 }
 .menu-item {
-  margin-right: 73px;
-  color: #000;
-  font-size: 20px;
-  font-weight: 700;
+  display: block;
+  padding: 5px 0;
 }
-.menu-item:last-child {
-  margin-right: 3px;
+@media (min-width: 1200px) {
+  .menu-item {
+    margin-right: 73px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .menu-item:last-child {
+    margin-right: 3px;
+  }
 }
 .animate-border {
   position: relative;
@@ -5114,8 +5139,18 @@ button {
   border: 3px dotted var(--red);
 }
 .header-social {
-  margin-right: 0px;
-  font-size: 31px;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .header-social {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 0px;
+    font-size: 31px;
+  }
 }
 .header-social__item {
   margin-right: 10px;
