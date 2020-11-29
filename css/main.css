@@ -4958,8 +4958,9 @@ button {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 20px;
   height: 40px;
-  width: 27px;
+  width: 40px;
   cursor: pointer;
   z-index: 6;
 }
@@ -5079,17 +5080,17 @@ button {
   z-index: 5;
   height: 100vh;
   width: 100%;
-  max-width: 360px;
+  max-width: 320px;
   background-color: #dedede;
   -webkit-transform: translateX(100%);
      -moz-transform: translateX(100%);
       -ms-transform: translateX(100%);
        -o-transform: translateX(100%);
           transform: translateX(100%);
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  -moz-transition: 0s;
+  transition: 0s;
 }
 @media (min-width: 1200px) {
   .header-menu {
@@ -5107,6 +5108,11 @@ button {
     -o-transition: 0s;
     -moz-transition: 0s;
     transition: 0s;
+    -webkit-transform: translateX(0%);
+       -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+         -o-transform: translateX(0%);
+            transform: translateX(0%);
   }
 }
 .header-menu.active {
@@ -5115,6 +5121,10 @@ button {
       -ms-transform: translateX(0%);
        -o-transform: translateX(0%);
           transform: translateX(0%);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
 }
 .menu-item {
   display: block;
