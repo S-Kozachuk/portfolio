@@ -5,12 +5,22 @@ $(document).ready(function() {
     const mobMenu = document.querySelector('.header-menu');
     const overlayE1 = document.querySelector('#overlay');
     const bodyEl = document.body;
+
+    // Click oт the hamburger icon
     menuToggle.addEventListener('click', function() {
         this.classList.toggle('active');
         mobMenu.classList.toggle('active');
         overlayE1.classList.toggle('active');
         bodyEl.classList.toggle('noscroll');   
     });
+
+    // Click on the mobile menu
+    mobMenu.addEventListener('click', function(){
+        this.classList.remove('active');
+        menuToggle.classList.remove('active');
+        overlayE1.classList.remove('active');
+        bodyEl.classList.remove('noscroll');
+    })
 
     // Nav page
     $('#page-nav').onePageNav({
