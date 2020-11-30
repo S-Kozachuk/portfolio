@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
     // Mobile menu animation
     const menuToggle = document.querySelector('.toggle-menu');
@@ -7,7 +7,7 @@ $(document).ready(function() {
     const bodyEl = document.body;
 
     // Click oт the hamburger icon
-    menuToggle.addEventListener('click', function() {
+    menuToggle.addEventListener('click', function () {
         this.classList.toggle('active');
         mobMenu.classList.toggle('active');
         overlayE1.classList.toggle('active');
@@ -15,7 +15,7 @@ $(document).ready(function() {
     });
 
     // Click on the mobile menu
-    mobMenu.addEventListener('click', function(){
+    mobMenu.addEventListener('click', function () {
         this.classList.remove('active');
         menuToggle.classList.remove('active');
         overlayE1.classList.remove('active');
@@ -23,10 +23,18 @@ $(document).ready(function() {
     })
 
     // Mobile menu closing if screen resizing
-    window.addEventListener('resize', function(){
+    window.addEventListener('resize', function () {
         mobMenu.classList.remove('active');
         menuToggle.classList.remove('active');
         overlayE1.classList.remove('active');
+        bodyEl.classList.remove('noscroll');
+    })
+
+    // Mobile menu closing if click to overlay
+    overlayE1.addEventListener('click', function () {
+        this.classList.remove('active');
+        menuToggle.classList.remove('active');
+        mobMenu.classList.remove('active');
         bodyEl.classList.remove('noscroll');
     })
 
