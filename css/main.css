@@ -4917,6 +4917,7 @@ button {
   z-index: 2;
 }
 #page-nav {
+  display: none;
   position: fixed;
   right: 50px;
   top: 50%;
@@ -4926,6 +4927,11 @@ button {
        -o-transform: translate(0, -50%);
           transform: translate(0, -50%);
   z-index: 100;
+}
+@media (min-width: 1200px) {
+  #page-nav {
+    display: block;
+  }
 }
 #page-nav li {
   width: 12px;

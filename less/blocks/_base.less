@@ -299,11 +299,17 @@ button {
 }
 
 #page-nav {
+    display: none;
     position: fixed;
     right: 50px;
     top: 50%;
     transform: translate(0, -50%);
     z-index: 100;
+
+    @media (min-width: 1200px) {
+    display: block;
+    }
+
 }
 
 #page-nav li {
