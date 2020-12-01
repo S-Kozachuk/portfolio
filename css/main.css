@@ -5883,11 +5883,13 @@ p:nth-of-type(2) {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-     -moz-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   z-index: 1;
 }
@@ -5905,6 +5907,22 @@ p:nth-of-type(2) {
           transform: translate(-78%, 0%);
   z-index: -1;
   background-image: url("../img/contacts/contacts-bg-dots.png");
+}
+@media (min-width: 1200px) {
+  .contacts-wrapper {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 .contacts-content {
   margin-top: 25px;
@@ -5947,11 +5965,15 @@ p:nth-of-type(2) {
   margin-right: 20px;
   padding-top: 20px;
   padding-bottom: 25px;
-  width: 512px;
   background-color: #fff;
   -webkit-box-shadow: 0px 28px 100px 0px #c2dbeb;
      -moz-box-shadow: 0px 28px 100px 0px #c2dbeb;
           box-shadow: 0px 28px 100px 0px #c2dbeb;
+}
+@media (min-width: 1200px) {
+  .contacts__form {
+    width: 512px;
+  }
 }
 .formgroup {
   position: relative;
