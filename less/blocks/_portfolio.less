@@ -4,9 +4,14 @@
 }
 
 .portfolio-nav {
-    display: flex;
+    display: none;
     margin-bottom: 25px;
     cursor: pointer;
+
+    @media (min-width: 1200px) {
+        display: flex;
+    }
+
 }
 
 .portfolio-nav__item {
@@ -37,9 +42,15 @@
 
 .portfolio-projects__wrapper {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     flex-wrap: wrap;
     position: relative;
+
+    @media (min-width: 1200px) {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
 }
 
 .portfolio-projects__item {
