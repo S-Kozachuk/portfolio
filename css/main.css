@@ -5487,6 +5487,7 @@ button {
 .portfolio {
   padding: 120px 0 100px;
   background-color: #f4f8f9;
+  display: none;
 }
 .portfolio-nav {
   display: none;
@@ -5720,6 +5721,7 @@ button {
        background-size: auto;
   background-position: center;
   background-repeat: repeat-y;
+  display: none;
 }
 .workflow-wrapper {
   max-width: 1005px;
