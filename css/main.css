@@ -5066,16 +5066,21 @@ button {
   z-index: 3;
 }
 .fix-menu.active {
-  background-image: url(../img/line-bg.jpg);
-  -moz-background-size: auto;
-       background-size: auto;
-  background-position: center;
-  background-repeat: repeat;
+  background-color: #fff;
   overflow: hidden;
   -webkit-box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.45);
      -moz-box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.45);
           box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.45);
   z-index: 4;
+}
+@media (min-width: 1200px) {
+  .fix-menu.active {
+    background-image: url(../img/line-bg.jpg);
+    -moz-background-size: auto;
+         background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+  }
 }
 .header-nav {
   display: -webkit-box;
