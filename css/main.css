@@ -4994,7 +4994,6 @@ button {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 20px;
   height: 40px;
   width: 40px;
   cursor: pointer;
@@ -5101,9 +5100,10 @@ button {
       -ms-flex-align: center;
           align-items: center;
   z-index: 4;
+  padding-left: 18px;
+  padding-right: 34px;
 }
 .logo {
-  margin-left: 7px;
   font-size: 42px;
   font-weight: 900;
   color: #000;
@@ -5119,6 +5119,11 @@ button {
       -ms-transform: rotate(360deg);
        -o-transform: rotate(360deg);
           transform: rotate(360deg);
+}
+@media (min-width: 1200px) {
+  .logo {
+    margin-left: 7px;
+  }
 }
 .header-menu {
   position: fixed;
@@ -5344,17 +5349,40 @@ button {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-     -moz-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: column-reverse;
+     -moz-box-orient: vertical;
+     -moz-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   position: relative;
   z-index: 2;
 }
+@media (min-width: 1200px) {
+  .header-content {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 .header-content__item {
-  width: 43%;
-  max-width: 488px;
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .header-content__item {
+    width: 43%;
+    max-width: 488px;
+  }
 }
 .header-content__image img {
   margin-top: 26px;
@@ -5366,8 +5394,7 @@ button {
 .header-content__image {
   position: relative;
   z-index: 1;
-  width: 40%;
-  max-width: 457px;
+  width: 100%;
 }
 .header-content__image::after {
   content: "";
@@ -5384,6 +5411,12 @@ button {
   top: 30%;
   left: 30%;
   opacity: 0.5;
+}
+@media (min-width: 1200px) {
+  .header-content__image {
+    width: 40%;
+    max-width: 457px;
+  }
 }
 .header-bg__image {
   margin-bottom: 74px;
