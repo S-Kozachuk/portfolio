@@ -5100,9 +5100,8 @@ button {
       -ms-flex-align: center;
           align-items: center;
   z-index: 4;
-  padding-top: 20px;
-  padding-left: 18px;
-  padding-right: 34px;
+  padding-left: 20px;
+  padding-right: 39px;
 }
 @media (min-width: 1200px) {
   .header-nav {
@@ -5349,7 +5348,7 @@ button {
   border-color: var(--btn-gr-a);
 }
 .header-content {
-  margin-top: 80px;
+  margin-top: 70px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
