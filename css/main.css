@@ -5100,8 +5100,14 @@ button {
       -ms-flex-align: center;
           align-items: center;
   z-index: 4;
+  padding-top: 20px;
   padding-left: 18px;
   padding-right: 34px;
+}
+@media (min-width: 1200px) {
+  .header-nav {
+    padding-top: 0;
+  }
 }
 .logo {
   font-size: 42px;
@@ -5343,7 +5349,7 @@ button {
   border-color: var(--btn-gr-a);
 }
 .header-content {
-  margin-top: 218px;
+  margin-top: 80px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -5361,6 +5367,7 @@ button {
 }
 @media (min-width: 1200px) {
   .header-content {
+    margin-top: 218px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
        -moz-box-pack: justify;
@@ -5394,28 +5401,30 @@ button {
 .header-content__image {
   position: relative;
   z-index: 1;
+  padding: 0 15px;
   width: 100%;
-}
-.header-content__image::after {
-  content: "";
-  display: block;
-  position: absolute;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(244, 248, 249, 0)), to(#f4f8f9));
-  background-image: -webkit-linear-gradient(left, rgba(244, 248, 249, 0) 0%, #f4f8f9 100%);
-  background-image: -moz-linear-gradient(left, rgba(244, 248, 249, 0) 0%, #f4f8f9 100%);
-  background-image: -o-linear-gradient(left, rgba(244, 248, 249, 0) 0%, #f4f8f9 100%);
-  background-image: linear-gradient(90deg, rgba(244, 248, 249, 0) 0%, #f4f8f9 100%);
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  top: 30%;
-  left: 30%;
-  opacity: 0.5;
 }
 @media (min-width: 1200px) {
   .header-content__image {
     width: 40%;
+    padding: 0;
     max-width: 457px;
+  }
+  .header-content__image::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(244, 248, 249, 0)), to(#f4f8f9));
+    background-image: -webkit-linear-gradient(left, rgba(244, 248, 249, 0) 0%, #f4f8f9 100%);
+    background-image: -moz-linear-gradient(left, rgba(244, 248, 249, 0) 0%, #f4f8f9 100%);
+    background-image: -o-linear-gradient(left, rgba(244, 248, 249, 0) 0%, #f4f8f9 100%);
+    background-image: linear-gradient(90deg, rgba(244, 248, 249, 0) 0%, #f4f8f9 100%);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 30%;
+    left: 30%;
+    opacity: 0.5;
   }
 }
 .header-bg__image {
