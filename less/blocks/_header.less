@@ -150,6 +150,14 @@
     
 }
 
+.header-menu .logo {
+
+    @media (min-width: 1200px) {
+        display: none;
+    }
+
+}
+
 .header-menu.active {
     transform: translateX(0%);
     transition: .5s;
@@ -158,6 +166,11 @@
 .menu-item {
     display: block;
     padding: 5px 0;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.1;
+    border-bottom: 2px solid #000;
 
     @media (min-width: 768px) {
 
@@ -165,9 +178,7 @@
 
     @media (min-width: 1200px) {
         margin-right: 73px;
-        color: #000;
-        font-size: 20px;
-        font-weight: 700;
+        border-bottom: 0;
 
         &:last-child {
             margin-right: 3px;
@@ -223,6 +234,7 @@
 
 .header-social {
     display: none;
+    font-size: 50px;
 
     @media (min-width: 768px) {
         

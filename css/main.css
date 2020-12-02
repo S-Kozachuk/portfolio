@@ -5172,6 +5172,11 @@ button {
             transform: translateX(0%);
   }
 }
+@media (min-width: 1200px) {
+  .header-menu .logo {
+    display: none;
+  }
+}
 .header-menu.active {
   -webkit-transform: translateX(0%);
      -moz-transform: translateX(0%);
@@ -5186,13 +5191,16 @@ button {
 .menu-item {
   display: block;
   padding: 5px 0;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  border-bottom: 2px solid #000;
 }
 @media (min-width: 1200px) {
   .menu-item {
     margin-right: 73px;
-    color: #000;
-    font-size: 20px;
-    font-weight: 700;
+    border-bottom: 0;
   }
   .menu-item:last-child {
     margin-right: 3px;
@@ -5240,6 +5248,7 @@ button {
 }
 .header-social {
   display: none;
+  font-size: 50px;
 }
 @media (min-width: 1200px) {
   .header-social {
