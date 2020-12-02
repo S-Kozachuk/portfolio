@@ -4785,9 +4785,9 @@ button {
   background-color: transparent;
 }
 .main-link {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
-  color: #000;
+  color: var(--mail);
   border-bottom: 1px solid var(--mail);
 }
 .main-link:hover {
@@ -4801,6 +4801,16 @@ button {
 .main-link:active {
   color: var(--mail-a);
   border-color: var(--mail-a);
+}
+@media (min-width: 1200px) {
+  .main-link {
+    font-size: 24px;
+    border-bottom: 1px solid var(--mail);
+  }
+}
+.mobile-contacts .main-link {
+  color: var(--telegram);
+  border-bottom: 1px solid var(--telegram);
 }
 .social-contacts {
   margin-bottom: 10px;
