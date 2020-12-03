@@ -5214,6 +5214,9 @@ button {
 .menu-item:last-child {
   margin-bottom: 35px;
 }
+.menu-item:nth-of-type(1) {
+  display: none;
+}
 @media (min-width: 1200px) {
   .menu-item {
     margin-right: 73px;
@@ -5224,6 +5227,12 @@ button {
   }
   .menu-item:last-child {
     margin-right: 3px;
+  }
+  .menu-item:nth-of-type(1) {
+    display: block;
+  }
+  .menu-item:nth-of-type(2) {
+    display: none;
   }
 }
 .animate-border {
