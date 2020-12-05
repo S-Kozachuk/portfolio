@@ -4898,8 +4898,20 @@ button {
   transition: .5s;
 }
 .container {
-  max-width: 1140px;
+  max-width: 320px;
+  padding: 0 15px;
   margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 708px;
+    padding: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
 }
 .container--m {
   max-width: 1400px;
