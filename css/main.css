@@ -5435,9 +5435,8 @@ button {
   position: relative;
   z-index: 2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .header-content {
-    margin-top: 218px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
        -moz-box-pack: justify;
@@ -5450,6 +5449,11 @@ button {
        -moz-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+}
+@media (min-width: 1200px) {
+  .header-content {
+    margin-top: 218px;
   }
 }
 .header-content__item {
