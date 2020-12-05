@@ -5368,9 +5368,14 @@ button {
 }
 .header-content__description {
   margin-bottom: 32px;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.6;
+}
+@media (min-width: 1200px) {
+  .header-content__description {
+    font-size: 24px;
+  }
 }
 .button-main {
   display: inline-block;
