@@ -5421,6 +5421,22 @@ button {
 .button-main:active {
   background-color: var(--btn-yl-a);
 }
+.header-content__item .button-main {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .header-content__item .button-main {
+    display: inline-block;
+  }
+}
+.header-content__item .button-contacts {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .header-content__item .button-contacts {
+    display: inline-block;
+  }
+}
 .button-contacts {
   display: inline-block;
   height: 64px;
