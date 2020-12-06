@@ -137,8 +137,7 @@
     z-index: 4;
     padding: 0 30px;
     height: 100vh;
-    width: 100%;
-    //max-width: 320px;
+    width: 320px;
     background-color: #fff;
     transform: translateX(100%);
     transition: .5s;
@@ -513,8 +512,13 @@
 }
 
 .skills {
+    padding-top: 100px;
+
+    @media (min-width: 1200px) {
     padding-top: 70px;
     margin-top: -70px;
+    }
+
 }
 
 .header-content-skills {
