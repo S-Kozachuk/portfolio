@@ -490,9 +490,19 @@
     margin-top: -30px;
     width: 100%;
     z-index: 1;
+    transform: scale(1.75);
+
+    @media (min-width: 425px) {
+        transform: scale(1.5);
+    }
+
+    @media (min-width: 576px) {
+        transform: scale(1.2);
+    }
 
     @media (min-width: 768px) {
         margin-top: -130px;
+        transform: scale(1);
     }        
 
 }

@@ -5580,10 +5580,38 @@ button {
   margin-top: -30px;
   width: 100%;
   z-index: 1;
+  -webkit-transform: scale(1.75);
+     -moz-transform: scale(1.75);
+      -ms-transform: scale(1.75);
+       -o-transform: scale(1.75);
+          transform: scale(1.75);
+}
+@media (min-width: 425px) {
+  .header-bg__image {
+    -webkit-transform: scale(1.5);
+       -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+         -o-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+@media (min-width: 576px) {
+  .header-bg__image {
+    -webkit-transform: scale(1.2);
+       -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+         -o-transform: scale(1.2);
+            transform: scale(1.2);
+  }
 }
 @media (min-width: 768px) {
   .header-bg__image {
     margin-top: -130px;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
   }
 }
 .skills {
