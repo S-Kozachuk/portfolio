@@ -4729,6 +4729,11 @@ p::selection {
 .title-1 .bottom-line:after {
   bottom: 5px;
 }
+@media (min-width: 768px) {
+  .title-1 span {
+    font-size: 52px;
+  }
+}
 @media (min-width: 1200px) {
   .title-1 span {
     font-size: 90px;
@@ -5503,7 +5508,12 @@ button {
 }
 .header-content__item {
   margin-top: 60px;
-  width: 100%;
+  width: 83%;
+}
+@media (min-width: 768px) {
+  .header-content__item {
+    width: 48%;
+  }
 }
 @media (min-width: 1200px) {
   .header-content__item {
@@ -5514,16 +5524,27 @@ button {
   }
 }
 .header-content__image img {
-  margin-top: 26px;
+  margin-top: 58px;
   background-color: #d0dee3;
   -webkit-border-radius: 18px;
      -moz-border-radius: 18px;
           border-radius: 18px;
 }
+@media (min-width: 1200px) {
+  .header-content__image img {
+    margin-top: 23px;
+  }
+}
 .header-content__image {
   position: relative;
   z-index: 1;
   width: 100%;
+}
+@media (min-width: 768px) {
+  .header-content__image {
+    width: 45%;
+    padding-right: 22px;
+  }
 }
 @media (min-width: 1200px) {
   .header-content__image {

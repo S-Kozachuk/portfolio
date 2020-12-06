@@ -420,7 +420,11 @@
 
 .header-content__item {
     margin-top: 60px;
-    width: 100%;
+    width: 83%;
+    
+    @media (min-width: 768px) {
+        width: 48%;
+    }
 
     @media (min-width: 1200px) {
         margin: 0;
@@ -432,15 +436,24 @@
 }
 
 .header-content__image img {
-    margin-top: 26px;
+    margin-top: 58px;
     background-color: #d0dee3;
     border-radius: 18px;
+
+    @media (min-width: 1200px) {
+        margin-top: 23px;
+    }
 }
 
 .header-content__image {
     position: relative;
     z-index: 1;
     width: 100%;
+
+    @media (min-width: 768px) {
+        width: 45%;
+        padding-right: 22px;
+    }
 
     @media (min-width: 1200px) {
         width: 40%;
