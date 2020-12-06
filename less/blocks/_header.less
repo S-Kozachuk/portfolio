@@ -453,12 +453,6 @@
     @media (min-width: 768px) {
         width: 45%;
         padding-right: 22px;
-    }
-
-    @media (min-width: 1200px) {
-        width: 40%;
-        padding: 0;
-        max-width: 457px;
 
         &::after {
             content: "";
@@ -468,9 +462,21 @@
             width: 100%;
             height: 100%;
             z-index: -1;
+            top: 20%;
+            left: 20%;
+            opacity: 0.5;
+        }
+
+    }
+
+    @media (min-width: 1200px) {
+        width: 40%;
+        padding: 0;
+        max-width: 457px;
+
+        &::after {
             top: 30%;
             left: 30%;
-            opacity: 0.5;
         }
 
     }
