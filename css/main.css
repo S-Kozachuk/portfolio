@@ -4964,13 +4964,14 @@ button {
   overflow: hidden;
 }
 #overlay {
+  display: none;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: #616777;
-  z-index: -1;
+  z-index: 3;
   opacity: 0;
   -webkit-transition: .5s;
   -o-transition: .5s;
@@ -4979,7 +4980,7 @@ button {
 }
 #overlay.active {
   opacity: 0.5;
-  z-index: 2;
+  display: block;
 }
 #page-nav {
   display: none;
@@ -5178,7 +5179,7 @@ button {
   font-size: 42px;
   font-weight: 900;
   color: #000;
-  z-index: 4;
+  z-index: 2;
 }
 @media (min-width: 1200px) {
   .logo {
