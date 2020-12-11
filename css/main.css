@@ -5715,13 +5715,15 @@ button {
     padding-left: 30px;
   }
 }
-.header-content-contacts {
-  margin-right: 38px;
-  width: 28%;
-  max-width: 320px;
-}
-.header-content-contacts h3 {
-  margin-bottom: 18px;
+@media (min-width: 1200px) {
+  .header-content-contacts {
+    margin-right: 38px;
+    width: 28%;
+    max-width: 320px;
+  }
+  .header-content-contacts h3 {
+    margin-bottom: 18px;
+  }
 }
 .portfolio {
   padding: 120px 0 100px;
