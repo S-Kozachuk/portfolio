@@ -534,8 +534,9 @@
     flex-direction: column;
 
     @media (min-width: 1200px) {
-    justify-content: space-between;
-    margin-bottom: 200px;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 200px;
     }
 
 }
@@ -562,9 +563,13 @@
 
 .header-skills__list {
     position: relative;
-    font-size: 24px;
-    font-weight: 400;
     margin-bottom: 41px;
+    font-size: 18px;
+    font-weight: 400;
+
+    @media (min-width: 1200px) {
+        font-size: 24px;   
+    }
 }
 
 .header-skills__list li {
@@ -597,7 +602,8 @@
 }
 
 .header-content-contacts {
-        @media (min-width: 1200px) {   
+        
+    @media (min-width: 1200px) {   
         margin-right: 38px;
         width: 28%;
         max-width: 320px;

@@ -5665,6 +5665,13 @@ button {
 }
 @media (min-width: 1200px) {
   .header-content-skills {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
        -moz-box-pack: justify;
@@ -5688,9 +5695,14 @@ button {
 }
 .header-skills__list {
   position: relative;
-  font-size: 24px;
-  font-weight: 400;
   margin-bottom: 41px;
+  font-size: 18px;
+  font-weight: 400;
+}
+@media (min-width: 1200px) {
+  .header-skills__list {
+    font-size: 24px;
+  }
 }
 .header-skills__list li {
   margin-bottom: 3px;
