@@ -5412,29 +5412,34 @@ button {
   }
 }
 .button-main {
-  display: inline-block;
-  margin-right: 15px;
-  padding-left: 44px;
-  padding-right: 40px;
-  height: 62px;
-  line-height: 60px;
-  -webkit-border-radius: 50px;
-     -moz-border-radius: 50px;
-          border-radius: 50px;
-  font-size: 22px;
-  font-weight: 700;
-  color: #000;
-  background-color: var(--yellow);
+  display: none;
 }
-.button-main:hover {
-  background-color: var(--btn-yl-h);
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
-}
-.button-main:active {
-  background-color: var(--btn-yl-a);
+@media (min-width: 1200px) {
+  .button-main {
+    display: inline-block;
+    margin-right: 15px;
+    padding-left: 44px;
+    padding-right: 40px;
+    height: 62px;
+    line-height: 60px;
+    -webkit-border-radius: 50px;
+       -moz-border-radius: 50px;
+            border-radius: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    background-color: var(--yellow);
+  }
+  .button-main:hover {
+    background-color: var(--btn-yl-h);
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    -moz-transition: .5s;
+    transition: .5s;
+  }
+  .button-main:active {
+    background-color: var(--btn-yl-a);
+  }
 }
 .header-content__item .button-main {
   display: none;
@@ -5694,14 +5699,21 @@ button {
   margin-bottom: 0;
 }
 .header-skills__list > li::before {
-  content: "—";
-  display: block;
-  position: relative;
-  top: -2px;
-  height: 0;
+  display: none;
 }
-.header-skills__list > li > p {
-  padding-left: 30px;
+@media (min-width: 1200px) {
+  .header-skills__list > li::before {
+    content: "—";
+    display: block;
+    position: relative;
+    top: -2px;
+    height: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .header-skills__list > li > p {
+    padding-left: 30px;
+  }
 }
 .header-content-contacts {
   margin-right: 38px;
