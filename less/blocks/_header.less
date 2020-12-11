@@ -526,17 +526,28 @@
 
 .header-content-skills {
     display: flex;
+    flex-direction: column;
+
+    @media (min-width: 1200px) {
     justify-content: space-between;
     margin-bottom: 200px;
+    }
+
 }
 
 .header-skills-item {
+    
+    
+    @media (min-width: 1200px) {
     width: 53%;
     max-width: 605px;
 
-    h3 {
-        margin-bottom: 24px;
+        h3 {
+            margin-bottom: 24px;
+        }
+        
     }
+
 }
 
 .header-social-contacts {
