@@ -4764,6 +4764,7 @@ p::selection {
   }
 }
 .title-3 {
+  margin-bottom: 30px;
   font-size: 30px;
   font-weight: 800;
 }
@@ -5641,7 +5642,7 @@ button {
   }
 }
 .skills {
-  padding-top: 100px;
+  padding-top: 70px;
 }
 @media (min-width: 1200px) {
   .skills {
@@ -5695,7 +5696,7 @@ button {
 }
 .header-skills__list {
   position: relative;
-  margin-bottom: 41px;
+  margin-bottom: 45px;
   font-size: 18px;
   font-weight: 400;
 }
@@ -5705,10 +5706,15 @@ button {
   }
 }
 .header-skills__list li {
-  margin-bottom: 3px;
+  margin-bottom: 20px;
 }
 .header-skills__list li:last-child {
   margin-bottom: 0;
+}
+@media (min-width: 1200px) {
+  .header-skills__list li {
+    margin-bottom: 3px;
+  }
 }
 .header-skills__list > li::before {
   display: none;
