@@ -594,9 +594,17 @@
 }
 
 .header-skills__list > li >p {
+    &::first-letter {
+        text-transform: capitalize;
+    }
     
     @media (min-width: 1200px) {
         padding-left: 30px;
+
+        &::first-letter {
+            text-transform: none;
+        }
+
     }
 
 }
