@@ -5643,6 +5643,7 @@ button {
 }
 .skills {
   padding-top: 77px;
+  padding-bottom: 97px;
 }
 @media (min-width: 1200px) {
   .skills {
@@ -5754,7 +5755,6 @@ button {
 .portfolio {
   padding: 120px 0 100px;
   background-color: #f4f8f9;
-  display: none;
 }
 .portfolio-nav {
   display: none;
