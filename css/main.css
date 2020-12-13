@@ -6128,6 +6128,18 @@ button {
 .workflow-step:nth-child(odd):first-child {
   padding-left: 55px;
 }
+.workflow-step:nth-child(odd) .workflow-step-item {
+  position: relative;
+  right: auto;
+  left: 74px;
+  font-size: 18px;
+}
+@media (min-width: 1200px) {
+  .workflow-step:nth-child(odd) .workflow-step-item {
+    right: 0;
+    left: 0;
+  }
+}
 .workflow-step:nth-child(odd) .workflow-step__image {
   top: 2px;
   left: auto;
@@ -6160,6 +6172,12 @@ button {
   font-size: 18px;
   right: 72px;
   left: auto;
+}
+@media (min-width: 1200px) {
+  .workflow-step:nth-child(even) .workflow-step-item {
+    right: 0;
+    left: 0;
+  }
 }
 .workflow-step:nth-child(even) .workflow-step__image {
   top: 22px;
