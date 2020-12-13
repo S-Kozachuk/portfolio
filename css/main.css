@@ -6169,6 +6169,7 @@ button {
           border-radius: 2px;
   background-color: #dfedf4;
   z-index: 1;
+  display: none;
 }
 .workflow-step::after {
   content: "";
