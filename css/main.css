@@ -6088,8 +6088,13 @@ button {
 }
 .workflow__header {
   margin-top: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   position: relative;
+}
+@media (min-width: 1200px) {
+  .workflow__header {
+    margin-bottom: 150px;
+  }
 }
 .workflow__header .title-2 > span {
   font-size: 38px;
