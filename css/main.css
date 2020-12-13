@@ -5732,6 +5732,7 @@ button {
 }
 @media (min-width: 1200px) {
   .header-skills__list {
+    margin-bottom: 40px;
     font-size: 24px;
   }
 }
