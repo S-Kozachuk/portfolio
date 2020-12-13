@@ -6158,7 +6158,12 @@ button {
 .workflow-step:nth-child(even) .workflow-step__image {
   top: 22px;
   right: 0;
-  left: -35px;
+  left: -125px;
+}
+@media (min-width: 1200px) {
+  .workflow-step:nth-child(even) .workflow-step__image {
+    left: -35px;
+  }
 }
 .workflow-step:nth-child(even)::after {
   left: 0;
