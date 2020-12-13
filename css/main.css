@@ -5771,9 +5771,9 @@ button {
 }
 @media (min-width: 768px) {
   .header-content-contacts {
-    -webkit-flex-basis: 56%;
-        -ms-flex-preferred-size: 56%;
-            flex-basis: 56%;
+    -webkit-flex-basis: 36%;
+        -ms-flex-preferred-size: 36%;
+            flex-basis: 36%;
   }
 }
 @media (min-width: 1200px) {
@@ -5862,7 +5862,6 @@ button {
   }
 }
 .portfolio-projects__item {
-  width: 360px;
   margin-bottom: 60px;
   cursor: pointer;
 }
@@ -5871,6 +5870,11 @@ button {
 }
 .portfolio-projects__item:nth-child(4) {
   margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .portfolio-projects__item {
+    width: 360px;
+  }
 }
 @media (min-width: 1200px) {
   .portfolio-projects__item {

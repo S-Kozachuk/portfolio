@@ -54,7 +54,6 @@
 }
 
 .portfolio-projects__item {
-    width: 360px;
     margin-bottom: 60px;
     cursor: pointer;
 
@@ -64,6 +63,10 @@
 
     &:nth-child(4) {
         margin-bottom: 0;
+    }
+
+    @media (min-width: 768px) {
+        width: 360px;
     }
 
     @media (min-width: 1200px) {
