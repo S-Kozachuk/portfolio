@@ -6080,7 +6080,6 @@ button {
        background-size: auto;
   background-position: center;
   background-repeat: repeat-y;
-  display: none;
 }
 .workflow-wrapper {
   max-width: 1005px;
@@ -6091,6 +6090,12 @@ button {
   margin-top: 150px;
   margin-bottom: 150px;
   position: relative;
+}
+.workflow__header .title-2 > span {
+  font-size: 38px;
+}
+.workflow__header .title-2 > span::after {
+  bottom: 5px;
 }
 .workflow-step {
   display: -webkit-box;
