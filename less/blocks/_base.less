@@ -147,6 +147,10 @@ p::selection {
     font-size: 30px;
     font-weight: 800;
 
+    @media (min-width: 768px) {
+        font-size: 32px;
+    }
+
     @media (min-width: 1200px) {
         font-size: 40px;
     }
@@ -218,20 +222,24 @@ button {
     color: var(--mail);
     border-bottom: 1px solid var(--mail);
 
-    &:hover {
-        color: var(--mail-h);
-        border-color: var(--mail-h);
-        transition: .5s;
-    }
-
-    &:active {
-        color: var(--mail-a);
-        border-color: var(--mail-a);
+    @media (min-width: 768px) {
+        font-size: 20px;
     }
 
     @media (min-width: 1200px) {
         font-size: 24px;
-        border-bottom: 1px solid var(--mail);
+
+        &:hover {
+            color: var(--mail-h);
+            border-color: var(--mail-h);
+            transition: .5s;
+        }
+    
+        &:active {
+            color: var(--mail-a);
+            border-color: var(--mail-a);
+        }
+
     }
 
 }

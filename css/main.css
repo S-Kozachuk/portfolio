@@ -4768,6 +4768,11 @@ p::selection {
   font-size: 30px;
   font-weight: 800;
 }
+@media (min-width: 768px) {
+  .title-3 {
+    font-size: 32px;
+  }
+}
 @media (min-width: 1200px) {
   .title-3 {
     font-size: 40px;
@@ -4828,22 +4833,26 @@ button {
   color: var(--mail);
   border-bottom: 1px solid var(--mail);
 }
-.main-link:hover {
-  color: var(--mail-h);
-  border-color: var(--mail-h);
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
-}
-.main-link:active {
-  color: var(--mail-a);
-  border-color: var(--mail-a);
+@media (min-width: 768px) {
+  .main-link {
+    font-size: 20px;
+  }
 }
 @media (min-width: 1200px) {
   .main-link {
     font-size: 24px;
-    border-bottom: 1px solid var(--mail);
+  }
+  .main-link:hover {
+    color: var(--mail-h);
+    border-color: var(--mail-h);
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    -moz-transition: .5s;
+    transition: .5s;
+  }
+  .main-link:active {
+    color: var(--mail-a);
+    border-color: var(--mail-a);
   }
 }
 .mobile-contacts .main-link {
