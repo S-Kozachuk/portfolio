@@ -114,6 +114,10 @@
 
 }
 
+.portfolio-projects__img > img {
+    margin-bottom: 20px;
+}
+
 .portfolio-projects__button {
     display: none;
 
@@ -154,33 +158,38 @@
 }
 
 .portfolio-projects__item h3 {
-    margin-bottom: 3px; 
-    position: relative;
-    
-    &:hover {
-       color: var(--h3-h);
-       transition: .5s;
-    }   
+    margin-bottom: 10px;
 
-    &:active {
+    @media (min-width: 1200px) {
+        margin-bottom: 3px; 
+        position: relative;
+        
+        &:hover {
         color: var(--h3-h);
-    }
-
-    &::after {
-        content: "";
-        position: absolute;
-        display: block;
-        opacity: 0;
-        height: 2px;
-        left: 0px;
-        right: 0px;
-        bottom: 2px;
-        background-color: #ed574f;
         transition: .5s;
-    }
+        }   
 
-    &:hover::after {
-        opacity: 1;
+        &:active {
+            color: var(--h3-h);
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            opacity: 0;
+            height: 2px;
+            left: 0px;
+            right: 0px;
+            bottom: 2px;
+            background-color: #ed574f;
+            transition: .5s;
+        }
+
+        &:hover::after {
+            opacity: 1;
+        }
+    
     }
 
 }
