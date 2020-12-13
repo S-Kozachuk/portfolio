@@ -5813,15 +5813,6 @@ button {
   margin-bottom: 25px;
   cursor: pointer;
 }
-@media (min-width: 1200px) {
-  .portfolio-nav {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
 .portfolio-nav__item {
   margin-right: 66px;
   margin-bottom: 20px;
