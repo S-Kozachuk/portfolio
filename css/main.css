@@ -6133,6 +6133,11 @@ button {
   left: auto;
   right: 50px;
 }
+@media (min-width: 1200px) {
+  .workflow-step:nth-child(odd) .workflow-step__image {
+    right: -40px;
+  }
+}
 .workflow-step:nth-child(odd):nth-child(3) .workflow-step__image {
   top: 1px;
 }
