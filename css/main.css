@@ -6131,7 +6131,7 @@ button {
 .workflow-step:nth-child(odd) .workflow-step__image {
   top: 2px;
   left: auto;
-  right: -40px;
+  right: 50px;
 }
 .workflow-step:nth-child(odd):nth-child(3) .workflow-step__image {
   top: 1px;
