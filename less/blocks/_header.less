@@ -523,9 +523,13 @@
     padding-top: 77px;
     padding-bottom: 97px;
 
+    @media (min-width: 768px) {
+        padding-top: 10px;
+    }
+
     @media (min-width: 1200px) {
-    padding-top: 70px;
-    margin-top: -70px;
+        padding-top: 70px;
+        margin-top: -70px;
     }
 
 }
@@ -534,9 +538,12 @@
     display: flex;
     flex-direction: column;
 
-    @media (min-width: 1200px) {
+    @media (min-width: 768px) {
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    @media (min-width: 1200px) {
         margin-bottom: 200px;
     }
 
@@ -544,7 +551,10 @@
 
 .header-skills-item {
     
-    
+    @media (min-width: 768px) {
+        max-width:60%;
+    }
+
     @media (min-width: 1200px) {
     width: 53%;
     max-width: 605px;
@@ -620,7 +630,11 @@
 }
 
 .header-content-contacts {
-        
+    
+    @media (min-width: 768px) {
+        flex-basis: 56%;
+    }    
+    
     @media (min-width: 1200px) {   
         margin-right: 38px;
         width: 28%;
