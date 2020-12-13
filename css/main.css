@@ -6007,16 +6007,27 @@ button {
   opacity: 1;
 }
 .portfolio__subtitle {
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 700;
-  margin-bottom: 10px;
+}
+@media (min-width: 1200px) {
+  .portfolio__subtitle {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
 }
 .portfolio__subtitle--s {
   font-size: 26px;
 }
 .portfolio-projects__item p {
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 200;
+}
+@media (min-width: 1200px) {
+  .portfolio-projects__item p {
+    font-size: 20px;
+    font-weight: 300;
+  }
 }
 .portfolio-projects__item > .portfolio__subtitle {
   position: relative;
