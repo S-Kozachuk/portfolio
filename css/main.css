@@ -5792,8 +5792,13 @@ button {
   }
 }
 .portfolio {
-  padding: 120px 0 100px;
+  padding: 53px 0 100px;
   background-color: #f4f8f9;
+}
+@media (min-width: 1200px) {
+  .portfolio {
+    padding: 120px 0 100px;
+  }
 }
 .portfolio-nav {
   display: none;
