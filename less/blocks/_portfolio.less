@@ -76,73 +76,81 @@
 }
 
 .portfolio-projects__img {
-    position: relative;
-    display: block;
-    margin-bottom: 15px;
-    transition: .5s;
-
-    &::before {
-        content: "";
+    
+        @media (min-width: 1200px) {
+        position: relative;
         display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 1;
-        background-color: var(--yellow);
-        opacity: 0;
+        margin-bottom: 15px;
         transition: .5s;
-    }
 
-    &:hover::before {
-        opacity: 0.85;
-        transition: .5s;
-        
-    }
-
-    &:hover {
-
-        .portfolio-projects__button{
-            opacity: 1;
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+            background-color: var(--yellow);
+            opacity: 0;
+            transition: .5s;
         }
 
+        &:hover::before {
+            opacity: 0.85;
+            transition: .5s;
+            
+        }
+
+        &:hover {
+
+            .portfolio-projects__button{
+                opacity: 1;
+            }
+
+        }
     }
 
 }
 
 .portfolio-projects__button {
-    opacity: 0;
-    display: inline-block;
-    position: absolute;
-    padding: 0px 25px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 254px;
-    line-height: 48px;
-    border-radius: 26px;
-    border: 2px solid var(--white);
-    background-color: var(--white);
-    vertical-align: bottom;
-    font-size: 22px;
-    font-weight: 800;
-    color: var(--red);
-    transition: .3s;
-    
-    &:hover {
-        color: var(--white);
-        background-color: var(--red);
-        border: 2px solid var(--red);
-        transition: .8s;
+    display: none;
+
+    @media (min-width: 1200px) {
+        opacity: 0;
+        display: inline-block;
+        position: absolute;
+        padding: 0px 25px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 254px;
+        line-height: 48px;
+        border-radius: 26px;
+        border: 2px solid var(--white);
+        background-color: var(--white);
+        vertical-align: bottom;
+        font-size: 22px;
+        font-weight: 800;
+        color: var(--red);
+        transition: .3s;
+        
+        &:hover {
+            color: var(--white);
+            background-color: var(--red);
+            border: 2px solid var(--red);
+            transition: .8s;
+        }
+
+        &:active {
+            background-color: var(--btn-a);
+            border: 2px solid var(--btn-a);
+            transition: .5s;
+        }
     }
 
-    &:active {
-        background-color: var(--btn-a);
-        border: 2px solid var(--btn-a);
-        transition: .5s;
-    }
 }
 
 .portfolio-projects__item h3 {
