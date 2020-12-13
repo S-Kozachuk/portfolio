@@ -6038,8 +6038,8 @@ button {
 }
 @media (min-width: 1200px) {
   .portfolio__subtitle {
-    font-weight: 700;
     margin-bottom: 10px;
+    font-size: 32px;
   }
 }
 .portfolio__subtitle--s {
@@ -6056,7 +6056,7 @@ button {
 }
 @media (min-width: 1200px) {
   .portfolio-projects__item p {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 300;
   }
 }
