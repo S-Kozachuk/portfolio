@@ -6282,6 +6282,7 @@ p:nth-of-type(2) {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
+  left: 0;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
      -moz-box-pack: center;
