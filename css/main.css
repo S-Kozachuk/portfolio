@@ -6165,7 +6165,12 @@ button {
   padding-top: 39px;
   padding-left: 84px;
   padding-right: 50px;
-  text-align: left;
+  text-align: right;
+}
+@media (min-width: 1200px) {
+  .workflow-step:nth-child(even) {
+    text-align: left;
+  }
 }
 .workflow-step:nth-child(even) .workflow-step-item {
   position: relative;
