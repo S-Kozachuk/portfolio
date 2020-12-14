@@ -6225,9 +6225,6 @@ button {
 .workflow-step:last-child::after {
   display: none;
 }
-.workflow-step-item {
-  font-size: 18px;
-}
 .workflow-step-item:hover .workflow-step__header:after {
   background-color: var(--red);
   -webkit-transition: .5s;
@@ -6265,11 +6262,18 @@ h3.workflow-step__header {
 }
 .workflow-step-definition {
   margin-bottom: 5px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 1.3;
+  line-height: 0.7;
 }
 .workflow-step-definition p {
   line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .workflow-step-definition {
+    font-size: 18px;
+    line-height: 1.3;
+  }
 }
 .workflow-step-time {
   font-weight: 700;
