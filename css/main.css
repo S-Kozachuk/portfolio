@@ -6276,7 +6276,13 @@ h3.workflow-step__header {
   }
 }
 .workflow-step-time {
+  font-size: 14px;
   font-weight: 700;
+}
+@media (min-width: 1200px) {
+  .workflow-step-time {
+    font-weight: 700;
+  }
 }
 p:nth-of-type(2) {
   margin-bottom: 30px;
