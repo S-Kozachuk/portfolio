@@ -6114,6 +6114,21 @@ button {
   padding-left: 100px;
   padding-bottom: 63px;
 }
+.workflow-step::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  background-color: #dfedf4;
+  top: 94px;
+  bottom: 20px;
+  left: 35px;
+}
+.workflow-step:last-child::after {
+  display: none;
+}
 @media (min-width: 1200px) {
   .workflow-step {
     padding-top: 19px;
@@ -6195,13 +6210,13 @@ button {
             border-radius: 2px;
     background-color: #dfedf4;
     z-index: 1;
-    display: none;
   }
   .workflow-step::after {
     content: "";
     position: absolute;
     top: 115px;
     right: -3px;
+    left: auto;
     width: 4px;
     bottom: 8px;
     -webkit-border-radius: 2px;

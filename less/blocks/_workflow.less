@@ -40,6 +40,21 @@
     margin-left: auto;
     padding-left: 100px;
     padding-bottom: 63px;
+    
+    &::after {
+        content: "";
+        position: absolute;
+        width: 4px;
+        border-radius: 2px;
+        background-color: #dfedf4;
+        top: 94px;
+        bottom: 20px;
+        left: 35px;
+    }
+
+    &:last-child::after {
+        display: none;
+    }
    
 
     @media (min-width: 1200px) {
@@ -140,7 +155,6 @@
             border-radius: 2px;
             background-color: #dfedf4;
             z-index: 1;
-            display: none;
         }
         
         &::after {
@@ -148,6 +162,7 @@
             position: absolute;
             top: 115px;
             right: -3px;
+            left: auto;
             width: 4px;
             bottom: 8px;
             border-radius: 2px;
