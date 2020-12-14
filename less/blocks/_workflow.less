@@ -36,142 +36,128 @@
 .workflow-step {
     display: flex;
     position: relative;
-    padding-top: 19px;
-    padding-bottom: 45px;
-    margin-bottom: 20px;
-    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 100px;
+    padding-bottom: 63px;
+   
 
-    &:nth-child(3) {
-        top: 15px;
-    }
+    @media (min-width: 1200px) {
+        padding-top: 19px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 45px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+        width: 50%;
 
-    &:nth-child(4) {
-        top: 12px;
-    }
-
-    &:nth-child(odd)  {
-        margin-right: auto;
-        padding-right: 77px;
-        text-align: right;
-
-        &:first-child {
-            padding-left: 55px;
+        &:nth-child(3) {
+            top: 15px;
         }
 
-        .workflow-step-item {
-            position: relative;
-            right: auto;
-            left: 74px;
-            font-size: 18px;
+        &:nth-child(4) {
+            top: 12px;
+        }
 
-            @media (min-width: 1200px) {
-                right: 0;
-                left: 0;
+        &:nth-child(odd)  {
+            margin-right: auto;
+            padding-right: 77px;
+            text-align: right;
+
+            &:first-child {
+                padding-left: 55px;
             }
 
-        }
+            .workflow-step-item {
+                position: relative;
+                right: 0;
+                left: 0;
+                font-size: 18px;
+            }
 
-        .workflow-step__image {
-            top: 2px;
-            left: auto;
-            right: 50px;
-
-            @media (min-width: 1200px) {
+            .workflow-step__image {
+                top: 2px;
+                left: auto;
                 right: -40px;
             }
 
-        }
+            &:nth-child(3) .workflow-step__image {
+                top: 1px;
+            }        
 
-        &:nth-child(3) .workflow-step__image {
-            top: 1px;
-        }        
+            .workflow-step__header {
+                margin-left: auto;
+            }
 
-        .workflow-step__header {
-            margin-left: auto;
-        }
-
-        &::after {
-            top: 96px;
-            bottom: -14px;
-        }
-
-    }
-
-    &:nth-child(even) {
-        margin-left: auto;
-        padding-top: 39px;
-        padding-left: 84px;
-        padding-right: 50px;
-        text-align: right;
-        
-        @media (min-width: 1200px) {
-            text-align: left;
-        }
-
-        .workflow-step-item {
-            position: relative;
-            font-size: 18px;
-            right: 72px;
-            left: auto;
-
-            @media (min-width: 1200px) {
-                right: 0;
-                left: 0;
+            &::after {
+                top: 96px;
+                bottom: -14px;
             }
 
         }
 
-        .workflow-step__image {
-            top: 22px;
-            right: 0;
-            left: -125px;
+        &:nth-child(even) {
+            margin-left: auto;
+            padding-top: 39px;
+            padding-left: 84px;
+            padding-right: 50px;
+            text-align: left;
 
-            @media (min-width: 1200px) {
+            .workflow-step-item {
+                position: relative;
+                font-size: 18px;
+            }
+
+            .workflow-step__image {
+                top: 22px;
+                right: 0;
                 left: -35px;
             }
 
-        }
-
-        &::after {
-            left: 0;
-        }
-
-        &:nth-child(2) {
-
             &::after {
-            top: 129px;
-            bottom: -16px;
+                left: 0;
             }
+
+            &:nth-child(2) {
+
+                &::after {
+                top: 129px;
+                bottom: -16px;
+                }
+
+            }
+
         }
 
-    }
+        &:first-child::before {
+            content: "";
+            position: absolute;
+            top: -75px;
+            height: 57px;
+            right: -2px;
+            width: 4px;
+            border-radius: 2px;
+            background-color: #dfedf4;
+            z-index: 1;
+            display: none;
+        }
+        
+        &::after {
+            content: "";
+            position: absolute;
+            top: 115px;
+            right: -3px;
+            width: 4px;
+            bottom: 8px;
+            border-radius: 2px;
+            background-color: #dfedf4;
+        }
 
-    &:first-child::before {
-        content: "";
-        position: absolute;
-        top: -75px;
-        height: 57px;
-        right: -2px;
-        width: 4px;
-        border-radius: 2px;
-        background-color: #dfedf4;
-        z-index: 1;
+        &:last-child::after {
         display: none;
-    }
-    
-    &::after {
-        content: "";
-        position: absolute;
-        top: 115px;
-        right: -3px;
-        width: 4px;
-        bottom: 8px;
-        border-radius: 2px;
-        background-color: #dfedf4;
-    }
-
-    &:last-child::after {
-       display: none;
+        }
+        
     }
 
 }
