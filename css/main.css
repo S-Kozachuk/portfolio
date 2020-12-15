@@ -6309,8 +6309,9 @@ h3.workflow-step__header {
   font-size: 14px;
   font-weight: 700;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .workflow-step-time {
+    font-size: 18px;
     font-weight: 700;
   }
 }
