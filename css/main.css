@@ -6290,6 +6290,14 @@ h3.workflow-step__header {
 .workflow-step-definition p {
   line-height: 1.2;
 }
+@media (min-width: 768px) {
+  .workflow-step-definition {
+    font-size: 16px;
+  }
+  .workflow-step-definition p {
+    line-height: 1.4;
+  }
+}
 @media (min-width: 1200px) {
   .workflow-step-definition {
     margin-bottom: 5px;
