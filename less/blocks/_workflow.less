@@ -120,15 +120,15 @@
             }
 
             &::after {
-                top: 96px;
-                bottom: -14px;
+                top: 89px;
+                bottom: 2px;
             }
 
         }
 
         &:nth-child(even) {
             margin-left: auto;
-            padding-top: 39px;
+            padding-top: 22px;
             padding-left: 68px;
             padding-right: 1px;
             text-align: left;
@@ -139,7 +139,7 @@
             }
 
             .workflow-step__image {
-                top: 22px;
+                top: 0px;
                 right: 0;
                 left: -35px;
             }
@@ -192,14 +192,25 @@
     @media (min-width: 1200px) {
         
         &:nth-child(even) {
-           padding-right: 50px;
-           padding-left: 84px;
+            padding-top: 39px;
+            padding-right: 50px;
+            padding-left: 84px;
+
+           .workflow-step__image {
+            top: 22px;
+        }
+
         }
 
         &:nth-child(odd)  {
     
             .workflow-step__image {
                 top: 2px;
+            }
+
+            &::after {
+                top: 96px;
+                bottom: -14px;
             }
 
         }
