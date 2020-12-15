@@ -6108,6 +6108,11 @@ button {
 .workflow__header .title-2 > span::after {
   bottom: 5px;
 }
+@media (min-width: 768px) {
+  .workflow__header .title-2 > span {
+    font-size: 52px;
+  }
+}
 .workflow-step {
   display: -webkit-box;
   display: -webkit-flex;
