@@ -6252,6 +6252,12 @@ h3.workflow-step__header {
   font-size: 20px;
   font-weight: 800;
 }
+@media (min-width: 768px) {
+  h3.workflow-step__header {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+}
 @media (min-width: 1200px) {
   h3.workflow-step__header {
     margin-bottom: 10px;
