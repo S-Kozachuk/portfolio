@@ -6189,8 +6189,8 @@ button {
   .workflow-step:nth-child(even) {
     margin-left: auto;
     padding-top: 39px;
-    padding-left: 84px;
-    padding-right: 50px;
+    padding-left: 68px;
+    padding-right: 1px;
     text-align: left;
   }
   .workflow-step:nth-child(even) .workflow-step-item {
@@ -6237,6 +6237,12 @@ button {
   }
   .workflow-step:last-child::after {
     display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .workflow-step:nth-child(even) {
+    padding-right: 50px;
+    padding-left: 84px;
   }
 }
 .workflow-step-item:hover .workflow-step__header:after {
