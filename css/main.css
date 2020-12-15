@@ -6185,7 +6185,7 @@ button {
     font-size: 18px;
   }
   .workflow-step:nth-child(odd) .workflow-step__image {
-    top: 2px;
+    top: -10px;
     left: auto;
     right: -40px;
   }
@@ -6256,6 +6256,9 @@ button {
   .workflow-step:nth-child(even) {
     padding-right: 50px;
     padding-left: 84px;
+  }
+  .workflow-step:nth-child(odd) .workflow-step__image {
+    top: 2px;
   }
 }
 .workflow-step-item:hover .workflow-step__header:after {
