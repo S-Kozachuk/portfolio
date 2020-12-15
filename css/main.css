@@ -4759,6 +4759,9 @@ p::selection {
   height: 12px;
 }
 @media (min-width: 768px) {
+  .title-2 {
+    margin-bottom: 160px;
+  }
   .title-2 span {
     font-size: 52px;
   }
