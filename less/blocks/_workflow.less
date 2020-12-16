@@ -112,7 +112,7 @@
             }
 
             &:nth-child(3) .workflow-step__image {
-                top: 1px;
+                top: -9px;
             }        
 
             .workflow-step__header {
@@ -151,8 +151,8 @@
             &:nth-child(2) {
 
                 &::after {
-                top: 129px;
-                bottom: -16px;
+                    top: 109px;
+                    bottom: 28px;
                 }
 
             }
@@ -204,9 +204,18 @@
             padding-right: 50px;
             padding-left: 84px;
 
-           .workflow-step__image {
-            top: 22px;
-        }
+            .workflow-step__image {
+                top: 22px;
+            }
+
+            &:nth-child(2) {
+
+                &::after {
+                top: 129px;
+                bottom: -16px;
+                }
+
+            }
 
         }
 
@@ -220,6 +229,11 @@
                 top: 96px;
                 bottom: -14px;
             }
+
+            &:nth-child(3) .workflow-step__image {
+                top: 1px;
+            }        
+
 
         }
 
