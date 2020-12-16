@@ -6294,6 +6294,13 @@ button {
   .workflow-step:nth-child(odd):nth-child(3) .workflow-step__image {
     top: 1px;
   }
+  .workflow-step:nth-child(odd):nth-child(5) {
+    top: -6px;
+  }
+  .workflow-step:nth-child(odd):nth-child(5) .workflow-step__header {
+    margin-top: -1px;
+    margin-bottom: 12px;
+  }
   .workflow-step:first-child::before {
     top: -75px;
   }
