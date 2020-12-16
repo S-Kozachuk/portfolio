@@ -6285,6 +6285,10 @@ button {
     top: 129px;
     bottom: -16px;
   }
+  .workflow-step:nth-child(even):nth-child(4)::after {
+    top: 117px;
+    bottom: 15px;
+  }
   .workflow-step:nth-child(odd) .workflow-step__image {
     top: 2px;
   }
