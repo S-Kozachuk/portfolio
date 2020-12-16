@@ -6203,7 +6203,7 @@ button {
     bottom: 56px;
   }
   .workflow-step:nth-child(odd):nth-child(5) {
-    top: -129px;
+    top: -125px;
   }
   .workflow-step:nth-child(odd):nth-child(5) .workflow-step__header {
     margin-top: -1px;
@@ -6231,6 +6231,10 @@ button {
   .workflow-step:nth-child(even):nth-child(2)::after {
     top: 109px;
     bottom: 28px;
+  }
+  .workflow-step:nth-child(even):nth-child(4)::after {
+    top: 92px;
+    bottom: 61px;
   }
   .workflow-step:first-child::before {
     content: "";
