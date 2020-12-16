@@ -6202,6 +6202,9 @@ button {
   .workflow-step:nth-child(odd):nth-child(3)::after {
     bottom: 56px;
   }
+  .workflow-step:nth-child(odd):nth-child(5) {
+    top: -129px;
+  }
   .workflow-step:nth-child(even) {
     margin-left: auto;
     padding-top: 22px;
