@@ -16,21 +16,24 @@
     position: relative;
     z-index: 1;
 
-    &::before {
-        content: '';
-        display: block;
-        position: absolute;
-        width: 450px;
-        height: 270px;
-        top: 0;
-        transform: translate(-78%, 0%);
-        z-index: -1;
-        background-image: url("../img/contacts/contacts-bg-dots.png");
-    }
+    
 
     @media (min-width: 1200px) {
         justify-content: space-between;
         flex-direction: row;
+
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 450px;
+            height: 270px;
+            top: 0;
+            transform: translate(-78%, 0%);
+            z-index: -1;
+            background-image: url("../img/contacts/contacts-bg-dots.png");
+        }
+
     }
 
 }
