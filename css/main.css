@@ -6526,7 +6526,12 @@ p:nth-of-type(2) {
 }
 .contacts-item-type span {
   display: inline-block;
-  width: 195px;
+  width: 300px;
+}
+@media (min-width: 1200px) {
+  .contacts-item-type span {
+    width: 195px;
+  }
 }
 .contacts-item-type a {
   margin-bottom: 20px;
