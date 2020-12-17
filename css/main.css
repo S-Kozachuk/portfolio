@@ -5442,6 +5442,7 @@ button {
   }
 }
 .button-main {
+  display: inline-block;
   margin-right: 15px;
   padding-left: 44px;
   padding-right: 40px;
@@ -5450,26 +5451,14 @@ button {
   -webkit-border-radius: 50px;
      -moz-border-radius: 50px;
           border-radius: 50px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   color: #000;
   background-color: var(--yellow);
 }
 @media (min-width: 1200px) {
   .button-main {
-    display: inline-block;
-    margin-right: 15px;
-    padding-left: 44px;
-    padding-right: 40px;
-    height: 62px;
-    line-height: 60px;
-    -webkit-border-radius: 50px;
-       -moz-border-radius: 50px;
-            border-radius: 50px;
     font-size: 22px;
-    font-weight: 700;
-    color: #000;
-    background-color: var(--yellow);
   }
   .button-main:hover {
     background-color: var(--btn-yl-h);
@@ -6106,7 +6095,7 @@ button {
 .workflow-wrapper {
   max-width: 1005px;
   margin: 0 auto;
-  padding-bottom: 7px;
+  padding-bottom: 5px;
 }
 @media (min-width: 1200px) {
   .workflow-wrapper {
@@ -6459,7 +6448,7 @@ p:nth-of-type(2) {
 .contacts {
   margin-left: auto;
   margin-right: auto;
-  padding: 150px 0;
+  padding: 48px 0;
   background: center url(../img/contacts/contacts-bg.jpg);
   background-color: #f4f8f9;
 }
@@ -6634,8 +6623,7 @@ textarea {
   font-size: 16px;
   color: var(--mail);
 }
-.button-form .button-main {
-  display: inline-block;
+.button-form {
   padding-left: 49px;
   padding-right: 41px;
   font-family: var(--fr);
