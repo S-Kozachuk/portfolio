@@ -55,10 +55,16 @@
 }
 
 .contacts-content-text {
-    margin-bottom: 42px;    
+    margin-bottom: 1px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
+
+
+    @media (min-width: 1200px) {
+        margin-bottom: 42px;
+    }
+
 }
 
 .contacts-content-connect {
@@ -66,7 +72,7 @@
 }
 
 .contacts-item-type {
-    margin-bottom: 20px;
+    margin-bottom: 9px;
     font-weight: 700;
 
     &:last-child {
@@ -97,6 +103,10 @@
     p {
        display: inline-block;
        color: #96969d; 
+    }
+
+    @media (min-width: 1200px) {
+        margin-bottom: 20px;
     }
 
 }

@@ -6518,16 +6518,21 @@ p:nth-of-type(2) {
   }
 }
 .contacts-content-text {
-  margin-bottom: 42px;
+  margin-bottom: 1px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
+}
+@media (min-width: 1200px) {
+  .contacts-content-text {
+    margin-bottom: 42px;
+  }
 }
 .contacts-content-connect {
   margin-bottom: 35px;
 }
 .contacts-item-type {
-  margin-bottom: 20px;
+  margin-bottom: 9px;
   font-weight: 700;
 }
 .contacts-item-type:last-child {
@@ -6553,6 +6558,11 @@ p:nth-of-type(2) {
 .contacts-item-type p {
   display: inline-block;
   color: #96969d;
+}
+@media (min-width: 1200px) {
+  .contacts-item-type {
+    margin-bottom: 20px;
+  }
 }
 /* Contact form */
 .contacts__form {
