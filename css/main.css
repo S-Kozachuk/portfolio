@@ -6614,7 +6614,9 @@ textarea {
   margin-bottom: 33px;
 }
 .form-item .form-field {
-  width: 100%;
+  position: relative;
+  left: -36px;
+  width: 125%;
   height: 50px;
   border: 0px;
   border-bottom: 1px solid #eaeaea;
@@ -6623,6 +6625,12 @@ textarea {
   padding-left: 12px;
   padding-right: 12px;
   outline: none;
+}
+@media (min-width: 1200px) {
+  .form-item .form-field {
+    left: 0;
+    width: 100%;
+  }
 }
 .form-item textarea.form-field {
   margin-top: 15px;

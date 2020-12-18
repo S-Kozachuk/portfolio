@@ -164,7 +164,9 @@ input, textarea {
     }
 
     .form-field {
-        width: 100%;
+        position: relative;    
+        left: -36px;
+        width: 125%;
         height: 50px;
         border: 0px;
         border-bottom: 1px solid #eaeaea;
@@ -173,6 +175,12 @@ input, textarea {
         padding-left: 12px;
         padding-right: 12px;
         outline: none;
+
+        @media (min-width: 1200px) {
+            left: 0;
+            width: 100%;
+        }
+
     }
 
     textarea.form-field {
