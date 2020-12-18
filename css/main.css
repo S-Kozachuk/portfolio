@@ -6667,9 +6667,15 @@ textarea {
   color: var(--mail);
 }
 .button-form {
-  padding-left: 49px;
-  padding-right: 41px;
+  padding-left: 68px;
+  padding-right: 76px;
   font-family: var(--fr);
+}
+@media (min-width: 1200px) {
+  .button-form {
+    padding-left: 49px;
+    padding-right: 41px;
+  }
 }
 .contact-form__success {
   margin: 0 auto;
