@@ -5443,11 +5443,12 @@ button {
 }
 .button-main {
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 0px;
+  margin-left: -30px;
   padding-left: 44px;
-  padding-right: 40px;
-  height: 62px;
-  line-height: 60px;
+  padding-right: 82px;
+  height: 53px;
+  line-height: 53px;
   -webkit-border-radius: 50px;
      -moz-border-radius: 50px;
           border-radius: 50px;
@@ -5458,6 +5459,11 @@ button {
 }
 @media (min-width: 1200px) {
   .button-main {
+    margin-right: 15px;
+    padding-left: 44px;
+    padding-right: 40px;
+    height: 62px;
+    line-height: 60px;
     font-size: 22px;
   }
   .button-main:hover {
@@ -6668,7 +6674,7 @@ textarea {
 }
 .button-form {
   padding-left: 68px;
-  padding-right: 76px;
+  margin-left: -30px;
   font-family: var(--fr);
 }
 @media (min-width: 1200px) {
