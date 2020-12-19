@@ -4668,6 +4668,7 @@
   --fr: 'M PLUS 1p';
   --btn-a: #d4423b;
   --h3-h: #ed574f;
+  --footer: #b0b0b0;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -6704,7 +6705,7 @@ textarea {
 }
 footer {
   background-color: #333333;
-  padding-top: 21px;
+  padding-top: 32px;
   padding-bottom: 40px;
 }
 .footer-copyright {
@@ -6717,11 +6718,11 @@ footer {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
-  color: #777777;
+  color: var(--footer);
 }
 .footer-description a {
-  color: #777777;
-  border-bottom: 1px solid #777777;
+  color: #b0b0b0;
+  border-bottom: 1px solid var(--footer);
   cursor: pointer;
 }
 .footer-description a:hover,
