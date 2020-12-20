@@ -6538,7 +6538,8 @@ p:nth-of-type(2) {
 }
 @media (min-width: 768px) {
   .contacts-content {
-    max-width: 339px;
+    margin-top: 41px;
+    max-width: 300px;
   }
 }
 @media (min-width: 1200px) {
@@ -6630,7 +6631,7 @@ p:nth-of-type(2) {
 }
 @media (min-width: 768px) {
   .contacts__form {
-    margin-top: 26px;
+    margin-top: 47px;
     margin-bottom: 86px;
     padding-top: 21px;
     padding-bottom: 44px;
