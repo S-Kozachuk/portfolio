@@ -6474,6 +6474,7 @@ p:nth-of-type(2) {
   .contacts {
     margin-bottom: 0;
     padding-top: 136px;
+    padding-bottom: 67px;
   }
 }
 .contacts__header > .title-2 {
