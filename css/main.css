@@ -6596,6 +6596,11 @@ p:nth-of-type(2) {
   display: inline-block;
   color: #96969d;
 }
+@media (min-width: 768px) {
+  .contacts-item-type {
+    margin-bottom: 15px;
+  }
+}
 @media (min-width: 1200px) {
   .contacts-item-type {
     margin-bottom: 20px;
