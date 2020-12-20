@@ -6527,6 +6527,11 @@ p:nth-of-type(2) {
   margin-top: 25px;
   font-size: 18px;
 }
+@media (min-width: 768px) {
+  .contacts-content {
+    max-width: 339px;
+  }
+}
 @media (min-width: 1200px) {
   .contacts-content {
     margin-top: 25px;
@@ -6538,6 +6543,12 @@ p:nth-of-type(2) {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
+}
+@media (min-width: 768px) {
+  .contacts-content-text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
 }
 @media (min-width: 1200px) {
   .contacts-content-text {
