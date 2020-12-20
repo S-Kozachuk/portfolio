@@ -6579,6 +6579,7 @@ p:nth-of-type(2) {
 @media (min-width: 1200px) {
   .contacts-content-connect {
     margin-bottom: 35px;
+    max-width: 488px;
   }
 }
 .contacts-item-type {
