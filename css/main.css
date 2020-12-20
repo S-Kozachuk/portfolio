@@ -6881,6 +6881,18 @@ footer {
 }
 .portfolio-contacts {
   width: 100%;
+  font-size: 36px;
+  font-weight: 100;
+}
+.portfolio-contacts span {
+  font-weight: 700;
+  letter-spacing: 0.504px;
+}
+.portfolio-contacts a {
+  width: 100%;
+  font-size: 36px;
+  font-weight: 100;
+  color: #4298e8;
 }
 .portfolio-contacts span {
   font-size: 42px;
