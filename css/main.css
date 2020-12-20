@@ -6558,6 +6558,11 @@ p:nth-of-type(2) {
 .contacts-content-connect {
   margin-bottom: 19px;
 }
+@media (min-width: 768px) {
+  .contacts-content-connect {
+    max-width: 290px;
+  }
+}
 @media (min-width: 1200px) {
   .contacts-content-connect {
     margin-bottom: 35px;
