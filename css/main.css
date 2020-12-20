@@ -6570,7 +6570,7 @@ p:nth-of-type(2) {
 }
 @media (min-width: 768px) {
   .contacts-content-connect {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
     max-width: 290px;
   }
 }
