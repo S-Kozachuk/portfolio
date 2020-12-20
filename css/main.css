@@ -6784,6 +6784,11 @@ footer {
   padding-top: 32px;
   padding-bottom: 40px;
 }
+@media (min-width: 1200px) {
+  footer {
+    padding-top: 23px;
+  }
+}
 .footer-copyright {
   margin-bottom: 13px;
   font-size: 18px;
