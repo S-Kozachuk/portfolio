@@ -6817,4 +6817,8 @@ footer {
   color: #fff;
   border-bottom: 1px solid #fff;
 }
+.footer-portfolio {
+  background-color: #f4f8f9;
+  padding-bottom: 0;
+}
 /*# sourceMappingURL=main.css.map */
