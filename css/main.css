@@ -6883,8 +6883,11 @@ footer {
   width: 100%;
   font-size: 36px;
   font-weight: 100;
+  letter-spacing: 0.432px;
 }
 .portfolio-contacts span {
+  display: inline-block;
+  margin-bottom: 30px;
   font-weight: 700;
   letter-spacing: 0.504px;
 }
@@ -6893,6 +6896,7 @@ footer {
   font-size: 36px;
   font-weight: 100;
   color: #4298e8;
+  letter-spacing: 0.432px;
 }
 .portfolio-contacts span {
   font-size: 42px;
