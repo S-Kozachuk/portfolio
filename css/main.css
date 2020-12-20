@@ -4957,7 +4957,7 @@ button {
 }
 @media (min-width: 768px) {
   .container {
-    max-width: 738px;
+    max-width: 708px;
     padding: 0;
   }
 }
@@ -6467,7 +6467,7 @@ p:nth-of-type(2) {
     margin-right: auto;
     margin-bottom: 12px;
     padding-top: 77px;
-    padding-bottom: 44px;
+    padding-bottom: 22px;
   }
 }
 @media (min-width: 1200px) {
@@ -6641,7 +6641,6 @@ p:nth-of-type(2) {
 @media (min-width: 768px) {
   .contacts__form {
     margin-top: 47px;
-    margin-right: 32px;
     margin-bottom: 86px;
     padding-top: 21px;
     padding-bottom: 44px;
