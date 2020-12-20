@@ -6473,6 +6473,7 @@ p:nth-of-type(2) {
 @media (min-width: 1200px) {
   .contacts {
     margin-bottom: 0;
+    padding-top: 136px;
   }
 }
 .contacts__header > .title-2 {
@@ -6545,6 +6546,7 @@ p:nth-of-type(2) {
 @media (min-width: 1200px) {
   .contacts-content {
     margin-top: 25px;
+    max-width: 555px;
     font-size: 20px;
   }
 }
