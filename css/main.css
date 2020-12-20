@@ -6743,6 +6743,13 @@ textarea {
   margin-left: 0px;
   font-family: var(--fr);
 }
+@media (min-width: 768px) {
+  .button-form {
+    padding-left: 85px;
+    padding-right: 94px;
+    margin-left: 13px;
+  }
+}
 @media (min-width: 1200px) {
   .button-form {
     padding-left: 49px;
