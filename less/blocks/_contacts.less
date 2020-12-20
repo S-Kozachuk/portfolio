@@ -213,6 +213,11 @@
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
+
+    @media (min-width: 1200px) {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 }
 
 input, textarea {
@@ -267,8 +272,7 @@ input, textarea {
         outline: none;
 
         @media (min-width: 1200px) {
-            left: 39px;
-            width: 75%;
+            left: 0;
         }
 
     }
@@ -290,7 +294,7 @@ input, textarea {
         transition: .5s;
         
         @media (min-width: 1200px) {
-            left: 46px;
+            left: 0px;
         }
 
     }
@@ -316,9 +320,9 @@ input, textarea {
     }
 
     @media (min-width: 1200px) {
-        padding-left: 46px;
-        padding-right: 38px;
-        margin-left: 35px;
+        padding-left: 39px;
+        padding-right: 42px;
+        margin-left: -8px;
     }
 
 }

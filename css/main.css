@@ -6676,6 +6676,12 @@ p:nth-of-type(2) {
   padding-left: 15px;
   padding-right: 15px;
 }
+@media (min-width: 1200px) {
+  .formgroup {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
 input,
 textarea {
   font-family: var(--fr);
@@ -6723,8 +6729,7 @@ textarea {
 }
 @media (min-width: 1200px) {
   .form-item .form-field {
-    left: 39px;
-    width: 75%;
+    left: 0;
   }
 }
 .form-item textarea.form-field {
@@ -6747,7 +6752,7 @@ textarea {
 }
 @media (min-width: 1200px) {
   .form-item .fake-placeholder {
-    left: 46px;
+    left: 0px;
   }
 }
 .form-item .fake-placeholder.active {
@@ -6769,9 +6774,9 @@ textarea {
 }
 @media (min-width: 1200px) {
   .button-form {
-    padding-left: 46px;
-    padding-right: 38px;
-    margin-left: 35px;
+    padding-left: 39px;
+    padding-right: 42px;
+    margin-left: -8px;
   }
 }
 .contact-form__success {
