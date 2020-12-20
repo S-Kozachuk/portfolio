@@ -6566,6 +6566,7 @@ p:nth-of-type(2) {
 @media (min-width: 1200px) {
   .contacts-content-text {
     margin-bottom: 37px;
+    padding-right: 23px;
     font-size: 20px;
     line-height: 1.6;
   }
