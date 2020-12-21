@@ -6077,6 +6077,7 @@ button {
   .portfolio-projects__item p {
     font-size: 22px;
     font-weight: 300;
+    text-align: left;
   }
 }
 .portfolio-projects__item > .portfolio__subtitle {
@@ -6091,13 +6092,44 @@ button {
   width: -moz-fit-content;
   width: fit-content;
 }
-.portfolio-center {
-  text-align: center;
-  margin-top: 40px;
+.portfolio-menu {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  background-color: #f4f8f9;
+  -webkit-box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.45);
+     -moz-box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.45);
+          box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
 }
-.portfolio-header {
+.portfolio-contacts {
+  position: relative;
+  margin-bottom: 26px;
+  z-index: 1;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 100;
+  letter-spacing: 0.432px;
+}
+.portfolio-contacts span {
   display: inline-block;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 0.504px;
+}
+.portfolio-contacts a {
+  width: 100%;
+  font-size: 36px;
+  font-weight: 100;
+  letter-spacing: 0.432px;
+  color: #4298e8;
+  border-bottom: 1px solid #4298e8;
+}
+.portfolio-contacts span {
+  font-size: 42px;
 }
 .workflow {
   background-image: url(../img/workflow/workflow-bg.jpg);
@@ -6890,36 +6922,21 @@ footer {
   margin: 0 auto;
   text-align: center;
 }
-.portfolio-contacts {
-  margin-bottom: 26px;
-  width: 100%;
-  font-family: 'Roboto', sans-serif;
-  font-size: 36px;
-  font-weight: 100;
-  letter-spacing: 0.432px;
-}
-.portfolio-contacts span {
-  display: inline-block;
-  margin-bottom: 20px;
-  font-weight: 700;
-  letter-spacing: 0.504px;
-}
-.portfolio-contacts a {
-  width: 100%;
-  font-size: 36px;
-  font-weight: 100;
-  letter-spacing: 0.432px;
-  color: #4298e8;
-  border-bottom: 1px solid #4298e8;
-}
-.portfolio-contacts span {
-  font-size: 42px;
-}
 .footer-content-social > .social-contacts {
+  position: relative;
+  z-index: 1;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
      -moz-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.portfolio-center {
+  text-align: center;
+  margin-top: 40px;
+}
+.portfolio-header {
+  display: inline-block;
+  margin-bottom: 70px;
 }
 /*# sourceMappingURL=main.css.map */
