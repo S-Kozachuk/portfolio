@@ -6096,8 +6096,8 @@ button {
   margin-top: 40px;
 }
 .portfolio-header {
-  position: relative;
   display: inline-block;
+  margin-bottom: 70px;
 }
 .workflow {
   background-image: url(../img/workflow/workflow-bg.jpg);
@@ -6828,6 +6828,9 @@ footer {
 .footer-portfolio {
   background-color: #f4f8f9;
   padding-bottom: 0;
+}
+.footer-portfolio-img {
+  margin-top: -182px;
 }
 @media (min-width: 425px) {
   .footer-portfolio-img {
