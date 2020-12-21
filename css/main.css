@@ -6091,6 +6091,14 @@ button {
   width: -moz-fit-content;
   width: fit-content;
 }
+.portfolio-center {
+  text-align: center;
+  margin-top: 40px;
+}
+.portfolio-header {
+  position: relative;
+  display: inline-block;
+}
 .workflow {
   background-image: url(../img/workflow/workflow-bg.jpg);
   margin: 0 auto;
