@@ -6858,8 +6858,6 @@ footer {
   }
 }
 .footer-portfolio {
-  text-align: center;
-  margin: 0 auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -6878,8 +6876,12 @@ footer {
      -moz-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 .portfolio-contacts {
+  margin-bottom: 40px;
   width: 100%;
   font-size: 36px;
   font-weight: 100;
