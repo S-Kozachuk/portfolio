@@ -6878,11 +6878,11 @@ footer {
           align-items: center;
   margin: 0 auto;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
 }
 .portfolio-contacts {
   margin-bottom: 40px;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-weight: 100;
   letter-spacing: 0.432px;
@@ -6897,8 +6897,9 @@ footer {
   width: 100%;
   font-size: 36px;
   font-weight: 100;
-  color: #4298e8;
   letter-spacing: 0.432px;
+  color: #4298e8;
+  border-bottom: 1px solid #4298e8;
 }
 .portfolio-contacts span {
   font-size: 42px;
