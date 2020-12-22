@@ -6067,6 +6067,7 @@ button {
 .portfolio-projects__item p {
   font-size: 16px;
   font-weight: 200;
+  text-align: left;
 }
 @media (min-width: 768px) {
   .portfolio-projects__item p {
@@ -6077,7 +6078,6 @@ button {
   .portfolio-projects__item p {
     font-size: 22px;
     font-weight: 300;
-    text-align: left;
   }
 }
 .portfolio-projects__item > .portfolio__subtitle {
