@@ -6980,7 +6980,30 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.project-badges-item {
+.project-badges {
   margin-right: 12px;
+  padding: 10px 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+.project-badges .item-html {
+  background-color: #ff861a;
+}
+.project-badges .item-css {
+  background-color: #039be5;
+}
+.project-badges .item-bootstrap {
+  background-color: #a062c7;
+}
+.project-badges .item-js {
+  background-color: #ffd200;
+}
+.project-badges .item-jquery {
+  background-color: #044d85;
+}
+.project-badges .item-php {
+  background-color: #777bb4;
 }
 /*# sourceMappingURL=main.css.map */
