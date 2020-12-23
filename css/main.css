@@ -6939,6 +6939,9 @@ footer {
   display: inline-block;
   margin-bottom: 70px;
 }
+.project-wrapper {
+  margin-top: 150px;
+}
 .project-title h1 {
   font-size: 48px;
 }
