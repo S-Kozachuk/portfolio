@@ -6939,4 +6939,7 @@ footer {
   display: inline-block;
   margin-bottom: 70px;
 }
+.project-title h1 {
+  font-size: 48px;
+}
 /*# sourceMappingURL=main.css.map */
