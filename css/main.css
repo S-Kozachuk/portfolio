@@ -7019,13 +7019,14 @@ footer {
   display: flex;
 }
 .project-subtitle {
-  font-size: 26px;
-  font-weight: 800;
   position: relative;
+  margin-bottom: 20px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   z-index: 1;
+  font-size: 26px;
+  font-weight: 800;
 }
 .project-subtitle::after {
   content: '';
@@ -7039,6 +7040,7 @@ footer {
 }
 .project-links-block {
   position: relative;
+  margin-left: 40px;
 }
 .project-links-item::before {
   content: '';
@@ -7049,6 +7051,9 @@ footer {
        background-size: contain;
   background-position: center;
 }
+.icon-demo {
+  margin-bottom: 25px;
+}
 .icon-demo::before {
   top: 0px;
   left: -43px;
@@ -7056,11 +7061,19 @@ footer {
   height: 28px;
   background-image: url(../img/project-card/browser-outline.svg);
 }
+.icon-github {
+  margin-bottom: 45px;
+}
 .icon-github::before {
-  top: 32px;
+  top: 51px;
   left: -43px;
   width: 28px;
   height: 28px;
   background-image: url(../img/project-card/github.svg);
+}
+.project-links-item > a {
+  width: 100%;
+  color: #4298e8;
+  border-bottom: 1px solid #4298e8;
 }
 /*# sourceMappingURL=main.css.map */

@@ -81,12 +81,12 @@
 }
 
 .project-subtitle {
-    font-size: 26px;
-    font-weight: 800;
-
     position: relative;
+    margin-bottom: 20px;
     width: fit-content;
     z-index: 1;
+    font-size: 26px;
+    font-weight: 800;
 
     &::after {
         content: '';
@@ -103,6 +103,7 @@
 
 .project-links-block {
     position: relative;
+    margin-left: 40px;
 }
 
 .project-links-item {
@@ -119,6 +120,7 @@
 }
 
 .icon-demo {
+    margin-bottom: 25px;
     
     &::before {
         top: 0px;
@@ -131,13 +133,22 @@
 }
 
 .icon-github {
+    margin-bottom: 45px;
 
     &::before {
-        top: 32px;
+        top: 51px;
         left: -43px;
         width: 28px;
         height: 28px;
         background-image: url(../img/project-card/github.svg);
     }
+
+}
+
+
+.project-links-item > a {
+    width: 100%;
+    color: #4298e8;
+    border-bottom: 1px solid #4298e8;
 
 }
