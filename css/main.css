@@ -6982,11 +6982,15 @@ footer {
 }
 .project-badges {
   margin-right: 12px;
-  padding: 10px 15px;
+  margin-bottom: 70px;
+  padding: 8px 11px;
   font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: 700;
   color: #fff;
+}
+.project-badges:last-child {
+  margin-right: 0;
 }
 .project-badges .item-html {
   background-color: #ff861a;
@@ -6999,6 +7003,7 @@ footer {
 }
 .project-badges .item-js {
   background-color: #ffd200;
+  color: #000;
 }
 .project-badges .item-jquery {
   background-color: #044d85;
