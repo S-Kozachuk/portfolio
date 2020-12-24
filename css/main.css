@@ -7011,4 +7011,11 @@ footer {
 .project-badges .item-php {
   background-color: #777bb4;
 }
+.project-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=main.css.map */
