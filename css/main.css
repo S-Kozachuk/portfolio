@@ -7090,6 +7090,37 @@ footer {
   color: #4298e8;
   border-bottom: 1px solid #4298e8;
 }
+.project-details > ul > li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.project-details > ul > li > span {
+  width: 36%;
+  margin-right: 20px;
+}
+.project-details > ul > li > p {
+  width: 64%;
+}
 .project-image {
   min-width: 652px                                                             ;
 }
