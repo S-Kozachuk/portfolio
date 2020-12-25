@@ -7018,6 +7018,9 @@ footer {
   display: -ms-flexbox;
   display: flex;
 }
+.project-links {
+  font-size: 18px;
+}
 .project-subtitle {
   position: relative;
   margin-bottom: 20px;
@@ -7038,6 +7041,10 @@ footer {
   background-color: var(--yellow);
   z-index: -1;
 }
+.project-text {
+  max-width: 458px;
+  font-size: 16px;
+}
 .project-links-block {
   position: relative;
   margin-left: 40px;
@@ -7050,6 +7057,13 @@ footer {
   -moz-background-size: contain;
        background-size: contain;
   background-position: center;
+}
+.project-about {
+  margin-bottom: 60px;
+}
+.project-about > p {
+  letter-spacing: 0.19px;
+  line-height: 1.5;
 }
 .icon-demo {
   margin-bottom: 25px;
@@ -7075,5 +7089,8 @@ footer {
   width: 100%;
   color: #4298e8;
   border-bottom: 1px solid #4298e8;
+}
+.project-image {
+  min-width: 652px                                                             ;
 }
 /*# sourceMappingURL=main.css.map */
