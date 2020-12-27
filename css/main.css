@@ -7120,7 +7120,7 @@ footer {
   width: 64%;
 }
 .project-image {
-  min-width: 652px;
+  max-width: 652px;
 }
 .project-image > img {
   -webkit-box-shadow: 19.799px 19.799px 100px 0px #c4dbe9;
