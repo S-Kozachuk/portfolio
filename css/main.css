@@ -7127,4 +7127,25 @@ footer {
      -moz-box-shadow: 19.799px 19.799px 100px 0px #c4dbe9;
           box-shadow: 19.799px 19.799px 100px 0px #c4dbe9;
 }
+.project-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 200;
+  letter-spacing: 0.19px;
+  line-height: 1.5;
+  color: var(--white);
+}
+.project-button {
+  margin-right: 35px;
+  padding: 30px 175px;
+  background-color: #333333;
+}
+.project-button:last-child {
+  margin-right: 0;
+}
 /*# sourceMappingURL=main.css.map */
