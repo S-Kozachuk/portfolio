@@ -7029,7 +7029,7 @@ footer {
 }
 .project-subtitle {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -7054,7 +7054,7 @@ footer {
 }
 .project-links-block {
   position: relative;
-  margin-left: 40px;
+  margin-left: 44px;
 }
 .project-links-item::before {
   content: '';
@@ -7073,11 +7073,11 @@ footer {
   line-height: 1.5;
 }
 .icon-demo {
-  margin-bottom: 25px;
+  margin-bottom: 18px;
 }
 .icon-demo::before {
   top: 0px;
-  left: -43px;
+  left: -40px;
   width: 28px;
   height: 28px;
   background-image: url(../img/project-card/browser-outline.svg);
