@@ -6952,6 +6952,7 @@ footer {
   text-align: center;
   font-size: 48px;
   font-weight: 800;
+  line-height: 1.2;
 }
 .project-title span {
   display: inline-block;
