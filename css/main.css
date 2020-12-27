@@ -6861,6 +6861,10 @@ footer {
   background-color: #f4f8f9;
   padding-bottom: 0;
 }
+.footer-portfolio-bg {
+  background-color: #fff;
+  padding-bottom: 0;
+}
 .footer-portfolio-img {
   margin-top: -182px;
 }
@@ -7101,22 +7105,14 @@ footer {
      -moz-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-     -moz-box-orient: horizontal;
-     -moz-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-     -moz-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  margin-bottom: 30px;
+  letter-spacing: 0.19px;
+  line-height: 1.5;
 }
 .project-details > ul > li > span {
   width: 36%;
   margin-right: 20px;
+  font-weight: 900;
 }
 .project-details > ul > li > p {
   width: 64%;
