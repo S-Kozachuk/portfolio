@@ -5181,6 +5181,14 @@ button {
     background-repeat: repeat;
   }
 }
+.fix-menu__portfolio.active {
+  background-color: #f4f8f9;
+  background-image: none;
+}
+.fix-menu__project.active {
+  background-color: #fff;
+  background-image: none;
+}
 .header-nav {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7087,8 +7095,8 @@ footer {
   margin-bottom: 45px;
 }
 .icon-github::before {
-  top: 51px;
-  left: -43px;
+  top: 45px;
+  left: -40px;
   width: 28px;
   height: 28px;
   background-image: url(../img/project-card/github.svg);
