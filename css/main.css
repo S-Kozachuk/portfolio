@@ -7046,6 +7046,7 @@ footer {
   z-index: -1;
 }
 .project-text {
+  margin-right: 40px;
   max-width: 458px;
   font-size: 16px;
 }
@@ -7118,6 +7119,9 @@ footer {
   width: 64%;
 }
 .project-image {
-  min-width: 652px                                                             ;
+  min-width: 652px;
+  -webkit-box-shadow: 19.799px 19.799px 100px 0px #c4dbe9;
+     -moz-box-shadow: 19.799px 19.799px 100px 0px #c4dbe9;
+          box-shadow: 19.799px 19.799px 100px 0px #c4dbe9;
 }
 /*# sourceMappingURL=main.css.map */
