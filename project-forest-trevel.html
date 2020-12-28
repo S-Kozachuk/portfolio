@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Sergey Kozachuk</title>
+    <title>Проект "Форест Тревел" - Сергей Козачук</title>
     <link rel="stylesheet" href="fonts/mplus1p/mplus1p.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap">
@@ -18,11 +18,11 @@
                 <div id="overlay"></div>
                 <div class="header-nav">
                     <div class="logo bottom-line">
-                        <a href="#" class="logo">CК</a>
+                        <a href="index.html" class="logo">CК</a>
                     </div>
                     <div class="header-menu">
                         <div class="logo bottom-line">
-                            <a href="#" class="logo">CК</a>
+                            <a href="index.html" class="logo">CК</a>
                         </div>
                         <a href="index.html" class="menu-item animate-border">Главная</a>
                         <a href="#skills" class="menu-item animate-border">Услуги</a>
@@ -48,57 +48,84 @@
         </div>
     </header>
     <main>
-        <section class="portfolio" id="portfolio">
-            <div class="container">
-                <div class="portfolio__wrapper">
-                    <div class="portfolio-center">
-                        <h2 class="title-2 portfolio-header">
-                            <span class="bottom-line">Портфолио</span>
-                        </h2>
-                                            
-                    <div class="portfolio-nav">
-                        <button class="portfolio-nav__item control-active" data-filter="all">Все работы</button>
-                        <button class="portfolio-nav__item" data-filter=".boots">Bootstrap</button>
-                        <button class="portfolio-nav__item" data-filter=".wp">WordPress</button>
-                        <button class="portfolio-nav__item" data-filter=".frontend">Frontend</button>
+        <div class="container">
+            <div class="project-wrapper">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h1>
+                            <span class="bottom-line-project">Верстка сайта</span><br> 
+                            <span class="bottom-line-project">"Форест Тревел"</span>
+                        </h1>
                     </div>
-                    <div class="portfolio-projects__wrapper" id="portfolio-projects">
-                        <div class="portfolio-projects__item mix wp">
-                            <a href="http://u965084x.beget.tech/project/forest-travel-project/index.html" target="_blank" class="portfolio-projects__img">
-                                <img src="img/portfolio/project-1.jpg" alt="Project 1">
-                                <div class="portfolio-projects__button">Смотреть проект</div>
-                            </a>
-                            <h3 class="portfolio__subtitle">Верстка "Форест тревел"</h3>
-                            <p class="portfolio__description">Верстка многостраничного сайта.</p>
+                    <div class="project-badges">
+                        <div class="project-badges item-html">HTML</div>
+                        <div class="project-badges item-css">CSS</div>
+                        <div class="project-badges item-bootstrap">PixelPerfect</div>
+                    </div>
+                </div>
+                <div class="portfolio-projects__wrapper" id="portfolio-projects"></div>
+                    <div class="project-content">
+                        <div class="project-text">
+                            <div class="project-links">
+                                <div class="project-subtitle">Ссылки на проект</div>
+                                <ul class="project-links-block">
+                                    <li class="project-links-item icon-demo">
+                                        <a href="">Смотреть демо онлайн</a>
+                                    </li>
+                                    <li class="project-links-item icon-github">
+                                        <a href="">Код проекта на GitHub</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="project-about">
+                                <div class="project-subtitle">О проекте</div>
+                                <p>Учебный проект. Многостраничный сайт для туристичекой компании “ФорестТревел”. 
+                                Блочная верстка. Float и clear для блочной верстки. 
+                                Cоздание разметки веб-страниц основываваясь на свойстве float и clear. 
+                                Построения структуры страницы на примере основных структурообразующих блоков. 
+                                Верстка сайта согласно макету с использованием Pixel Perfect.
+                                Учебный проект.
+                                </p>
+                            </div>
+                            <div class="project-details">
+                                <div class="project-subtitle">Детали</div>
+                                <ul>
+                                    <li class="project-list">
+                                        <span>Клиент:</span>
+                                        <p>ООО “ФорестТревел”</p>
+                                    </li>
+                                    <li class="project-list">
+                                        <span>Проект:</span>
+                                        <p>Турагенство “ФорестТревел”</p>
+                                    </li>
+                                    <li class="project-list">
+                                        <span>Сайт:</span>
+                                        <p class="project-links-item"><a>f-trevel.ru</a></p>
+                                    </li>
+                                    <li class="project-list">
+                                        <span>Верстка:</span>
+                                        <p>HTML5, CSS3, PixelPerfect</p>
+                                    </li>
+                                    <li class="project-list">
+                                        <span>Особенности:</span>
+                                        <p>Блочная верстка, позиционирование, семантический код, 
+                                        форма обратной связи, кастомизация форм, вставка карт.
+                                        </p>
+                                    </li>   
+                                </ul>
+                            </div>
                         </div>
-                        <div class="portfolio-projects__item mix boots">
-                            <a href="http://u965084x.beget.tech/project/unit-header/index.html" target="_blank" class="portfolio-projects__img">
-                                <img src="img/portfolio/project-2.jpg" alt="Project 2">
-                                <div class="portfolio-projects__button">Смотреть проект</div>
-                            </a>
-                            <h3 class="portfolio__subtitle">Проект "Юнит"</h3>
-                            <p class="portfolio__description">Верстка лендинга.</p>
+                        <div class="project-image">
+                            <img src="img/project-card/forest-trevel-preview.jpg" alt="forest-trevel">
                         </div>
-                        <div class="portfolio-projects__item mix wp boots">
-                            <a href="http://u965084x.beget.tech/project/motorbike-card/index.html" target="_blank" class="portfolio-projects__img">
-                                <img src="img/portfolio/project-3.jpg" alt="Project 3">
-                                <div class="portfolio-projects__button">Смотреть проект</div>
-                            </a>
-                            <h3 class="portfolio__subtitle">Страница "Мотоцикл"</h3>
-                            <p class="portfolio__description">Верстка карточки товара.</p>
-                        </div>
-                        <div class="portfolio-projects__item mix frontend">
-                            <a href="http://u965084x.beget.tech/project/book-card/index.html" target="_blank" class="portfolio-projects__img">
-                                <img src="img/portfolio/project-4.jpg" alt="Project 4">
-                                <div class="portfolio-projects__button">Смотреть проект</div>
-                            </a>
-                            <h3 class="portfolio__subtitle">Страница "Книга"</h3>
-                            <p class="portfolio__description">Верстка карточки товара.</p>
-                        </div>
+                    </div>
+                    <div class="project-nav">
+                        <div class="project-button"><a href="project-motocycle.html">Предыдущий проект</a></div>
+                        <div class="project-button"><a href="project-forest-trevel.html">Следующий проект</a></div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <footer class="footer-portfolio">
         <div class="container">
