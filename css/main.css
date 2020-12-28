@@ -6865,10 +6865,6 @@ footer {
   color: #fff;
   border-bottom: 1px solid #fff;
 }
-.footer-portfolio {
-  background-color: #f4f8f9;
-  padding-bottom: 0;
-}
 .footer-portfolio-bg {
   background-color: #fff;
   padding-bottom: 0;
@@ -6931,8 +6927,10 @@ footer {
      -moz-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 0;
   margin: 0 auto;
   text-align: center;
+  background-color: #fff;
 }
 .footer-content-social > .social-contacts {
   position: relative;
