@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+html { 
+	height: 100%;	
+}
+body {
+    height: 100%;
+    background-color: #dce2e6;
+    font-family: 'PT Sans', sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.card {
+    width: 967px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 36px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 55px 0px rgb(181, 220, 248);
+}
+.card-img-wrapper {
+    float: left;
+}
+.card-content-wrapper {
+    padding-top: 11px;
+    width: 427px;
+    float: right;
+}
+h2 {
+    margin-bottom: 9px;
+    font-family: "Noto Serif", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #bfc5c8;
+}
+h1 {
+    margin-bottom: 21px;
+    font-family: "Noto Serif", serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #01a4bd;    
+}
+.card-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #6c757f;
+}
+.card-text-one {
+    margin-bottom: 11px;
+}
+.card-text-two {
+    margin-bottom: 12px;
+}
+.price {
+    margin-bottom: 3px;
+    font-family: "Noto Serif", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #bfc5c8;
+}
+.card-price {
+    margin-bottom: 22px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000;
+}  
+.card-button {
+    width: 174px; 
+    line-height: 54px;
+    border-radius: 5px;
+    background-color: rgb(226, 1, 59);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
