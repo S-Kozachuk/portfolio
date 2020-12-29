@@ -1,0 +1,49 @@
+.section-tasks {
+    position: relative;
+    padding: 94px 0 24px;
+
+    &::before{
+        content: "";
+        position: absolute;
+        display: block;
+        width: 130px;
+        height: 130px;
+        top: 50%;
+        left: 0;
+        transform: translate(-50%, -50%) rotate(45deg);
+        background-color: #a4eecb;
+    }
+}
+
+
+.section-tasks-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.section-tasks__title {
+    margin-bottom: 37px;
+}
+
+.section-tasks__header {
+    margin-bottom: 41px;
+}
+
+.section-tasks-text {
+    width: 470px;
+}
+
+.section-tasks__desc {
+    color: #808080;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.2;
+    text-align: left;
+}
+
+.section-tasks__desc p {
+    margin: 0;
+}

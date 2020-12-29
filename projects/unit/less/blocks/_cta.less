@@ -1,0 +1,62 @@
+.section-cta {
+    position: relative;
+    padding: 83px 0 90px;
+    background-color: #0a824e;
+    background-image: url("../img/cta/tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    background-size: cover;
+}
+
+.section-cta::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(79, 164, 129, 0.7);
+}
+
+.section-cta-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.section-cta__title {
+    margin: 0;
+    margin-bottom: 46px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.section-cta span {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 2.2px;
+}
+.section-cta__button {
+    padding: 21px 43px;
+    background-color: white;
+    color: #2bb279;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    transition: background-color 0.2s ease;
+
+    &:hover, &:focus {
+        outline: none;
+        background-color: darken(#302e2e, 20%);
+    }
+}
