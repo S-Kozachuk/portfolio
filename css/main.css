@@ -6118,9 +6118,15 @@ button {
   z-index: 1;
   width: 100%;
   font-family: 'Roboto', sans-serif;
-  font-size: 36px;
+  font-size: 22px;
   font-weight: 100;
-  letter-spacing: 0.432px;
+  letter-spacing: 0.264px;
+}
+@media (min-width: 1200px) {
+  .portfolio-contacts {
+    font-size: 36px;
+    letter-spacing: 0.432px;
+  }
 }
 .portfolio-contacts span {
   display: inline-block;
@@ -6130,15 +6136,21 @@ button {
 }
 .portfolio-contacts a {
   width: 100%;
-  font-size: 36px;
+  font-size: 22px;
   font-weight: 100;
-  letter-spacing: 0.432px;
+  letter-spacing: 0.264px;
   color: #4298e8;
   border-bottom: 1px solid #4298e8;
 }
+@media (min-width: 1200px) {
+  .portfolio-contacts a {
+    font-size: 36px;
+    letter-spacing: 0.432px;
+  }
+}
 .portfolio-contacts span {
-  font-size: 20px;
-  line-height: 1.6;
+  font-size: 28px;
+  letter-spacing: 0.34px;
 }
 @media (min-width: 1200px) {
   .portfolio-contacts span {
