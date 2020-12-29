@@ -6114,6 +6114,18 @@ button {
 }
 .portfolio-contacts {
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-bottom: 26px;
   z-index: 1;
   width: 100%;
@@ -6122,8 +6134,9 @@ button {
   font-weight: 100;
   letter-spacing: 0.264px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .portfolio-contacts {
+    display: block;
     font-size: 36px;
     letter-spacing: 0.432px;
   }
@@ -6135,6 +6148,10 @@ button {
   letter-spacing: 0.504px;
 }
 .portfolio-contacts a {
+  margin: 0 auto;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
   width: 100%;
   font-size: 22px;
   font-weight: 100;
