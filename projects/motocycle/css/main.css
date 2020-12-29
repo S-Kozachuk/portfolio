@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    position: relative;
+    height: 100%;
+    background-color: #dce2e6;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding-top: 45px;
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    width: 980px;
+    background-color: #fff;
+    box-shadow: 0px 0px 55px 0px rgb(181, 196, 206);
+    transform: translate(-50%, -50%);   
+}
+.card-img-wrapper {
+
+}
+.card-img {
+    position: absolute;
+    top: 50%;
+    left: -192px;
+    transform: translate(0%, -50%);
+    max-width: initial;
+}
+.card-content-wrapper {
+    float: right;
+    width: 442px;
+}
+.card-title {
+    margin-bottom: 26px;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.card-details-wrapper {
+    margin-bottom: 31px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.card-label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #bfc5c8;
+    font-weight: 500;
+}
+.card-price {
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-colors-wrapper {
+    margin-top: 14px;
+}
+.card-colors-wrapper::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.card-color {
+    float: left;
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.card-color-yellow {
+    background-color: #f5cb2e;
+    background: linear-gradient(90deg, rgba(254,246,118,1) 0%, rgba(237,182,29,1) 100%);
+}
+.card-color-red {
+    background-color: #d70909;
+    background: linear-gradient(135deg, rgb(239,31,31) 0%, rgb(191,12,12) 100%);
+}
+.card-color-gray {
+    background-color: #909090;
+    background: linear-gradient(135deg, rgb(165,165,165) 0%, rgb(115,115,115) 100%);
+}
+.card-color-active {
+    border: 4px solid #393939;
+}
+.card-text {
+    margin-top: 34px;
+    margin-bottom: 38px;
+    color: #6c757f;
+    font-size: 16px;
+    font-weight: 300;
+}
+.card-text p {
+    margin-bottom: 18px;
+    line-height: 1.27;
+}
+.card-buttons-wrapper {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+}
+.card-buttons-wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.button-primary {
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 68px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px;
+    background-color: #ffd01e;
+    line-height: 69px;
+
+}
+.button-outline {
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    height: 68px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 3px solid #545454;
+    border-radius: 4px;
+    color: #545454;
+    line-height: 62px;
+}
