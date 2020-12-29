@@ -6932,6 +6932,9 @@ footer {
   text-align: center;
   background-color: #fff;
 }
+.footer-portfolio__bg {
+  background-color: #f4f8f9;
+}
 .footer-content-social > .social-contacts {
   position: relative;
   z-index: 1;
