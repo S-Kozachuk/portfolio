@@ -6137,7 +6137,13 @@ button {
   border-bottom: 1px solid #4298e8;
 }
 .portfolio-contacts span {
-  font-size: 42px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+@media (min-width: 1200px) {
+  .portfolio-contacts span {
+    font-size: 42px;
+  }
 }
 .workflow {
   background-image: url(../img/workflow/workflow-bg.jpg);
