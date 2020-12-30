@@ -6148,6 +6148,7 @@ button {
 }
 @media (min-width: 768px) {
   .portfolio-contacts {
+    margin-bottom: 35px;
     display: block;
     font-size: 30px;
     letter-spacing: 0.432px;
@@ -6167,6 +6168,7 @@ button {
 }
 @media (min-width: 768px) {
   .portfolio-contacts span {
+    margin-bottom: 15px;
     font-size: 38px;
     letter-spacing: 0.456px;
   }
