@@ -6148,7 +6148,7 @@ button {
 }
 @media (min-width: 768px) {
   .portfolio-contacts {
-    margin-bottom: 35px;
+    margin-bottom: 17px;
     display: block;
     font-size: 30px;
     letter-spacing: 0.432px;
@@ -6973,7 +6973,7 @@ footer {
 }
 @media (min-width: 768px) {
   .footer-portfolio-img {
-    margin-top: -182px;
+    margin-top: -106px;
     -webkit-transform: scale(1);
        -moz-transform: scale(1);
         -ms-transform: scale(1);
