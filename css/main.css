@@ -6149,19 +6149,32 @@ button {
 @media (min-width: 768px) {
   .portfolio-contacts {
     display: block;
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: 0.432px;
+  }
+}
+@media (min-width: 1200px) {
+  .portfolio-contacts {
+    font-size: 36px;
   }
 }
 .portfolio-contacts span {
   display: inline-block;
   margin-bottom: -10px;
+  font-size: 28px;
+  letter-spacing: 0.336px;
   font-weight: 700;
-  letter-spacing: 0.504px;
+}
+@media (min-width: 768px) {
+  .portfolio-contacts span {
+    font-size: 38px;
+    letter-spacing: 0.456px;
+  }
 }
 @media (min-width: 1200px) {
   .portfolio-contacts span {
     margin-bottom: 20px;
+    font-size: 42px;
   }
 }
 .portfolio-contacts a {
@@ -6180,15 +6193,6 @@ button {
   .portfolio-contacts a {
     font-size: 36px;
     letter-spacing: 0.432px;
-  }
-}
-.portfolio-contacts span {
-  font-size: 28px;
-  letter-spacing: 0.34px;
-}
-@media (min-width: 1200px) {
-  .portfolio-contacts span {
-    font-size: 42px;
   }
 }
 .workflow {
