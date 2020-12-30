@@ -6906,6 +6906,11 @@ footer {
   padding-top: 32px;
   padding-bottom: 40px;
 }
+@media (min-width: 768px) {
+  footer {
+    padding-top: 0;
+  }
+}
 @media (min-width: 1200px) {
   footer {
     padding-top: 23px;
