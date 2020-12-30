@@ -6963,6 +6963,7 @@ footer {
      -moz-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: hidden;
   -webkit-box-align: center;
   -webkit-align-items: center;
      -moz-box-align: center;
