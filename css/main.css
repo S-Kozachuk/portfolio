@@ -6914,7 +6914,7 @@ footer {
   padding-bottom: 0;
 }
 .footer-portfolio-img {
-  margin-top: -182px;
+  margin-top: -19px;
 }
 @media (min-width: 425px) {
   .footer-portfolio-img {
@@ -6936,6 +6936,7 @@ footer {
 }
 @media (min-width: 768px) {
   .footer-portfolio-img {
+    margin-top: -182px;
     -webkit-transform: scale(1);
        -moz-transform: scale(1);
         -ms-transform: scale(1);
