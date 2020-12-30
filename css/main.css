@@ -6156,6 +6156,7 @@ button {
 }
 @media (min-width: 1200px) {
   .portfolio-contacts {
+    margin-bottom: 28px;
     font-size: 36px;
   }
 }
@@ -6913,7 +6914,7 @@ footer {
 }
 @media (min-width: 1200px) {
   footer {
-    padding-top: 23px;
+    padding-top: 58px;
   }
 }
 .footer-copyright {
@@ -6980,6 +6981,11 @@ footer {
          -o-transform: scale(1);
             transform: scale(1);
     padding-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-portfolio-img {
+    margin-top: -173px;
   }
 }
 .footer-portfolio {
