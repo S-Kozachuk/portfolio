@@ -6189,6 +6189,12 @@ button {
   color: #4298e8;
   border-bottom: 1px solid #4298e8;
 }
+@media (min-width: 768px) {
+  .portfolio-contacts a {
+    font-size: 30px;
+    letter-spacing: 0.456px;
+  }
+}
 @media (min-width: 1200px) {
   .portfolio-contacts a {
     font-size: 36px;
