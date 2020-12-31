@@ -133,9 +133,13 @@
 }
 
 .project-text {
-    margin-right: 30px;
-    max-width: 458px;
     font-size: 16px;
+
+    @media (min-width: 1200px) {
+        margin-right: 30px;
+        max-width: 458px;
+    }
+
 }
 
 .project-links-block {
@@ -199,10 +203,15 @@
 }
 
 .project-details > ul > li {
-    display: flex;
-    justify-content: space-between;
+    display: block;
     letter-spacing: 0.19px;
     line-height: 1.5;
+
+    @media (min-width: 1200px) {
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
 
 .project-list {
@@ -219,13 +228,23 @@
 }
 
 .project-details > ul > li > span {
-    width: 31%;
+    width: 100%;
     margin-right: 20px;
     font-weight: 900;
+
+    @media (min-width: 1200px) {
+        width: 31%;
+    }
+
 }
 
 .project-details > ul > li > p {
-    width: 68%;
+    width: 100%;
+
+    @media (min-width: 1200px) {
+        width: 68%;
+    }
+
 }
 
 .project-image {
