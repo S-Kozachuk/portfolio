@@ -7371,6 +7371,12 @@ footer {
 .project-image {
   margin-bottom: 55px;
 }
+@media (min-width: 768px) {
+  .project-image {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 @media (min-width: 1200px) {
   .project-image {
     margin-bottom: 20px;
