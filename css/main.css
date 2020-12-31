@@ -7293,18 +7293,33 @@ footer {
   line-height: 1.5;
 }
 .project-button {
-  margin-right: 26px;
-  padding: 24px 177px;
+  padding: 23px 63px;
+  font-size: 18px;
+  line-height: 1.77;
+  letter-spacing: 0.216px;
   background-color: #333333;
 }
-.project-button:last-child {
-  margin-right: 0;
+.project-button:first-child {
+  display: none;
 }
-.project-button:hover {
-  background-color: #656565;
-}
-.project-button:active {
-  background-color: #141414;
+@media (min-width: 1200px) {
+  .project-button {
+    margin-right: 26px;
+    padding: 24px 177px;
+    font-size: 23px;
+  }
+  .project-button:first-child {
+    display: block;
+  }
+  .project-button:last-child {
+    margin-right: 0;
+  }
+  .project-button:hover {
+    background-color: #656565;
+  }
+  .project-button:active {
+    background-color: #141414;
+  }
 }
 .project-button a {
   color: var(--white);
