@@ -47,18 +47,21 @@
 
 }
 
-.project-badges {
-    display: flex;
-    justify-content: center;
+.project-badges-wrapper {
+    margin-bottom: 30px;
 }
 
 .project-badges {
-    margin-right: 12px;
-    margin-bottom: 42px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 8px;
+    margin-bottom: 10px;
     padding: 4px 11px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 700;
+    letter-spacing: 0.168px;
     color: #fff;
 
     &:last-child {
@@ -88,6 +91,12 @@
 
     .item-php {
         background-color: #777bb4;
+    }
+
+    @media (min-width: 1200px) {
+        flex-wrap: nowrap;
+        margin-right: 12px;
+        margin-bottom: 42px;
     }
 
 }

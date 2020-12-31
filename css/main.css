@@ -7069,6 +7069,9 @@ footer {
     height: 11px;
   }
 }
+.project-badges-wrapper {
+  margin-bottom: 30px;
+}
 .project-badges {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7080,14 +7083,16 @@ footer {
      -moz-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-.project-badges {
-  margin-right: 12px;
-  margin-bottom: 42px;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-right: 8px;
+  margin-bottom: 10px;
   padding: 4px 11px;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 700;
+  letter-spacing: 0.168px;
   color: #fff;
 }
 .project-badges:last-child {
@@ -7111,6 +7116,15 @@ footer {
 }
 .project-badges .item-php {
   background-color: #777bb4;
+}
+@media (min-width: 1200px) {
+  .project-badges {
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    margin-right: 12px;
+    margin-bottom: 42px;
+  }
 }
 .project-content {
   display: -webkit-box;
