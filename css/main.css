@@ -7404,17 +7404,23 @@ footer {
 .project-button:first-child {
   display: none;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .project-button {
     margin-right: 26px;
-    padding: 24px 177px;
-    font-size: 23px;
+    padding: 15px 87px;
   }
   .project-button:first-child {
     display: block;
   }
   .project-button:last-child {
     margin-right: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .project-button {
+    margin-right: 26px;
+    padding: 24px 177px;
+    font-size: 23px;
   }
   .project-button:hover {
     background-color: #656565;
