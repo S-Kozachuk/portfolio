@@ -7023,6 +7023,11 @@ footer {
   margin-top: 119px;
   margin-bottom: 54px;
 }
+@media (min-width: 768px) {
+  .project-wrapper {
+    margin-top: 150px;
+  }
+}
 @media (min-width: 1200px) {
   .project-wrapper {
     margin-top: 158px;
