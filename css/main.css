@@ -7020,11 +7020,12 @@ footer {
           justify-content: center;
 }
 .project-wrapper {
-  margin-top: 158px;
+  margin-top: 119px;
   margin-bottom: 60px;
 }
 @media (min-width: 1200px) {
   .project-wrapper {
+    margin-top: 158px;
     margin-bottom: 77px;
   }
 }
