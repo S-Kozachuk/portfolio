@@ -6,9 +6,14 @@
 .project-title h1 {
     margin-bottom: 43px;
     text-align: center;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 800;
     line-height: 1.2;
+
+    @media (min-width: 1200px) {
+        font-size: 48px;
+    }
+
 }
 
 .project-title span {
@@ -23,12 +28,21 @@
     &::after {
         content: '';
         position: absolute;
-        bottom: 5px;
-        left: -5px;
-        right: -9px;
-        height: 11px;
+        bottom: 3px;
+        left: -3px;
+        right: -2px;
+        height: 8px;
         background-color: var(--yellow);
         z-index: -1;
+    }
+
+    @media (min-width: 1200px) {
+        &::after {
+            bottom: 5px;
+            left: -5px;
+            right: -9px;
+            height: 11px;
+        }
     }
 
 }
