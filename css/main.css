@@ -7025,7 +7025,7 @@ footer {
 }
 @media (min-width: 768px) {
   .project-wrapper {
-    margin-top: 150px;
+    margin-top: 125px;
   }
 }
 @media (min-width: 1200px) {
@@ -7419,7 +7419,7 @@ footer {
 @media (min-width: 1200px) {
   .project-button {
     margin-right: 26px;
-    padding: 24px 177px;
+    padding: 24px 173px;
     font-size: 23px;
   }
   .project-button:hover {
