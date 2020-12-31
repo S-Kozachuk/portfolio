@@ -7139,7 +7139,7 @@ footer {
      -moz-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
-  margin-bottom: 81px;
+  margin-bottom: 50px;
 }
 @media (min-width: 1200px) {
   .project-content {
@@ -7150,6 +7150,7 @@ footer {
        -moz-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    margin-bottom: 81px;
   }
 }
 .project-links {
