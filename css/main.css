@@ -7043,6 +7043,7 @@ footer {
 }
 @media (min-width: 768px) {
   .project-title h1 {
+    margin-bottom: 40px;
     font-size: 42px;
   }
 }
@@ -7087,6 +7088,11 @@ footer {
 }
 .project-badges-wrapper {
   margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .project-badges-wrapper {
+    margin-bottom: 40px;
+  }
 }
 .project-badges {
   display: -webkit-box;
