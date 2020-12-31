@@ -137,15 +137,23 @@
         content: '';
         position: absolute;
         bottom: 4px;
-        left: -5px;
-        right: -9px;
-        height: 8px;;
+        left: 1px;
+        right: -4px;
+        height: 6px;
         background-color: var(--yellow);
         z-index: -1;
     }
 
     @media (min-width: 1200px) {
         font-size: 26px;
+
+        &::after {
+            bottom: 4px;
+            left: -5px;
+            right: -9px;
+            height: 8px;
+        }
+
     }
 
 }
