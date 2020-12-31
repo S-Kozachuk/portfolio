@@ -94,7 +94,13 @@
 
 .project-content {
     display: flex;
+    flex-direction: column-reverse;
     margin-bottom: 81px;
+
+    @media (min-width: 1200px) {
+        flex-direction: row;
+    }
+
 }
 
 .project-links {
@@ -219,7 +225,12 @@
 }
 
 .project-image {
-    max-width: 652px;
+    margin-bottom: 20px;
+
+    @media (min-width: 1200px) {
+        margin-bottom: 0;
+        max-width: 652px;
+    }
 }
 
 .project-image > img {
