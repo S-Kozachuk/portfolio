@@ -6148,7 +6148,7 @@ button {
 }
 @media (min-width: 768px) {
   .portfolio-contacts {
-    margin-bottom: 17px;
+    margin-bottom: 27px;
     display: block;
     font-size: 30px;
     letter-spacing: 0.432px;
@@ -6169,7 +6169,7 @@ button {
 }
 @media (min-width: 768px) {
   .portfolio-contacts span {
-    margin-bottom: 15px;
+    margin-bottom: 7px;
     font-size: 38px;
     letter-spacing: 0.456px;
   }
@@ -6968,7 +6968,7 @@ footer {
 }
 @media (min-width: 768px) {
   .footer-portfolio-img {
-    margin-top: -106px;
+    margin-top: -113px;
     -webkit-transform: scale(1);
        -moz-transform: scale(1);
         -ms-transform: scale(1);
@@ -7026,6 +7026,7 @@ footer {
 @media (min-width: 768px) {
   .project-wrapper {
     margin-top: 125px;
+    margin-bottom: 81px;
   }
 }
 @media (min-width: 1200px) {
