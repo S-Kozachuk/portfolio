@@ -6910,11 +6910,28 @@ textarea {
     padding-bottom: 25px;
   }
 }
+@media (min-width: 1200px) {
+  .contacts-page {
+    padding-top: 208px;
+    padding-bottom: 65px;
+  }
+}
 .fix-menu__contacts {
   background-color: #fff;
 }
+@media (min-width: 1200px) {
+  .fix-menu__contacts {
+    background-color: #f4f8f9;
+  }
+}
 .fix-menu__contacts.active {
   background-color: #fff;
+}
+@media (min-width: 1200px) {
+  .fix-menu__contacts.active {
+    background-color: #f4f8f9;
+    background-image: none;
+  }
 }
 footer {
   background-color: #333333;
@@ -7033,6 +7050,11 @@ footer {
      -moz-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+@media (min-width: 1200px) {
+  .footer-contacts-page {
+    padding-top: 0;
+  }
 }
 .project-wrapper {
   margin-top: 119px;
