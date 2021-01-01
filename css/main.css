@@ -7407,6 +7407,7 @@ footer {
   line-height: 1.77;
   letter-spacing: 0.216px;
   background-color: #333333;
+  color: var(--white);
 }
 .project-button:first-child {
   display: none;
@@ -7418,9 +7419,6 @@ footer {
   }
   .project-button:first-child {
     display: block;
-  }
-  .project-button:last-child {
-    margin-right: 0;
   }
 }
 @media (min-width: 1200px) {
@@ -7435,8 +7433,5 @@ footer {
   .project-button:active {
     background-color: #141414;
   }
-}
-.project-button a {
-  color: var(--white);
 }
 /*# sourceMappingURL=main.css.map */
