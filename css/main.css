@@ -7414,11 +7414,14 @@ footer {
 }
 @media (min-width: 768px) {
   .project-button {
-    margin-right: 26px;
+    margin-right: 28px;
     padding: 15px 87px;
   }
   .project-button:first-child {
     display: block;
+  }
+  .project-button:last-child {
+    margin-right: 0;
   }
 }
 @media (min-width: 1200px) {
