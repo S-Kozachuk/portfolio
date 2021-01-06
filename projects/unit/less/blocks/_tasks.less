@@ -1,49 +1,142 @@
 .section-tasks {
     position: relative;
-    padding: 94px 0 24px;
+    padding: 72px 0 45px;
+    border-bottom: 1px solid #e1e1e1;
 
-    &::before{
+    &::before {
         content: "";
         position: absolute;
         display: block;
-        width: 130px;
-        height: 130px;
-        top: 50%;
-        left: 0;
+        width: 66px;
+        height: 66px;
+        top: 0%;
+        left: 50%;
         transform: translate(-50%, -50%) rotate(45deg);
         background-color: #a4eecb;
     }
+
+    @media (min-width: 768px) {
+        padding: 65px 0 42px;
+
+        &::before {
+            display: none;
+        }
+
+    }
+    
+    @media (min-width: 1200px) {
+        padding: 93px 0 24px;
+        
+        &::before {
+            display: block;
+            width: 130px;
+            height: 130px;
+            top: 50%;
+            left: 0;
+        }
+
+    }
+
 }
 
 
 .section-tasks-content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 150px;
-}
 
-.section-tasks__title {
-    margin-bottom: 37px;
-}
+    @media (min-width: 768px) {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 31px;
+    }
+    
+    @media (min-width: 1200px) {        
+        flex-direction: row;
+        padding-left: 100px;
+        padding-right: 150px;
+    }
 
-.section-tasks__header {
-    margin-bottom: 41px;
 }
 
 .section-tasks-text {
-    width: 470px;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        margin-bottom: 68px;
+        width: 376px;
+        text-align: left;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 0;
+        width: 470px;
+    }
+
+}
+
+.section-tasks__title {
+    margin-bottom: 34px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 37px;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 37px;
+    }
+
+}
+
+.section-tasks__header {
+    margin-bottom: 35px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 20px;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 41px;
+    }
+
 }
 
 .section-tasks__desc {
+    margin-bottom: 56px;
     color: #808080;
     font-size: 14px;
     font-weight: 500;
-    line-height: 2.2;
-    text-align: left;
+    line-height: 1.7;
+
+    @media (min-width: 768px) {
+        margin-bottom: 0;
+        text-align: left;
+        line-height: 2.14;
+        
+    }
+    
+    @media (min-width: 1200px) {
+        line-height: 2.2;
+    }
+
 }
 
 .section-tasks__desc p {
     margin: 0;
+}
+
+.section-task__img {
+    max-width: 202px;
+
+    @media (min-width: 768px) {
+        margin-right: 2px;
+        max-width: 270px;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-right: 0;
+        max-width: unset;
+    }
+
 }

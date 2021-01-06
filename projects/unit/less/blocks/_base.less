@@ -6,10 +6,26 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
 
 .container {
-    width: 1170px;
     margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+
+    @media (min-width: 768px) {
+        width: 768px;
+    }
+    
+    @media (min-width: 1200px) {
+        max-width: 1200px;
+        width: 1200px;
+    }
+
 }
 
 .column-center {
@@ -25,16 +41,24 @@ body {
 .none {
     display: none;
 }
-// Временно скрывает первую секцию
 
 .section-title {
     margin: 0;
     color: #50e3a4;
     font-size: 16px;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: 3.2px;
+}
+
+.section-title.section-title--small {
+
+    @media (min-width: 1200px) {
+        font-size: 14px;
+        letter-spacing: 2.8px;
+    }
+
 }
 
 .section-subtitle {
@@ -50,8 +74,20 @@ body {
 .section-header {
     margin: 0;
     color: #2e2e2e;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1.2;
+
+    @media (min-width: 768px) {
+        font-size: 42px;
+    }
+    
+    @media (min-width: 1200px) {
+        font-size: 48px;
+    }
+
 }
 
+.title-color {
+    color: #fff;
+}

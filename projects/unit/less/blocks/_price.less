@@ -1,0 +1,245 @@
+.section-price {
+    position: relative;
+    padding: 68px 0 57px;
+    background-color: #49c38f;
+
+    @media (min-width: 768px) {
+        padding: 70px 0 81px;
+        background-color: #000000;
+        background-image: url("../img/price/price-bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    @media (min-width: 1200px) {
+        padding: 100px 0 89px;
+    }
+
+}
+
+.section-price::before {
+    
+    @media (min-width: 768px) {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+}
+
+.section-price-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.section-price__title {
+    margin-bottom: 30px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 27px;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 70px;
+    }
+
+}
+
+.section-price__header {
+    margin-bottom: 43px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 62px;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 76px;
+    }
+
+}
+
+.section-price-offer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+
+}
+
+.section-price__card {
+    margin-bottom: 20px;
+    padding: 43px 0;
+    width: 290px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:hover, &:focus {
+        outline: none;
+        background-color:  rgba(48, 79, 254, 0.95);
+    }
+
+    @media (min-width: 768px) {
+        margin-bottom: 0;
+        margin-right: 25px;
+        padding: 34px 0;
+        width: 303px;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-right: 31px;
+    }   
+
+}
+
+.section-price-level {
+    margin: 0;
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+.section-price-cost {
+    margin-bottom: 3px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 4px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 6px;
+    }
+
+}
+
+.section-price-rate {
+    display: inline-block;
+    padding: 2px 12px 0px 16px;
+    margin-bottom: 27px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    line-height: 1.6;
+    text-transform: uppercase;
+
+    @media (min-width: 768px) {
+        margin-bottom: 28px;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 27px;
+    }
+
+}
+
+.section-price-rate span {
+    line-height: 2;
+}
+
+.section-price-line {
+    margin-bottom: 29px;
+    border: 1px solid rgba(255, 255, 255, 0.051);
+
+    @media (min-width: 768px) {
+        margin-bottom: 30px;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 25px;
+    }
+
+}
+
+.section-price-structure {
+    margin-bottom: 32px;
+
+    &:nth-last-child(2) {
+        margin-bottom: 35px;
+    }
+
+    @media (min-width: 768px) {
+        margin-bottom: 44px;
+
+        &:nth-last-child(2) {
+            margin-bottom: 44px;
+        }
+
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 30px;
+        
+        &:nth-last-child(2) {
+            margin-bottom: 30px;
+        }
+
+    }
+
+}
+
+.section-price-structure p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.87;
+    
+    @media (min-width: 1200px) {
+        line-height: 2.5;
+    }
+
+}
+
+.section-price__button {
+    padding: 15px 26px;
+    margin-bottom: 3px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.0);
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2.4px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid #b2b2b2;
+    outline: none;
+    cursor: pointer;
+
+    transition: background-color 0.2s ease;
+
+    &:hover, &:focus {
+        outline: none;
+        background-color: #fff;
+        color: #666666;
+    }
+
+    @media (min-width: 768px) {
+        padding: 16px 28px;
+    }
+    
+    @media (min-width: 1200px) {
+        letter-spacing: 2.8px;
+    }
+
+}

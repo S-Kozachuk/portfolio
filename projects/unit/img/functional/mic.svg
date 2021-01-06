@@ -1,1 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="41" height="63" viewBox="0 0 41 63"><defs><clipPath id="ps3ba"><path fill="#fff" d="M5.985 62.01H33.93"/></clipPath><clipPath id="ps3bb"><path fill="#fff" d="M20.978 50.949v11.079"/></clipPath><clipPath id="ps3bc"><path fill="#fff" d="M19.873 0h.254C26.684 0 32 5.316 32 11.873v17.254C32 35.684 26.684 41 20.127 41h-.254C13.316 41 8 35.684 8 29.127V11.873C8 5.316 13.316 0 19.873 0z"/></clipPath><clipPath id="ps3bd"><path fill="#fff" d="M.978 31.073s.69 19.923 19.515 19.923c18.824 0 19.502-20.002 19.502-20.002"/></clipPath></defs><g><g><g><path fill="none" stroke="#8ac249" stroke-miterlimit="20" stroke-width="4" d="M5.985 62.01H33.93" clip-path="url(&quot;#ps3ba&quot;)"/></g><g><path fill="none" stroke="#8ac249" stroke-miterlimit="20" stroke-width="4" d="M20.978 50.949v11.079" clip-path="url(&quot;#ps3bb&quot;)"/></g><g><path fill="none" stroke="#8ac249" stroke-miterlimit="20" stroke-width="4" d="M19.873 0h.254C26.684 0 32 5.316 32 11.873v17.254C32 35.684 26.684 41 20.127 41h-.254C13.316 41 8 35.684 8 29.127V11.873C8 5.316 13.316 0 19.873 0z" clip-path="url(&quot;#ps3bc&quot;)"/></g><g><path fill="none" stroke="#8ac249" stroke-miterlimit="20" stroke-width="4" d="M.978 31.073v0s.69 19.923 19.515 19.923c18.824 0 19.502-20.002 19.502-20.002v0" clip-path="url(&quot;#ps3bd&quot;)"/></g></g></g></svg>
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" width="45.031" height="66" viewBox="0 0 45.031 66">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #8ac249;
+        stroke-width: 2px;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="icon-2" data-name="icon" class="cls-1" d="M633.985,1288.01h27.946" transform="translate(-625.969 -1225)"/>
+  <path id="icon-3" data-name="icon" class="cls-1" d="M648.978,1276.95v11.08" transform="translate(-625.969 -1225)"/>
+  <rect id="icon-4" data-name="icon" class="cls-2" x="10.031" y="1" width="24" height="41" rx="11.873" ry="11.873"/>
+  <path id="icon-5" data-name="icon" class="cls-1" d="M628.978,1257.07s0.691,19.93,19.515,19.93,19.5-20.01,19.5-20.01" transform="translate(-625.969 -1225)"/>
+</svg>
