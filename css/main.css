@@ -5752,6 +5752,11 @@ button {
 .header-skills-item a {
   display: none;
 }
+@media (min-width: 1200px) {
+  .header-skills-item a {
+    display: inline-block;
+  }
+}
 .header-social-contacts {
   font-size: 30px;
   color: var(--text);
