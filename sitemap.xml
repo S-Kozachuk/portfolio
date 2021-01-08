@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.kozachuk-dev.ru/</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/index.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/projects.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/contacts.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/documents/summary-kozachuk-sergej.pdf</loc>
+  <lastmod>2021-01-08T15:15:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/project-forest-trevel.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/project-unit.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/project-motocycle.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/project-book.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/projects/forest-travel/index.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/projects/unit/index.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/projects/motocycle/index.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/projects/book/index.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/projects/forest-travel/tours.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/projects/forest-travel/contacts.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.kozachuk-dev.ru/projects/forest-travel/article.html</loc>
+  <lastmod>2021-01-08T15:18:53+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
