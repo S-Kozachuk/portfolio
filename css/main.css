@@ -5338,9 +5338,6 @@ button {
   .menu-item:nth-of-type(2) {
     display: none;
   }
-  .menu-item:nth-of-type(5) {
-    display: none;
-  }
 }
 .animate-border {
   position: relative;
