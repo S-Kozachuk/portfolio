@@ -15,14 +15,14 @@
                 <div class="header-top-buttons">
                     <div class="container relative">
                         <!-- Nav button -->
-                        <div class="header-nav-button">
+                        <button class="header-nav-button">
                             <img src="img/header/menu.svg" alt="menu">
-                        </div>
+                        </button>
                         <!-- // Nav button -->
                         <!-- Search button -->
-                        <div class="header-search-button">
+                        <button class="header-search-button">
                             <img src="img/header/search.svg" alt="menu">
-                        </div>
+                        </button>
                         <!-- // Search button -->
                     </div>
                 </div> 
@@ -34,7 +34,7 @@
                             <p>Управляй задачами и проектами из любой точки вместе с ЮНИТ. 
                                 Дома. На работе. В дороге. Онлайн. Оффлайн.</p>
                         </div>
-                        <div class="header-form">
+                        <form class="header-form">
                             <div class="header-form__input">
                                 <input class="input" type="text" placeholder="Ваше имя">
                             </div>
@@ -44,17 +44,17 @@
                             <div class="header-form__submit">
                                 <button class="button-submit">НАЧАТЬ ТРИАЛ</button>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
             <div class="header-scroll">
-                <img src="img/header/scroll.svg" alt="scroll">
+                <a href="#functional"><img src="img/header/scroll.svg" alt="scroll"></a>
             </div>
         </div>
     </header>
     <main>
-        <section class="section-functional">
+        <section class="section-functional" id="functional">
             <div class="container">
                 <div class="section-functional__title">
                     <h2 class="section-title">функционал</h2>
@@ -108,7 +108,7 @@
             <div class="container">
                 <div class="section-cta-content">
                     <h2 class="section-cta__title">Начните использовать <span>ЮНИТ</span> уже сегодня</h2>
-                        <button class="section-cta__button">подключить</button>
+                        <a class="section-cta__button" href="#price">подключить</a>
                 </div>
             </div>
         </section>
@@ -130,7 +130,7 @@
                         </div>
                     </div>
                     <div class="section-task__img">
-                        <img src="img/tasks/smartphone.jpg" alt="Смартфон">
+                        <img src="img/tasks/smartphone.png" alt="Смартфон">
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@
             <div class="container">
                 <div class="section-focus__row">
                     <div class="section-focus__img-wrapper">
-                        <img class="section-focus__img" src="img/focus/ipad.jpg" alt="iPad">
+                        <img class="section-focus__img" src="img/focus/ipad.png" alt="iPad">
                     </div>
                     <div class="section-focus__content">
                         <div class="section-focus__title">
@@ -159,7 +159,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-price">
+        <section class="section-price" id="price">
             <div class="container">
                 <div class="section-price-content">
                     <div class="section-price__title">
@@ -170,46 +170,61 @@
                     </div>
                     <div class="section-price-offer">
                         <div class="section-price__card">
-                            <div class="section-price-level">базовый</div>
-                            <div class="section-price-cost">15</div>
-                            <div class="section-price-rate"><span>$</span>/мес</div>
-                            <div class="section-price-line"></div>
-                            <div class="section-price-structure">
-                                <p>10 проектов</p> 
-                                <p>5 участников</p>
-                                <p>∞ количество задач</p>
-                                <p>5 GB медиа хранилище</p>
-                                <p>Поддержка по Email</p>
+                            <div class="card__rate">
+                                <h2 class="section-price-level">базовый</h2>
+                                <div class="section-price-cost">15</div>
+                                <div class="section-price-rate">$/мес</div>
                             </div>
-                            <button class="section-price__button">выбрать</button>
+                            <div class="card__offer">
+                                <div class="section-price-structure">
+                                <ul>
+                                    <li>10 проектов</li> 
+                                    <li>5 участников</li>
+                                    <li>∞ количество задач</li>
+                                    <li>5 GB медиа хранилище</li>
+                                    <li>Поддержка по Email</li>
+                                </ul>
+                                </div>
+                                <button class="section-price__button">выбрать</button>
+                            </div>
                         </div>
                         <div class="section-price__card">
-                            <div class="section-price-level">стандарт</div>
-                            <div class="section-price-cost">65</div>
-                            <div class="section-price-rate"><span>$</span>/мес</div>
-                            <div class="section-price-line"></div>
-                            <div class="section-price-structure">
-                                <p>50 проектов</p> 
-                                <p>10 участников</p>
-                                <p>∞ количество задач</p>
-                                <p>25 GB медиа хранилище</p>
-                                <p>Поддержка по Email</p>
+                            <div class="card__rate">
+                                <h2 class="section-price-level">стандарт</h2>
+                                <div class="section-price-cost">65</div>
+                                <div class="section-price-rate">$/мес</div>
                             </div>
-                            <button class="section-price__button">выбрать</button>
+                            <div class="card__offer">
+                                <div class="section-price-structure">
+                                <ul>
+                                    <li>50 проектов</li> 
+                                    <li>10 участников</li>
+                                    <li>∞ количество задач</li>
+                                    <li>25 GB медиа хранилище</li>
+                                    <li>Поддержка по Email</li>
+                                </ul>
+                                </div>
+                                <button class="section-price__button">выбрать</button>
+                            </div>
                         </div>
                         <div class="section-price__card">
-                            <div class="section-price-level">премиум</div>
-                            <div class="section-price-cost">125</div>
-                            <div class="section-price-rate"><span>$</span>/мес</div>
-                            <div class="section-price-line"></div>
-                            <div class="section-price-structure">
-                                <p>100 проектов</p> 
-                                <p>30 участников</p>
-                                <p>∞ количество задач</p>
-                                <p>50 GB медиа хранилище</p>
-                                <p>Поддержка по Email</p>
+                            <div class="card__rate">
+                                <h2 class="section-price-level">премиум</h2>
+                                <div class="section-price-cost">125</div>
+                                <div class="section-price-rate">$/мес</div>
                             </div>
-                            <button class="section-price__button">выбрать</button>
+                            <div class="card__offer">
+                                <div class="section-price-structure">
+                                <ul>
+                                    <li>100 проектов</li> 
+                                    <li>30 участников</li>
+                                    <li>∞ количество задач</li>
+                                    <li>50 GB медиа хранилище</li>
+                                    <li>Поддержка по Email</li>
+                                </ul>
+                                </div>
+                                <button class="section-price__button">выбрать</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -278,21 +293,14 @@
         </section>
     </main>
     <footer>
-        <div class="footer-content">
             <div class="container">
                 <div class="footer-nav">
-                    <div class="footer-links">
-                        <div class="footer-links__item">
+                    <nav class="footer-links">
                             <a href="#">о нас</a>
-                            </div>
-                        <div class="footer-links__item">
                             <a href="#">блог</a>
-                        </div>
-                        <div class="footer-links__item">
                             <a href="#">контакты</a>
-                        </div>
-                    </div>
-                    <div class="footer-social">
+                    </nav>
+                    <nav class="footer-social">
                         <a href="#">
                             <img src="img/footer/twitter-icon.svg" alt="Twitter">
                         </a>
@@ -305,11 +313,10 @@
                         <a href="#">
                             <img src="img/footer/instagram-icon.svg" alt="Instagram">
                         </a>
-                    </div>
+                    </nav>
                 </div>
-                <div class="footer-copyright">Копирайт © 2019 ЮНИТ. Все права защищены.</div>
+                <p class="footer-copyright">Копирайт &copy; 2019 <span>ЮНИТ</span>. Все права защищены.</p>
             </div>
-        </div>
     </footer>
     <script src="libs/jquery/jquery-3.5.1.min.js"></script>
     <script src="libs/owlcarousel2/owl.carousel.min.js"></script>

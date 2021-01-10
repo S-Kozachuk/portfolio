@@ -1,6 +1,6 @@
 .section-price {
     position: relative;
-    padding: 68px 0 57px;
+    padding: 73px 0 55px;
     background-color: #49c38f;
 
     @media (min-width: 768px) {
@@ -13,7 +13,7 @@
     }
 
     @media (min-width: 1200px) {
-        padding: 100px 0 89px;
+        padding: 105px 0 90px;
     }
 
 }
@@ -40,10 +40,10 @@
 }
 
 .section-price__title {
-    margin-bottom: 30px;
+    margin-bottom: 33px;
 
     @media (min-width: 768px) {
-        margin-bottom: 27px;
+        margin-bottom: 32px;
     }
     
     @media (min-width: 1200px) {
@@ -53,7 +53,7 @@
 }
 
 .section-price__header {
-    margin-bottom: 43px;
+    margin-bottom: 39px;
 
     @media (min-width: 768px) {
         margin-bottom: 62px;
@@ -80,10 +80,11 @@
 
 .section-price__card {
     margin-bottom: 20px;
-    padding: 43px 0;
+    padding: 37px 0 41px;
     width: 290px;
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 8px;
+    transition: background-color 0.3s ease;
 
     &:last-child {
         margin-right: 0;
@@ -97,112 +98,110 @@
     @media (min-width: 768px) {
         margin-bottom: 0;
         margin-right: 25px;
-        padding: 34px 0;
+        padding: 38px 0 41px;
         width: 303px;
     }
     
     @media (min-width: 1200px) {
-        margin-right: 31px;
+        margin-right: 30px;
+        padding: 38px 0 39px;
     }   
+
+}
+
+.card__rate {
+    margin-bottom: 32px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 30px;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 28px;
+    }
 
 }
 
 .section-price-level {
     margin: 0;
+    margin-bottom: 10px;
     color: #b3b3b3;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.8px;
+
+    @media (min-width: 1200px) {
+        margin-bottom: 12px;
+    }
+
 }
 
 .section-price-cost {
-    margin-bottom: 3px;
+    margin-bottom: 18px;
     color: #ffffff;
     font-family: Montserrat;
     font-size: 80px;
     font-weight: 700;
-    line-height: 1.4;
+    line-height: 1.2;
     letter-spacing: 4px;
 
     @media (min-width: 768px) {
-        margin-bottom: 6px;
+        margin-bottom: 17px;
+    }
+
+    @media (min-width: 1200px) {
+        margin-bottom: 16px;
     }
 
 }
 
 .section-price-rate {
     display: inline-block;
-    padding: 2px 12px 0px 16px;
-    margin-bottom: 27px;
+    padding: 4px 12px 4px 16px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.1);
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2.4px;
-    line-height: 1.6;
+    line-height: 1.2;
     text-transform: uppercase;
 
     @media (min-width: 768px) {
-        margin-bottom: 28px;
+        padding: 4px 12px 4px 12px;
     }
-    
-    @media (min-width: 1200px) {
-        margin-bottom: 27px;
-    }
-
 }
 
-.section-price-rate span {
-    line-height: 2;
-}
-
-.section-price-line {
-    margin-bottom: 29px;
-    border: 1px solid rgba(255, 255, 255, 0.051);
+.card__offer {
+    padding-top: 28px;
+    border-top: 1px solid rgba(255, 255, 255, 0.051);
 
     @media (min-width: 768px) {
-        margin-bottom: 30px;
+        padding-top: 30px;
     }
-    
+
     @media (min-width: 1200px) {
-        margin-bottom: 25px;
+        padding-top: 27px;
     }
 
 }
 
 .section-price-structure {
-    margin-bottom: 32px;
-
-    &:nth-last-child(2) {
-        margin-bottom: 35px;
-    }
-
-    @media (min-width: 768px) {
-        margin-bottom: 44px;
-
-        &:nth-last-child(2) {
-            margin-bottom: 44px;
-        }
-
-    }
+    margin-bottom: 33px;
     
     @media (min-width: 1200px) {
-        margin-bottom: 30px;
-        
-        &:nth-last-child(2) {
-            margin-bottom: 30px;
-        }
-
+        margin-bottom: 28px;
     }
 
 }
 
-.section-price-structure p {
+.section-price-structure ul {
     margin: 0;
+    padding: 0;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.87;
+    line-height: 1.875;
+    list-style: none;
     
     @media (min-width: 1200px) {
         line-height: 2.5;
@@ -211,22 +210,20 @@
 }
 
 .section-price__button {
-    padding: 15px 26px;
-    margin-bottom: 3px;
+    padding: 17px 28px;
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.0);
     font-size: 12px;
     font-weight: 700;
     color: #fff;
     letter-spacing: 2.4px;
-    line-height: 1.5;
+    line-height: 1.2;
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     border: 1px solid #b2b2b2;
     outline: none;
     cursor: pointer;
-
-    transition: background-color 0.2s ease;
+    transition: background-color 0.3s ease;
 
     &:hover, &:focus {
         outline: none;

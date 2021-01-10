@@ -58,13 +58,13 @@
     text-align: center;
     font-size: 62px;
     font-weight: 700;
-    letter-spacing: 10.4px;
+    letter-spacing: 12.4px;
     text-transform: uppercase;
 
     @media (min-width: 768px) {
         margin-bottom: 5px;
         font-size: 82px;
-        letter-spacing: 12.4px;
+        letter-spacing: 16.4px;
     }
 
     @media (min-width: 1200px) {
@@ -151,21 +151,22 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 700;
-    line-height: 2.14;
+    line-height: 1.2;
 
-    transition: background-color 0.2s ease;
+    transition: background-color 0.5s ease;
 
     &::placeholder {
         color: #fff;
     }
 
-    &:focus {
-        outline: none;
+    &:hover {
         background-color: rgba(0, 0, 0, 0.7);
     }
 
-    @media (min-width: 768px) {
-
+    &:focus {
+        outline: none;
+        background-color: rgba(0, 0, 0, 0.7);
+        transition: 0.4s;
     }
     
     @media (min-width: 1200px) {
@@ -186,11 +187,11 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 700;
-    line-height: 2.86;
+    line-height: 1.2;
     text-transform: uppercase;
     letter-spacing: 2.8px;
       
-    transition: background-color 0.2s ease; 
+    transition: background-color 0.5s ease; 
 
     &:hover, &:focus {
         outline: none;
@@ -210,6 +211,11 @@
         transform: translateX(-50%);
         width: 32px; 
         height: 48px;
+        transition: 0.5s ease;
+
+        &:hover {
+            bottom: 110px;
+        }
     }
 
 
@@ -232,6 +238,7 @@
     height: 60px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50%;
+    border-style: none;
 
     @media (min-width: 768px) {
         left: 20px;
@@ -240,7 +247,7 @@
     
     @media (min-width: 1200px) {
         top: 60px;
-        left: 54px;
+        left: 70px;
         right: auto;
     }
 
@@ -255,6 +262,7 @@
     height: 60px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50%;
+    border-style: none;
 
     @media (min-width: 768px) {
         display: flex;
@@ -264,7 +272,7 @@
 
     @media (min-width: 1200px) {
         top: 60px;
-        right: 54px;
+        right: 69px;
     }
 
 }
