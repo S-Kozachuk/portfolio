@@ -5066,6 +5066,11 @@ button {
   font-size: 48px;
   z-index: 2;
 }
+@media (min-width: 1200px) {
+  #backTop a {
+    display: none;
+  }
+}
 #backTop a:hover {
   color: var(--yellow);
   -webkit-transition: .5s;
