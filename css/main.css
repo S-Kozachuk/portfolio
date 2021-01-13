@@ -5061,10 +5061,16 @@ button {
 #backTop a {
   color: var(--text);
   position: fixed;
-  bottom: 40px;
-  right: 30px;
+  bottom: 6px;
+  right: 13px;
   font-size: 48px;
   z-index: 2;
+}
+@media (min-width: 768px) {
+  #backTop a {
+    bottom: 30px;
+    right: 30px;
+  }
 }
 @media (min-width: 1200px) {
   #backTop a {
