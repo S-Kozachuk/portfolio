@@ -13,7 +13,7 @@ html {
 img {
   max-width: 100%;
   height: auto;
-  vertical-align: top;
+  vertical-align: middle;
 }
 .container {
   margin: 0 auto;
@@ -22,13 +22,12 @@ img {
 }
 @media (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
-    width: 1200px;
   }
 }
 .column-center {
@@ -402,6 +401,17 @@ img {
      -moz-border-radius: 50%;
           border-radius: 50%;
   border-style: none;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+.header-nav-button:hover {
+  background-color: rgba(80, 227, 163, 0.5);
+}
+.header-nav-button:focus {
+  outline-style: none;
 }
 @media (min-width: 768px) {
   .header-nav-button {
@@ -436,6 +446,17 @@ img {
      -moz-border-radius: 50%;
           border-radius: 50%;
   border-style: none;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+.header-search-button:hover {
+  background-color: rgba(80, 227, 163, 0.5);
+}
+.header-search-button:focus {
+  outline-style: none;
 }
 @media (min-width: 768px) {
   .header-search-button {
@@ -823,6 +844,7 @@ img {
   }
 }
 .section-tasks-text {
+  max-width: 470px;
   text-align: center;
 }
 @media (min-width: 768px) {
@@ -891,7 +913,6 @@ img {
 }
 @media (min-width: 768px) {
   .section-task__img {
-    margin-right: 2px;
     max-width: 270px;
   }
 }
@@ -1194,10 +1215,10 @@ img {
   -webkit-border-radius: 8px;
      -moz-border-radius: 8px;
           border-radius: 8px;
-  -webkit-transition: background-color 0.3s ease;
-  -o-transition: background-color 0.3s ease;
-  -moz-transition: background-color 0.3s ease;
-  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.4s ease;
+  -o-transition: background-color 0.4s ease;
+  -moz-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
 }
 .section-price__card:last-child {
   margin-right: 0;
