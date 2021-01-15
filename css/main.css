@@ -7127,6 +7127,20 @@ footer {
     padding-top: 0;
   }
 }
+.project {
+  padding: 69px 0 60px;
+  background-color: #f4f8f9;
+}
+@media (min-width: 768px) {
+  .project {
+    padding: 83px 0 139px;
+  }
+}
+@media (min-width: 1200px) {
+  .project {
+    padding: 120px 0 100px;
+  }
+}
 .project-wrapper {
   margin-top: 119px;
   margin-bottom: 54px;
