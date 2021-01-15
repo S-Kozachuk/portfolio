@@ -6939,6 +6939,11 @@ textarea {
   font-size: 16px;
   color: var(--mail);
 }
+.error {
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--red);
+}
 .button-form {
   padding-left: 69px;
   margin-left: 0px;
