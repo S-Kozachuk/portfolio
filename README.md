@@ -13,11 +13,12 @@
 - Форма обратной связи (Ajax, PHP)
 - Структурированный код
 
-**Демо онлайн**  
-https://kozachuk-dev.ru
+[Демо онлайн](https://kozachuk-dev.ru)
 
 **Тестировать локально**    
+```
 git clone https://github.com/S-Kozachuk/portfolio.git   
 cd portfolio
+```
 
 Открыть index.html
